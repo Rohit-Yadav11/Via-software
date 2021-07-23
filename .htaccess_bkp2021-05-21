@@ -1,0 +1,30 @@
+
+
+
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+ErrorDocument 403     /cgi-sys/403_def.html
+
+ErrorDocument 404     /cgi-sys/404_def.html
+
+ErrorDocument 500     /cgi-sys/500_def.html
+
+ErrorDocument 502     /cgi-sys/502_def.html
+
+ErrorDocument 503     /cgi-sys/503_def.html
+
+ErrorDocument 504     /cgi-sys/504_def.html
