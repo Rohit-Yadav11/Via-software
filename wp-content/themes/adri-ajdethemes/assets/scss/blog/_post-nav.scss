@@ -1,0 +1,156 @@
+/*
+    [6.10] Post Navigation (Prev/Next)
+---------------------------------------- */
+
+.post-nav {
+    display: none;
+}
+
+@media (min-width: $xl) {
+    .post-nav {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        display: flex;
+        width: 100%;
+        visibility: hidden;
+        // z-index: 10;
+
+        .post-nav-prev,
+        .post-nav-next {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 250px;
+            overflow: hidden;
+
+            .post-nav-control {
+                position: absolute;
+                display: inline-block;
+                padding-right: 10px;
+                padding-left: 10px;
+                color: $secondary;
+                font-weight: $fw-sbold;
+                writing-mode: vertical-rl;
+                cursor: pointer;
+                transition: all $tspeed;
+
+                &:hover + .post-nav-thumb {
+                    visibility: visible;
+                    transform: translateX(0);
+                }
+            }
+
+            .post-nav-thumb {
+                position: relative;
+                display: block;
+                padding: 20px;
+                width: 270px;
+                height: 160px;
+                border: 1px solid $lighter;
+                background: #fff;
+                visibility: hidden;
+                transition: all $tspeed cubic-bezier(.92,.1,.62,.99);
+
+                &:hover {
+                    visibility: visible;
+                    transform: translateX(0);
+                }
+            }
+
+            a {
+                position: relative;
+                display: block;
+            }
+
+            .post-nav-label {
+                position: absolute;
+                display: block;
+                padding-bottom: 5px;
+                top: 46px;
+                display: flex;
+                justify-content: center;
+                width: 160px;
+                background: $lighter;
+                font-weight: $fw-sbold;
+                font-size: $fs-small;
+                color: $secondary;
+                transform: rotate(-90deg);
+            }
+
+            h6 {
+                display: block;
+                margin-bottom: 10px;
+                padding: 0;
+                max-height: 70px;
+                overflow: hidden;
+            }
+
+            i {
+                display: block;
+                margin-top: 26px;
+                padding: 0;
+                font-size: 30px;
+                color: $secondary;
+            }
+        }
+
+        .post-nav-prev {
+            margin-right: auto;
+
+            .post-nav-thumb {
+                transform: translateX(-100%);
+
+                h6 {
+                    padding-left: 20px;
+                }
+    
+                .post-nav-label {
+                    left: -90px;
+                }
+    
+                i {
+                    margin-left: 20px;
+                }
+            }
+
+            .post-nav-control {
+                transform: translateX(-100%);
+                left: 0;
+            }
+        }
+
+        .post-nav-next {
+            margin-left: auto;
+
+            .post-nav-thumb {
+                transform: translateX(100%);
+
+                h6 {
+                    padding-right: 20px;
+                }
+    
+                .post-nav-label {
+                    right: -90px;
+                }
+            }
+
+            .post-nav-control {
+                transform: translateX(100%);
+                right: 0;
+            }
+        }
+    } // .post-nav
+
+    .active.post-nav {
+        visibility: visible;
+
+        .post-nav-next,
+        .post-nav-prev {
+
+            .post-nav-control {
+                transform: translateX(0);
+            }
+        }
+    }
+} // @media

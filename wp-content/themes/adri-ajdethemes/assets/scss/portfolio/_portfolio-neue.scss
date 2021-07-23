@@ -1,0 +1,165 @@
+/*
+    [15.3] Portfolio - Neue
+--------------------------------- */
+
+.pf-neue {
+    @include hard-shadow($size: 15px);
+    position: relative;
+    display: block;
+    margin-bottom: 30px !important;
+
+
+    .pf-img-link {
+        position: relative;
+        display: block;
+
+        &:hover {
+
+            &:after {
+                opacity: .7;
+            }
+
+            .pf-caption {
+                opacity: 1;
+                visibility: visible;
+    
+                .pf-accent-line,
+                .pf-title,
+                .pf-link-plus {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+    
+                .pf-accent-line {
+                    transition: all $tspeed .3s;
+                }
+    
+                .pf-title {
+                    transition: all $tspeed .55s;
+                }
+    
+                .pf-link-plus {
+                    transition: all $tspeed .75s;
+                }
+            }
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $secondary;
+            opacity: 0;
+            transition: all $tspeed;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+    
+    .pf-img-link {
+        
+        .pf-caption {
+            position: absolute;
+            top: unset;
+            right: unset;
+            bottom: 30px;
+            left: 45px;
+            transition: all $tspeed;
+            z-index: 10;
+    
+            .pf-accent-line {
+                position: relative;
+                top: 17px;
+                display: block;
+                width: 50px;
+                height: 2px;
+                background: $primary;
+                opacity: 0;
+                transform: translateX(-30px);
+                
+            }
+    
+            .pf-title {
+                position: relative;
+                left: 70px;
+                word-break: break-word;
+                color: $lighter;
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+    
+            .pf-link-plus {
+                position: relative;
+                display: flex;
+                align-items: center;
+                left: 70px;
+                font-weight: $fw-sbold;
+                color: $primary;
+                opacity: 0;
+                transform: translateX(-20px);
+    
+                &:hover {
+                    cursor: pointer;
+                    
+                    .pf-link-symbol {
+    
+                        span {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+    
+                .pf-link-symbol {
+                    position: relative;
+                    top: -1px;
+                    bottom: unset;
+                    left: unset;
+                    right: unset;
+                    margin-left: 20px;
+                    opacity: unset;
+    
+                    span {
+                        transition: all $tspeed;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    .open-lightbox-video {
+
+        .pf-link-plus:hover {
+
+            .pf-link-symbol span {
+                transform: none !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .pf-neue {
+
+        .pf-img-link {
+
+            .pf-caption {
+
+                .pf-accent-line {
+                    top: -20px;
+                }
+
+                .pf-title,
+                .pf-link-plus  {
+                    left: 0;
+                }
+            }
+        }
+    }
+} // @media

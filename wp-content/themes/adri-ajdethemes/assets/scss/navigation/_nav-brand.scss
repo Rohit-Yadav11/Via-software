@@ -1,0 +1,29 @@
+/*
+    [9.3] Navigation - Brand
+--------------------------------- */
+    
+.brand {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: $xl;
+    width: 100%;
+
+    .site-title {
+        margin: 0;
+        color: $secondary;
+        line-height: 1;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    .site-description {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 0;
+        font-size: $fs-small;
+        color: $gray-light;
+    }
+}

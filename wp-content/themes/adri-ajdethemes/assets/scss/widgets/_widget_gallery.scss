@@ -1,0 +1,36 @@
+/*
+    [7.4] Widget - Gallery
+--------------------------------- */
+
+.widget_media_gallery {
+
+    .gallery {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        .gallery-item {
+            margin-top: unset;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            padding: 0;
+            max-width: 80px;
+            max-height: 80px;
+    
+            img {
+                width: 100%;
+                height: auto;
+                opacity: 1;
+                transition: all $tspeed;
+    
+                &:hover {
+                    opacity: .7;
+                }
+            }
+
+            figcaption {
+                display: none;
+            }
+        }
+    }
+}

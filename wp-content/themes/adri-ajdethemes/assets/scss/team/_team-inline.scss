@@ -1,0 +1,79 @@
+/*
+    [12.2] Team Inline
+--------------------------------- */
+
+.team-inline {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+    img {
+        max-width: 170px !important;
+    }
+
+    img,
+    > a {
+        flex-shrink: 0;
+        align-items: center;
+        height: auto;
+    }
+
+    .tm-content {
+        margin-top: 30px;
+
+        .tm-name {
+            margin: 0 0 5px 0;
+            word-break: break-word;
+        }
+
+        .tm-role {
+            margin: 0;
+            opacity: .7;
+            word-break: break-word;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 30px 0 0 0;
+            padding: 0;
+
+            li {
+                margin: 0 0 0 10px;
+                
+                &:first-child {
+                    margin-left: unset;
+                }
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    width: 30px;
+                    height: 30px;
+                    background: $primary;
+                    color: $secondary;
+
+                    &:hover,
+                    &:focus {
+                        background: $secondary;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .team-inline {
+        flex-flow: row;
+        align-items: center;
+
+        .tm-content {
+            margin-top: unset;
+            margin-left: 30px;
+        }
+    }
+}

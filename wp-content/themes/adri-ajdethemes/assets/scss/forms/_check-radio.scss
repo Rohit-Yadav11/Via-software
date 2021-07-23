@@ -1,0 +1,100 @@
+/*
+    [5.2] Checkbox & Radio Inputs
+----------------------------------------- */
+
+.form-group-checkbox {
+    margin-bottom: 30px;
+    display: flex;
+    
+    input {
+        display: none;
+    }
+
+    label {
+        display: inline-flex;
+        align-items: center;
+
+        &:before {
+            content: '\2715';
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-right: 15px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid $gray-light;
+            background: rgba($secondary, 0);
+            color: rgba($primary, 0);
+            transition: all $tspeed;
+        }
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            outline: none;
+
+            &:before {
+                border-color: $secondary;
+            }
+        }
+    }
+
+    input:checked + label {
+        
+        &:before {
+            border-color: $secondary;
+            background: rgba($secondary, 1);
+            color: rgba($primary, 1);
+        }
+    }
+}
+
+// Radio
+.form-group-radio {
+    display: flex;
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: inline-flex;
+        align-items: center;
+
+        &:before {
+            content: '';
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid $gray-light;
+            border-radius: 100px;
+            background: rgba($secondary, 0);
+            color: rgba($primary, 0);
+            transition: border-color $tspeed;
+        }
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            outline: none;
+            
+            &:before {
+                border-color: $secondary;
+            }
+        }
+    }
+
+    input:checked + label {
+
+        &:before {
+            border: 9px solid $secondary;
+            background: rgba($primary, 1);
+            color: rgba($primary, 1);
+        }
+    }
+}

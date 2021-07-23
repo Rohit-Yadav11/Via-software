@@ -1,0 +1,102 @@
+/*
+    [8.2] WP Block - Blockquote
+--------------------------------- */
+
+.wp-block-pullquote {
+    padding-left: 0;
+    text-align: center;
+
+    blockquote {
+        margin: 0;
+        padding: 0;
+        text-align: center !important;
+
+        &:before {
+            content: none;
+        }
+    }
+
+    cite {
+        font-style: italic !important;
+        opacity: .75;
+    }
+}
+
+blockquote.wp-block-pullquote {
+    padding: 0;
+    text-align: center !important;
+
+    &:before {
+        content: none;
+    }
+}
+
+.wp-block-quote.has-text-align-right {
+    border: none;
+    padding-left: unset;
+    padding-right: 30px;
+
+    &:before {
+        left: unset;
+        right: 0;
+        margin-right: unset;
+        margin-left: 30px;
+    }
+}
+
+.wp-block-quote.has-text-align-center {
+    padding-left: unset;
+
+    &:before {
+        content: none;
+    }
+}
+
+.wp-block-quote.is-style-large {
+    margin: 30px 0;
+    padding-left: 0;
+    font-weight: $fw-light;
+    color: $secondary;
+
+    &:before {
+        content: none;
+    }
+
+    cite {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        font-size: $fs-small;
+        color: $gray-light;
+
+        &:before {
+            content: '';
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 1px;
+            background: rgba($gray-light, .5);
+            margin-right: 10px;
+        }
+    }
+}
+
+.wp-block-quote.is-style-large.has-text-align-center {
+
+    cite {
+        text-align: center;
+        justify-content: center;
+
+        &:before {
+            content: none;
+        }
+    }
+}
+
+.wp-block-quote.is-style-large.has-text-align-right {
+
+    cite {
+        text-align: right;
+        justify-content: flex-end;
+    }
+}

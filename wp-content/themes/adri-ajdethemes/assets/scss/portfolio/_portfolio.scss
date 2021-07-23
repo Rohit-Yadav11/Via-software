@@ -1,0 +1,127 @@
+/*
+    [15.0] Portfolio
+--------------------------------- */
+
+.pf-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 45px;
+
+    button {
+        display: block;
+        margin: 0 15px;
+        padding: 5px 0;
+        border: none;
+        background: none;
+        color: $gray-light;
+        font-weight: $fw-light;
+        transition: all $tspeed;
+
+        &:after {
+            content: '';
+            position: relative;
+            top: 3px;
+            left: 0;
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: $primary;
+            transition: all $tspeed;
+            opacity: 0;
+        }
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+            outline: none;
+        }
+
+        &:focus {
+
+            &:after {
+                left: 50%;
+                transform: translateX(-50%);
+                opacity: 1;
+            }
+        }
+    }
+
+    .is-checked {
+        color: $secondary;
+
+        &:after {
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 1;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .pf-filters {
+        flex-wrap: nowrap;
+
+        button {
+            padding: 0;
+        }
+    }
+}
+
+
+// + symbol
+
+.pf-link-symbol {
+    @include plus-btn-box($size:30px, $plus-size:12px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 10;
+    opacity: 0;
+    transform: scale(.9);
+    transition: all $tspeed;
+}
+
+.open-lightbox-video {
+
+    .pf-link-symbol {
+        transform: unset;
+
+        &:hover {
+
+            span:before {
+                opacity: .7;
+            }
+        }
+        
+        span {
+            width: unset;
+            height: unset;
+            background: unset;
+
+            &:before {
+                content: '\f04b';
+                font-family: 'Font Awesome 5 Free';
+                font-size: .7rem;
+                width: unset;
+                height: unset;
+                background: unset;
+                opacity: 1;
+                transition: all $tspeed;
+            }
+        }
+    }
+
+    &:hover {
+
+        .pf-link-symbol {
+
+            span {
+                transform: none !important;
+            }
+        }
+    }
+}

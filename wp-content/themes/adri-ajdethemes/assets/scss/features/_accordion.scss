@@ -1,0 +1,68 @@
+/*
+    [11.7] Accordion
+--------------------------------- */
+
+.ft-accordion.elementor-accordion {
+
+    .ft-accordion-item {
+        margin-bottom: 30px;
+        border: none;
+
+        .ft-tab-title {
+            padding: 0;
+            font-weight: $fw-sbold;
+            line-height: unset;
+
+            .ft-accordion-title {
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    width: 33px;
+                    height: 33px;
+                    background: rgba($primary, 0);
+                    box-shadow: 0 0 0;
+                    transition: all $tspeed;
+                    
+                    i {
+                        color: $primary;
+                        transition: all $tspeed;
+                    }
+                }
+
+                &:hover {
+
+                    span {
+                        background: $primary;
+
+                        i {
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ft-tab-title.elementor-active {
+
+            .ft-accordion-title span {
+                background: $primary;
+                box-shadow: 5px 5px 0 $secondary;
+
+                i {
+                    color: $secondary;
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        .ft-tab-content {
+            padding: 25px 0 0 0;
+            border: none;
+        }
+    }
+} 

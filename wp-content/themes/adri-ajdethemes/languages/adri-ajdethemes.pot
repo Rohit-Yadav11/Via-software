@@ -1,0 +1,766 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Adri Ajdethemes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-26 19:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: includes/functions-customizer-scss.php:131
+msgid " Color"
+msgstr ""
+
+#: comments.php:40
+msgid " Comment"
+msgstr ""
+
+#: comments.php:42
+msgid " Comments"
+msgstr ""
+
+#: includes/functions-customizer.php:205
+msgid "\"Read more\" button text"
+msgstr ""
+
+#: template-parts/footer.php:79 template-parts/footer.php:82
+#: template-parts/single.php:52 template-parts/single.php:70
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: template-parts/single.php:55 template-parts/single.php:69
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: template-parts/recent-posts.php:30 template-parts/single.php:54
+#, php-format
+msgid "%3$s"
+msgstr ""
+
+#: template-parts/recent-posts.php:31
+#, php-format
+msgid "%4$s"
+msgstr ""
+
+#: template-parts/recent-posts.php:33
+#, php-format
+msgid "%5$s"
+msgstr ""
+
+#. %d: number of items in cart
+#: includes/functions-woocommerce.php:111
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/bio.php:28 template-parts/bio.php:32
+#: template-parts/footer.php:47 template-parts/page-title.php:36
+#: template-parts/page-title.php:43 template-parts/page-title.php:46
+#: template-parts/page-title.php:48 template-parts/page-title.php:50
+#: template-parts/post-card.php:31 template-parts/post-card.php:34
+#: template-parts/post-card.php:38 template-parts/post-classic.php:45
+#: template-parts/post-col.php:43 template-parts/post-min.php:44
+#: template-parts/single.php:40
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: template-parts/post-nav.php:24 template-parts/post-nav.php:41
+msgid "%title"
+msgstr ""
+
+#: template-parts/single.php:38
+msgid ", "
+msgstr ""
+
+#: includes/functions-import-demo-data.php:20
+msgid "1. Don't import more than one demo in one WP installation."
+msgstr ""
+
+#: includes/functions-import-demo-data.php:21
+msgid ""
+"2. Import the slider manually via Slider Revolution from the exports folder, "
+"if is not pulled via the import."
+msgstr ""
+
+#: includes/functions-import-demo-data.php:22
+msgid ""
+"3. Setup the correct Menu Locations after the import (Dashboard > Appearance "
+"> Menus > Menu Location)."
+msgstr ""
+
+#: includes/functions-import-demo-data.php:23
+msgid ""
+"4. Disable Elementor default colors and fonts (Dashboard > Elementor > "
+"Settings) after the import."
+msgstr ""
+
+#: includes/functions-import-demo-data.php:24
+msgid "5. Check the documentation."
+msgstr ""
+
+#: template-parts/posts.php:100
+msgid ""
+"<span class=\"icon-Arrow-Left2\"><span class=\"screen-reader-text\">previous "
+"page</span></span>"
+msgstr ""
+
+#: template-parts/posts.php:101
+msgid ""
+"<span class=\"icon-Arrow-Right2\"><span class=\"screen-reader-text\">next "
+"page</span></span>"
+msgstr ""
+
+#: template-parts/bio.php:24
+msgid "About the author"
+msgstr ""
+
+#: includes/functions-customizer.php:620 includes/functions-customizer.php:737
+msgid "Accent Color - Primary (default)"
+msgstr ""
+
+#: includes/functions-widgets.php:49
+msgid "Add shop widgets here."
+msgstr ""
+
+#: includes/functions-widgets.php:19 includes/functions-widgets.php:29
+#: includes/functions-widgets.php:39
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/functions-customizer.php:30
+msgid ""
+"Add your logo in the navigation menu. For best look, match the logo color "
+"with the theme brand color. Recommended size 83x43 pixels."
+msgstr ""
+
+#. Name of the theme
+msgid "Adri Ajdethemes"
+msgstr ""
+
+#: includes/functions-import-demo-data.php:19
+msgid "After the import is complete:"
+msgstr ""
+
+#. Author of the theme
+msgid "AjdeThemes"
+msgstr ""
+
+#: template-parts/none.php:41
+#, php-format
+msgid ""
+"Are you ready to publish your first post? <br/><a href=\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: includes/functions-customizer.php:369
+msgid "Background"
+msgstr ""
+
+#: includes/functions-customizer.php:473
+msgid "Background Image"
+msgstr ""
+
+#: includes/functions-customizer.php:498
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/functions-editor.php:34
+msgid "black"
+msgstr ""
+
+#: includes/functions-customizer.php:68
+msgid "Blog"
+msgstr ""
+
+#: includes/functions-customizer.php:85
+msgid "Blog layout:"
+msgstr ""
+
+#: includes/functions-widgets.php:17
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/functions-widgets.php:27
+msgid "Blog Sidebar Bottom"
+msgstr ""
+
+#: includes/functions-customizer.php:227
+msgid "Bottom"
+msgstr ""
+
+#. Description of the theme
+msgid "Business and Consulting WordPress Theme"
+msgstr ""
+
+#: includes/functions-customizer.php:89
+msgid "Cards"
+msgstr ""
+
+#: includes/functions-customizer.php:349
+msgid "Center"
+msgstr ""
+
+#: includes/functions-customizer.php:885
+msgid ""
+"Change the theme brand colors. For this settings to have effect, after "
+"changes are made save, close the customizer and refresh the page."
+msgstr ""
+
+#: includes/functions-customizer.php:87
+msgid "Classic"
+msgstr ""
+
+#: template-parts/search-modal.php:15
+msgid "close"
+msgstr ""
+
+#: includes/functions-customizer.php:883
+msgid "Colors"
+msgstr ""
+
+#: includes/functions-customizer.php:88
+msgid "Columns"
+msgstr ""
+
+#: template-parts/single.php:85
+msgid "Comment"
+msgstr ""
+
+#: template-parts/single.php:87
+msgid "Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/functions-customizer.php:622 includes/functions-customizer.php:739
+msgid "Dark Color"
+msgstr ""
+
+#: includes/functions-customizer.php:599 includes/functions-customizer.php:847
+msgid "Dark color style"
+msgstr ""
+
+#: includes/functions-customizer.php:700
+msgid "Dark navbar"
+msgstr ""
+
+#: includes/functions-customizer.php:718
+msgid "Dark style (default)"
+msgstr ""
+
+#: includes/functions-customizer.php:861
+msgid ""
+"Display your social profiles with social media icons (FontAwesome) in "
+"multiple locations."
+msgstr ""
+
+#: includes/functions-customizer.php:716
+msgid "Dropdown (desktop) color style:"
+msgstr ""
+
+#: comments.php:123
+msgid "Email"
+msgstr ""
+
+#: includes/functions-customizer.php:813
+msgid "Enable footer \"reveal\" effect."
+msgstr ""
+
+#: includes/functions-customizer.php:640
+msgid "Enable sticky menu navbar."
+msgstr ""
+
+#: includes/functions-customizer.php:564
+msgid "Enable transparent menu navbar."
+msgstr ""
+
+#: includes/functions-editor.php:69
+msgid "energy blue"
+msgstr ""
+
+#: includes/functions-editor.php:74
+msgid "energy green"
+msgstr ""
+
+#: comments.php:132
+msgid "Enter your email"
+msgstr ""
+
+#: comments.php:113
+msgid "Enter your name"
+msgstr ""
+
+#: includes/functions-customizer.php:750
+msgid "Footer"
+msgstr ""
+
+#: includes/functions-customizer-scss.php:151
+msgid "Footer Background Color"
+msgstr ""
+
+#: includes/functions-customizer.php:766
+msgid "Footer bottom text:"
+msgstr ""
+
+#: includes/functions-customizer.php:827
+msgid "Footer height (in pixels, without px):"
+msgstr ""
+
+#: functions.php:41
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/functions-customizer.php:845
+msgid "Footer text color:"
+msgstr ""
+
+#: includes/functions-widgets.php:37
+msgid "Footer Widgets"
+msgstr ""
+
+#: includes/functions-customizer.php:549
+msgid "Full width"
+msgstr ""
+
+#: template-parts/404.php:21
+msgid "go back."
+msgstr ""
+
+#: includes/functions-editor.php:39
+msgid "gray"
+msgstr ""
+
+#: includes/functions-editor.php:44
+msgid "gray light"
+msgstr ""
+
+#: includes/functions-customizer.php:548
+msgid "Grid"
+msgstr ""
+
+#: includes/functions-editor.php:143
+msgid "H1"
+msgstr ""
+
+#: includes/functions-editor.php:138
+msgid "H2"
+msgstr ""
+
+#: includes/functions-editor.php:133
+msgid "H3"
+msgstr ""
+
+#: includes/functions-editor.php:128
+msgid "H4"
+msgstr ""
+
+#: includes/functions-editor.php:123
+msgid "H5"
+msgstr ""
+
+#: includes/functions-editor.php:118
+msgid "H6"
+msgstr ""
+
+#. 2
+#: template-parts/header.php:133
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://ajdethemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://ajdethemes.com/adri"
+msgstr ""
+
+#: includes/functions-editor.php:59
+msgid "impact black"
+msgstr ""
+
+#: includes/functions-editor.php:64
+msgid "impact yellow"
+msgstr ""
+
+#: template-parts/404.php:21
+msgid "It looks like nothing was found at this location "
+msgstr ""
+
+#: template-parts/none.php:65
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: template-parts/search-modal.php:21 template-parts/search-modal.php:26
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: includes/functions-customizer.php:290
+msgid "Large"
+msgstr ""
+
+#: includes/functions-customizer.php:225 includes/functions-customizer.php:348
+msgid "Left"
+msgstr ""
+
+#: includes/functions-editor.php:49
+msgid "light"
+msgstr ""
+
+#: includes/functions-customizer.php:621 includes/functions-customizer.php:738
+msgid "Light Color"
+msgstr ""
+
+#: includes/functions-customizer.php:598 includes/functions-customizer.php:848
+msgid "Light color style"
+msgstr ""
+
+#: includes/functions-customizer.php:699
+msgid "Light navbar (default)"
+msgstr ""
+
+#: includes/functions-customizer.php:719
+msgid "Light style"
+msgstr ""
+
+#: includes/functions-editor.php:54
+msgid "lighter"
+msgstr ""
+
+#: template-parts/single.php:104
+msgctxt "list item separator"
+msgid ""
+msgstr ""
+
+#: template-parts/none.php:26
+msgid ""
+"Make sure to read the <strong>help file</strong>, that is located in the\n"
+"                            download folder, for detailed instructions how "
+"to setup \n"
+"                            the theme."
+msgstr ""
+
+#: includes/functions-customizer.php:289
+msgid "Medium"
+msgstr ""
+
+#: includes/functions-customizer.php:735
+msgid "Menu item ACCENT (desktop) color style:"
+msgstr ""
+
+#: includes/functions-customizer.php:90
+msgid "Minimal (no image)"
+msgstr ""
+
+#: includes/functions-editor.php:94
+msgid "mint green"
+msgstr ""
+
+#: comments.php:105
+msgid "Name"
+msgstr ""
+
+#: includes/functions-customizer.php:697
+msgid "Navbar color style:"
+msgstr ""
+
+#: includes/functions-customizer.php:546
+msgid "Navbar width:"
+msgstr ""
+
+#: includes/functions-customizer.php:529
+msgid "Navigation"
+msgstr ""
+
+#: template-parts/post-nav.php:35 template-parts/post-nav.php:43
+msgid "Next post"
+msgstr ""
+
+#: includes/functions-customizer.php:292
+msgid "No page title"
+msgstr ""
+
+#: includes/functions-customizer.php:228
+msgid "No sidebar"
+msgstr ""
+
+#: comments.php:85
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: template-parts/404.php:20
+msgid "Page not found."
+msgstr ""
+
+#: includes/functions-customizer.php:269
+msgid "Page Title"
+msgstr ""
+
+#: includes/functions-customizer.php:271
+msgid "Page title options for the blog and single blog post pages."
+msgstr ""
+
+#: includes/functions-customizer.php:286
+msgid "Page title size:"
+msgstr ""
+
+#: page.php:51
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/search-modal.php:24
+msgctxt "placeholder"
+msgid "Search …"
+msgstr ""
+
+#: includes/functions-customizer.php:169
+msgid "Posts excerpt length in words"
+msgstr ""
+
+#: template-parts/post-nav.php:17 template-parts/post-nav.php:23
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:38
+msgid "Primary"
+msgstr ""
+
+#: includes/functions-customizer-scss.php:132
+#: includes/functions-customizer-scss.php:152
+msgid "Publish, close customizer and refresh the page to apply the change."
+msgstr ""
+
+#: template-parts/recent-posts.php:15
+msgid "Recent posts"
+msgstr ""
+
+#: includes/functions-customizer.php:226 includes/functions-customizer.php:350
+msgid "Right"
+msgstr ""
+
+#: includes/functions-editor.php:79
+msgid "royal green"
+msgstr ""
+
+#: includes/functions-editor.php:84
+msgid "royal yellow"
+msgstr ""
+
+#: includes/functions-editor.php:89
+msgid "sass blue"
+msgstr ""
+
+#: comments.php:164
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: searchform.php:19
+msgid "Search a keyword"
+msgstr ""
+
+#: searchform.php:16 searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: template-parts/page-title.php:45
+msgid "Search results for: "
+msgstr ""
+
+#: functions.php:39
+msgid "Secondary Left"
+msgstr ""
+
+#: functions.php:40
+msgid "Secondary Right"
+msgstr ""
+
+#: template-parts/single.php:88
+msgid "See all comments"
+msgstr ""
+
+#: template-parts/single.php:86
+msgid "See the comment"
+msgstr ""
+
+#: includes/functions-widgets.php:47
+msgid "Shop Sidebar Bottom"
+msgstr ""
+
+#: includes/functions-customizer.php:190
+msgid "Show \"read more\" button on each blog post."
+msgstr ""
+
+#: includes/functions-customizer.php:781
+msgid "Show \"scroll top\" icon, in the footer."
+msgstr ""
+
+#: includes/functions-customizer.php:668
+msgid "Show cart icon in the nav. menu."
+msgstr ""
+
+#: includes/functions-customizer.php:244
+msgid "Show post navigation (prev/next)"
+msgstr ""
+
+#: includes/functions-customizer.php:259
+msgid "Show recent posts"
+msgstr ""
+
+#: includes/functions-customizer.php:654
+msgid "Show search icon in the nav. menu."
+msgstr ""
+
+#: includes/functions-customizer.php:797
+msgid "Show social icons icon, in the footer."
+msgstr ""
+
+#: includes/functions-customizer.php:682
+msgid "Show social media icons in the nav. menu."
+msgstr ""
+
+#: includes/functions-customizer.php:106
+msgid "Show the author"
+msgstr ""
+
+#: includes/functions-customizer.php:121
+msgid "Show the categories"
+msgstr ""
+
+#: includes/functions-customizer.php:151
+msgid "Show the comments number"
+msgstr ""
+
+#: includes/functions-customizer.php:136
+msgid "Show the date"
+msgstr ""
+
+#: includes/functions-customizer.php:223
+msgid "Sidebar position:"
+msgstr ""
+
+#: includes/functions-customizer.php:29
+msgid "Site Logo"
+msgstr ""
+
+#: includes/functions-customizer.php:288 includes/functions-editor.php:113
+msgid "Small"
+msgstr ""
+
+#: includes/functions-editor.php:99
+msgid "smooth blue"
+msgstr ""
+
+#: includes/functions-editor.php:104
+msgid "smooth red"
+msgstr ""
+
+#: includes/functions-customizer.php:859
+msgid "Social Icons"
+msgstr ""
+
+#: includes/functions-customizer.php:873
+msgid "Social media icons shortcode:"
+msgstr ""
+
+#: template-parts/none.php:59
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with a "
+"different search."
+msgstr ""
+
+#: includes/functions-customizer.php:326
+msgid "Subtitle (only blog posts)"
+msgstr ""
+
+#: includes/functions-customizer.php:440
+msgid "Subtitle Color"
+msgstr ""
+
+#: template-parts/single.php:107
+#, php-format
+msgid "Tagged with: %1$s"
+msgstr ""
+
+#: includes/functions-customizer.php:70
+msgid "Theme specific blog options."
+msgstr ""
+
+#: includes/functions-customizer.php:752
+msgid "Theme specific footer options."
+msgstr ""
+
+#: includes/functions-customizer.php:531
+msgid "Theme specific navigation options."
+msgstr ""
+
+#: includes/functions-customizer.php:308
+msgid "Title"
+msgstr ""
+
+#: includes/functions-customizer.php:405
+msgid "Title Color"
+msgstr ""
+
+#: includes/functions-customizer.php:346
+msgid "Title text align:"
+msgstr ""
+
+#: includes/functions-customizer.php:49
+msgid "Transparent Nav Site Logo"
+msgstr ""
+
+#: includes/functions-customizer.php:618
+msgid "Transparent nav. menu item ACCENT (desktop) color style:"
+msgstr ""
+
+#: includes/functions-customizer.php:596
+msgid "Transparent nav. menu items color style:"
+msgstr ""
+
+#: includes/functions-customizer.php:578
+msgid ""
+"Transparent navbar only on the homepage/front-page, and blog post with large "
+"featured image."
+msgstr ""
+
+#: includes/functions-customizer.php:50
+msgid "Use different logo when the navigation background is transparent."
+msgstr ""
+
+#: includes/functions-customizer.php:291
+msgid "Use section title as page title"
+msgstr ""
+
+#: includes/functions-woocommerce.php:109
+msgid "View your shopping cart"
+msgstr ""
+
+#: comments.php:142
+msgid "Website"
+msgstr ""
+
+#: template-parts/none.php:18
+msgid "Welcome to the Adri theme"
+msgstr ""
+
+#: comments.php:92
+msgid "Your comment"
+msgstr ""

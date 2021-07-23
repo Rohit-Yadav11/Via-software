@@ -1,0 +1,392 @@
+/*
+    [4.6] Button Interactive
+--------------------------------- */
+
+a.btn-int,
+rs.btn-int,
+button.btn-int,
+li.btn-int > a,
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-btn.mega-btn-int.mega-btn-int-icon.mega-menu-item > a {
+    position: relative;
+    transform: translateY(0);
+    transition: all $tspeed;
+    background: $primary;
+    color: $secondary;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-7px);
+    }
+}
+
+
+//
+// Icon
+// -------------
+
+a.btn-int-icon,
+rs.btn-int-icon,
+button.btn-int-icon,
+li.btn-int-icon > a,
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-btn.mega-btn-int.mega-btn-int-icon.mega-menu-item > a {
+
+    span {
+        transform: translateX(0);
+        transition: all $tspeed;
+
+        &:after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            height: 25px;
+            border-left: 2px solid $secondary;
+            opacity: 0;
+            transform: translateX(-15px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:before {
+        content: none !important;
+    }
+
+    &:after {
+        content: '\f061';
+        position: absolute;
+        right: 25px;
+        font-family: 'Font Awesome 5 Free';
+        font-size: inherit;
+        opacity: 0;
+        transform: translateX(0);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(-15px);
+            transition: transform $tspeed .4s;
+
+            &:after {
+                opacity: 1;
+                transform: translateX(0) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:after {
+            transform: translateX(15px);
+            opacity: 1;
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+
+//
+// Icon - Left
+// ----------------
+
+.btn-int-icon-left {
+
+    span {
+        transform: translateX(0);
+        transition: all $tspeed;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            height: 25px;
+            border-left: 2px solid $secondary;
+            opacity: 0;
+            transform: translateX(15px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:before {
+        content: '\f061';
+        position: absolute;
+        left: 25px;
+        font-family: 'Font Awesome 5 Free';
+        font-size: inherit;
+        opacity: 0;
+        transform: translateX(0);
+        transition: all $tspeed;
+    }
+
+    &:after {
+        content: none !important;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(15px);
+            transition: transform $tspeed .4s;
+
+            &:before {
+                opacity: 1;
+                transform: translateX(0) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:before {
+            transform: translateX(-13px);
+            opacity: 1;
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+
+//
+// Size - Large (left, right icon)
+// ----------------------------------
+
+.btn-lg.btn-int-icon,
+.btn-lg.btn-int-icon-left {
+
+    span {
+
+        &:before,
+        &:after {
+            height: 29px;
+        }
+    }
+}
+
+.btn-lg.btn-int-icon {
+
+    span {
+
+        &:after {
+            transform: translateX(-20px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:after {
+        transform: translateX(-5px);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(-20px);
+            transition: transform $tspeed .4s;
+
+            &:after {
+                transform: translateX(5px) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:after {
+            transform: translateX(10px);
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+
+.btn-lg.btn-int-icon-left {
+    
+    span {
+
+        &:before {
+            transform: translateX(20px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:before {
+        transform: translateX(5px);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(20px);
+            transition: transform $tspeed .4s;
+
+            &:before {
+                transform: translateX(-5px) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:before {
+            transform: translateX(-10px);
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+
+//
+// Size - Small (left, right icon)
+// ---------------------------------
+
+.btn-sm.btn-int-icon,
+.btn-sm.btn-int-icon-left {
+
+    span {
+        display: flex;
+        align-items: center;
+
+        &:before,
+        &:after {
+            height: 17px;
+        }
+    }
+
+    &:before,
+    &:after {
+        top: 1px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.btn-sm.btn-int-icon {
+
+    span {
+
+        &:after {
+            transform: translateX(-11px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:after {
+        transform: translateX(-5px);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(-11px);
+            transition: transform $tspeed .4s;
+
+            &:after {
+                transform: translateX(-3px) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:after {
+            transform: translateX(18px);
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+.btn-sm.btn-int-icon-left {
+
+    span {
+
+        &:before {
+            transform: translateX(11px) scale(.5);
+            transition: all $tspeed;
+        }
+    }
+
+    &:before {
+        transform: translateX(5px);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        span {
+            transform: translateX(11px);
+            transition: transform $tspeed .4s;
+
+            &:before {
+                transform: translateX(3px) scale(1);
+                transition: 
+                    transform $tspeed .4s, 
+                    opacity $tspeed .4s;
+            }
+        }
+
+        &:before {
+            transform: translateX(-18px);
+            transition: 
+                transform $tspeed .4s, 
+                opacity $tspeed .4s;
+        }
+    }
+}
+
+
+//
+// .btn-int Navbar (desktop)
+// ---------------------------------
+
+@media (min-width: $lg) {
+    nav .menu > li.btn.btn-int.btn-int-icon.menu-item > a,
+    nav  li.btn.btn-int.btn-int-icon > a {
+
+        span {
+            display: flex;
+            align-items: center;
+
+            &:before,
+            &:after {
+                height: 17px;
+            }
+        }
+    }
+}
+
+
+//
+// .btn-int Utility
+// ---------------------
+
+.btn-has-dark-bg.btn-int,
+li.btn-has-dark-bg.btn-int > a {
+    color: #fff;
+
+    span {
+
+        &:before,
+        &:after {
+            border-left-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/*
+  [6.1] Blog Post - Classic
+--------------------------------- */
+
+article.post-classic {
+    
+    .post-title {
+        margin-bottom: 30px;
+        color: $secondary;
+
+        a {
+            @include a-h-underline($pos: $h2-size, $size: 8px);
+        }
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.7;
+    }
+} // article.post-classic
+
+article.post-classic.has-post-thumbnail {
+    position: relative;
+
+    .post-date {
+        position: absolute;
+        top: -20px;
+        left: -10px;
+    }
+}
+
+@media (min-width: $md) {
+    article.post-classic {
+
+        .post-date {
+            width: 55px;
+            height: 55px;
+            box-shadow: 6px 6px 0px #fff;
+            font-size: 1.125rem;
+
+            span {
+                display: block;
+                margin-bottom: 4px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+} // @media md
+
+@media (min-width: $xl) {
+
+    article.post-classic.has-post-thumbnail {
+
+        .post-date {
+            left: -20px;
+        }
+    }
+} // @media xl

@@ -1,0 +1,1421 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Adri Ajdethemes Elements\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-08 16:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: widgets/portfolio.php:156
+msgid "\"All\" Filter Text"
+msgstr ""
+
+#: widgets/pricing-table.php:139
+msgid "$"
+msgstr ""
+
+#: widgets/portfolio.php:124
+msgid "2 Columns"
+msgstr ""
+
+#: widgets/portfolio.php:125
+msgid "3 Columns"
+msgstr ""
+
+#: widgets/portfolio.php:126
+msgid "4 Columns"
+msgstr ""
+
+#: widgets/pricing-table.php:125
+msgid "479"
+msgstr ""
+
+#: widgets/pricing-table.php:153
+msgid "\\mo"
+msgstr ""
+
+#: widgets/accordion.php:44 widgets/accordion.php:102 widgets/accordion.php:187
+msgid "Accordion"
+msgstr ""
+
+#: widgets/accordion.php:139
+msgid "Accordion #1"
+msgstr ""
+
+#: widgets/accordion.php:143
+msgid "Accordion #2"
+msgstr ""
+
+#: widgets/accordion.php:126
+msgid "Accordion Content"
+msgstr ""
+
+#: widgets/accordion.php:134
+msgid "Accordion Items"
+msgstr ""
+
+#: widgets/accordion.php:113
+msgid "Accordion Title"
+msgstr ""
+
+#: widgets/page-title.php:289
+msgid "Add Background Image"
+msgstr ""
+
+#: widgets/portfolio.php:281
+msgid "Add Filters"
+msgstr ""
+
+#: widgets/portfolio.php:284
+msgid "Add filters separated by empty space"
+msgstr ""
+
+#: widgets/portfolio.php:226 widgets/slider-thirds.php:183
+#: widgets/slider.php:183
+msgid "Add Link"
+msgstr ""
+
+#: widgets/feature-image.php:164 widgets/frame-icon.php:162
+#: widgets/woo-addtocart.php:162 widgets/woo-products.php:164
+msgid "Add link"
+msgstr ""
+
+#: widgets/portfolio.php:273
+msgid "Add link text"
+msgstr ""
+
+#: widgets/section-title.php:241
+msgid "Add Title Graphic (memphis layout only)"
+msgstr ""
+
+#: widgets/woo-addtocart.php:41 widgets/woo-addtocart.php:99
+msgid "Add to Cart"
+msgstr ""
+
+#: widgets/portfolio.php:255
+msgid "Add Video Link"
+msgstr ""
+
+#: widgets/contact.php:459
+msgid "Address &amp; Contact Info"
+msgstr ""
+
+#. Name of the plugin
+msgid "Adri Ajdethemes Elements"
+msgstr ""
+
+#. Author of the plugin
+msgid "AjdeThemes"
+msgstr ""
+
+#: adri-ajdethemes-elements.php:112
+msgid "Ajdethemes Elements"
+msgstr ""
+
+#: adri-ajdethemes-elements.php:339
+msgid "Ajdethemes Icons"
+msgstr ""
+
+#: widgets/button.php:215 widgets/section-title.php:155
+msgid "Alignment"
+msgstr ""
+
+#: widgets/portfolio.php:158
+msgid "All"
+msgstr ""
+
+#: widgets/counter.php:172
+msgid "Animation Duration"
+msgstr ""
+
+#: widgets/button.php:371 widgets/contact-form-7.php:213
+#: widgets/page-title.php:274
+msgid "Background Color"
+msgstr ""
+
+#: widgets/button.php:389
+msgid "Background Hover Color"
+msgstr ""
+
+#: widgets/page-title.php:300
+msgid "Background Image"
+msgstr ""
+
+#: adri-ajdethemes-elements.php:116
+msgid "Basic"
+msgstr ""
+
+#: widgets/team-card.php:267
+msgid "Bio Background Color"
+msgstr ""
+
+#: widgets/team-card.php:251
+msgid "Bio Text Color"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:41 widgets/wp-blog-posts.php:99
+msgid "Blog Posts"
+msgstr ""
+
+#: widgets/button.php:353 widgets/contact-form-7.php:197
+#: widgets/frame-icon.php:244 widgets/pricing-table.php:287
+#: widgets/woo-addtocart.php:244
+msgid "Border Color"
+msgstr ""
+
+#: widgets/portfolio.php:202 widgets/portfolio.php:319
+msgid "Business"
+msgstr ""
+
+#: widgets/portfolio.php:283
+msgid "Business Advisory"
+msgstr ""
+
+#: widgets/button.php:41 widgets/button.php:99
+msgid "Button"
+msgstr ""
+
+#: widgets/pricing-table.php:215
+msgid "Button Text"
+msgstr ""
+
+#: widgets/button.php:223 widgets/page-title.php:199
+#: widgets/section-title.php:163
+msgid "Center"
+msgstr ""
+
+#: widgets/team-card.php:139
+msgid "CEO & Founder"
+msgstr ""
+
+#: widgets/team-inline.php:139
+msgid "CEO &amp; Founder"
+msgstr ""
+
+#: widgets/testimonial-slider.php:193
+msgid "CEO, Juice Car"
+msgstr ""
+
+#: widgets/team-card.php:125 widgets/team-inline.php:125
+#: widgets/testimonial-slider.php:140
+msgid "Chad Champion"
+msgstr ""
+
+#: widgets/intro.php:234
+msgid "Choose Decoration Graphic"
+msgstr ""
+
+#: widgets/portfolio.php:172 widgets/slider-thirds.php:124
+#: widgets/slider.php:124
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/testimonial-slider.php:124
+msgid "Choose Image (recommended: 140x140)"
+msgstr ""
+
+#: widgets/team-inline.php:106
+msgid "Choose Image (recommended: 170x170)"
+msgstr ""
+
+#: widgets/slider-neue.php:124
+msgid "Choose Image (recommended: 570x390)"
+msgstr ""
+
+#: widgets/feature-image.php:120 widgets/woo-products.php:120
+msgid "Choose Image (recommended: 770x540)"
+msgstr ""
+
+#: widgets/team-card.php:106
+msgid "Choose Image (recommended: 770x830)"
+msgstr ""
+
+#: widgets/button.php:112 widgets/contact.php:113 widgets/feature-image.php:112
+#: widgets/portfolio.php:110 widgets/section-title.php:98
+#: widgets/woo-products.php:112
+msgid "Classic"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:110
+msgid "Columns"
+msgstr ""
+
+#: widgets/portfolio.php:301 widgets/slider-neue.php:153
+#: widgets/slider-neue.php:171 widgets/slider-neue.php:176
+#: widgets/slider-neue.php:181 widgets/slider-thirds.php:147
+#: widgets/slider-thirds.php:160 widgets/slider.php:147 widgets/slider.php:160
+msgid "Consulting"
+msgstr ""
+
+#: widgets/contact.php:43
+msgid "Contact"
+msgstr ""
+
+#: widgets/contact.php:218 widgets/contact.php:297
+msgid "Contact Features"
+msgstr ""
+
+#: widgets/contact-form-7.php:128
+msgid "Contact Form"
+msgstr ""
+
+#: widgets/contact-form-7.php:41 widgets/contact-form-7.php:121
+msgid "Contact Form 7"
+msgstr ""
+
+#: widgets/contact.php:101
+msgid "Contact Layout"
+msgstr ""
+
+#: widgets/contact.php:498
+msgid "Contact Layout - Style"
+msgstr ""
+
+#: widgets/contact.php:425
+msgid "Contact Tabs"
+msgstr ""
+
+#: widgets/contact.php:173
+msgid "Contact Us"
+msgstr ""
+
+#: widgets/accordion.php:124 widgets/section-title.php:86
+msgid "Content"
+msgstr ""
+
+#: widgets/counter.php:216 widgets/counter.php:217
+msgid "Cool Number"
+msgstr ""
+
+#: widgets/counter.php:44 widgets/counter.php:115
+msgid "Counter"
+msgstr ""
+
+#: widgets/pricing-table.php:134
+msgid "Currency"
+msgstr ""
+
+#: widgets/pricing-table.php:272
+msgid "Currency & Interval Color"
+msgstr ""
+
+#: widgets/page-title.php:113 widgets/page-title.php:134
+msgid "Custom Size"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:323
+msgid "Date Badge Color"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:342
+msgid "Date Badge Shadow"
+msgstr ""
+
+#: widgets/intro.php:276 widgets/intro.php:289
+msgid "Description"
+msgstr ""
+
+#: widgets/accordion.php:210 widgets/contact.php:577
+#: widgets/feature-image.php:253 widgets/frame-icon.php:259
+#: widgets/inline-icon.php:246 widgets/woo-addtocart.php:259
+#: widgets/woo-products.php:253
+msgid "Description Color"
+msgstr ""
+
+#: widgets/frame-icon.php:274 widgets/woo-addtocart.php:274
+msgid "Description Hover Color"
+msgstr ""
+
+#: includes/widgets/class-widget_ft-inline-icon.php:65
+msgid "Description:"
+msgstr ""
+
+#: widgets/intro.php:126
+msgid "Disable"
+msgstr ""
+
+#: widgets/testimonial-slider.php:192
+msgid "Elton Must"
+msgstr ""
+
+#: widgets/intro.php:125
+msgid "Enable"
+msgstr ""
+
+#: widgets/counter.php:134
+msgid "Ending Number"
+msgstr ""
+
+#: widgets/pricing-table.php:192
+msgid "Enter \"featured\" text"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:121
+msgid "Enter a category"
+msgstr ""
+
+#: widgets/contact.php:289
+msgid "Enter a description"
+msgstr ""
+
+#: widgets/contact.php:451
+msgid "Enter a location"
+msgstr ""
+
+#: widgets/contact.php:440 widgets/portfolio.php:189
+#: widgets/pricing-table.php:112 widgets/team-card.php:154
+msgid "Enter a title"
+msgstr ""
+
+#: widgets/pricing-table.php:126
+msgid "Enter amount"
+msgstr ""
+
+#: widgets/button.php:142 widgets/pricing-table.php:221
+msgid "Enter button text"
+msgstr ""
+
+#: widgets/intro.php:348
+msgid "Enter call to action message"
+msgstr ""
+
+#: widgets/pricing-table.php:140
+msgid "Enter currency"
+msgstr ""
+
+#: widgets/pricing-table.php:154
+msgid "Enter interval (month, year)"
+msgstr ""
+
+#: widgets/feature-image.php:197 widgets/woo-products.php:197
+msgid "Enter link text"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:131
+msgid "Enter slug for a tab/s, separated by ,"
+msgstr ""
+
+#: widgets/portfolio.php:159
+msgid "Enter text for the \"all\" filter"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:229
+msgid "Enter text for the button"
+msgstr ""
+
+#: widgets/team-card.php:186 widgets/team-inline.php:153
+msgid ""
+"Enter the shortcode for the social links. Check the Help file (elements "
+"section) for detail instructions."
+msgstr ""
+
+#: widgets/contact.php:203 widgets/contact.php:462
+#: widgets/feature-image.php:154 widgets/frame-icon.php:152
+#: widgets/inline-icon.php:139 widgets/intro.php:279 widgets/intro.php:292
+#: widgets/woo-addtocart.php:152 widgets/woo-products.php:154
+msgid "Enter your description"
+msgstr ""
+
+#: widgets/team-card.php:126 widgets/team-inline.php:126
+msgid "Enter your full name"
+msgstr ""
+
+#: widgets/intro.php:320
+msgid "Enter your info"
+msgstr ""
+
+#: widgets/team-card.php:140
+msgid "Enter your role"
+msgstr ""
+
+#: widgets/team-inline.php:140
+msgid "Enter your role/job"
+msgstr ""
+
+#: widgets/page-title.php:183 widgets/section-title.php:127
+msgid "Enter your subtitle"
+msgstr ""
+
+#: widgets/contact.php:174 widgets/contact.php:189 widgets/contact.php:256
+#: widgets/feature-image.php:140 widgets/frame-icon.php:138
+#: widgets/inline-icon.php:125 widgets/intro.php:251 widgets/intro.php:265
+#: widgets/page-title.php:169 widgets/woo-addtocart.php:138
+#: widgets/woo-products.php:140
+msgid "Enter your title"
+msgstr ""
+
+#: widgets/section-title.php:114
+msgid "Enter your title here"
+msgstr ""
+
+#: widgets/slider-thirds.php:202 widgets/slider-thirds.php:207
+#: widgets/slider-thirds.php:212 widgets/slider.php:202 widgets/slider.php:207
+#: widgets/slider.php:212
+msgid "Example"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:286
+msgid "Excerpt Color"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:150
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: widgets/portfolio.php:272
+msgid "Expand"
+msgstr ""
+
+#: widgets/feature-image.php:41 widgets/feature-image.php:99
+msgid "Feature Image"
+msgstr ""
+
+#: includes/widgets/class-widget_ft-inline-icon.php:61
+msgid "Feature Title:"
+msgstr ""
+
+#: widgets/pricing-table.php:175
+msgid "Featured"
+msgstr ""
+
+#: widgets/pricing-table.php:305
+msgid "Featured Border Color"
+msgstr ""
+
+#: widgets/contact.php:188
+msgid "Fell free to get in touch"
+msgstr ""
+
+#: widgets/portfolio.php:310
+msgid "Finance"
+msgstr ""
+
+#: widgets/intro.php:345
+msgid "Footer CTA"
+msgstr ""
+
+#: widgets/intro.php:317
+msgid "Footer Info"
+msgstr ""
+
+#: widgets/testimonial-slider.php:181
+msgid "Founder & CEO, Dongle"
+msgstr ""
+
+#: widgets/testimonial-slider.php:153
+msgid "Founder & CEO, Yes"
+msgstr ""
+
+#: widgets/testimonial-slider.php:187
+msgid "Founder, Facesmash"
+msgstr ""
+
+#: widgets/feature-image.php:110 widgets/woo-products.php:110
+msgid "Frame"
+msgstr ""
+
+#: widgets/frame-icon.php:41 widgets/frame-icon.php:99
+msgid "Frame Icon"
+msgstr ""
+
+#: adri-ajdethemes-elements.php:121
+msgid "General"
+msgstr ""
+
+#: widgets/button.php:111
+msgid "Ghost"
+msgstr ""
+
+#: widgets/section-title.php:252
+msgid "Graphic Position"
+msgstr ""
+
+#: widgets/portfolio.php:134
+msgid "Grid Gap"
+msgstr ""
+
+#: widgets/contact.php:264
+msgid "Has Link?"
+msgstr ""
+
+#: widgets/contact.php:154
+msgid "Height"
+msgstr ""
+
+#: widgets/team-card.php:153
+msgid "Hello"
+msgstr ""
+
+#: widgets/accordion.php:177 widgets/button.php:166 widgets/contact.php:232
+#: widgets/contact.php:352 widgets/counter.php:187
+#: widgets/feature-image.php:168 widgets/frame-icon.php:166
+#: widgets/inline-icon.php:153 widgets/intro.php:306 widgets/intro.php:335
+#: widgets/pricing-table.php:179 widgets/pricing-table.php:207
+#: widgets/slider-neue.php:196 widgets/slider-thirds.php:227
+#: widgets/slider-thirds.php:239 widgets/slider.php:227 widgets/slider.php:239
+#: widgets/testimonial-slider.php:208 widgets/testimonial-slider.php:219
+#: widgets/testimonial-slider.php:230 widgets/woo-addtocart.php:166
+#: widgets/woo-products.php:168 widgets/wp-blog-posts.php:169
+#: widgets/wp-blog-posts.php:183 widgets/wp-blog-posts.php:194
+#: widgets/wp-blog-posts.php:205 widgets/wp-blog-posts.php:216
+msgid "Hide"
+msgstr ""
+
+#: widgets/frame-icon.php:289 widgets/inline-icon.php:216
+#: widgets/woo-addtocart.php:289
+msgid "Hover Accent Color"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ajdethemes.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://ajdethemes.com/adri/"
+msgstr ""
+
+#: widgets/testimonial-slider.php:179 widgets/testimonial-slider.php:185
+#: widgets/testimonial-slider.php:191
+msgid "https://placehold.it/140x140"
+msgstr ""
+
+#: widgets/portfolio.php:299 widgets/portfolio.php:308
+#: widgets/portfolio.php:317 widgets/slider-neue.php:169
+#: widgets/slider-neue.php:174 widgets/slider-neue.php:179
+msgid "https://placehold.it/570x390"
+msgstr ""
+
+#: widgets/slider-thirds.php:200 widgets/slider-thirds.php:205
+#: widgets/slider-thirds.php:210 widgets/slider.php:200 widgets/slider.php:205
+#: widgets/slider.php:210
+msgid "https://placehold.it/900x590"
+msgstr ""
+
+#: widgets/button.php:155 widgets/feature-image.php:180
+#: widgets/frame-icon.php:178 widgets/inline-icon.php:165
+#: widgets/pricing-table.php:237 widgets/woo-addtocart.php:178
+#: widgets/woo-products.php:180
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/portfolio.php:231 widgets/slider-thirds.php:185
+#: widgets/slider.php:185
+msgid "https://your-project-page.com"
+msgstr ""
+
+#: widgets/button.php:177 widgets/contact.php:241 widgets/contact.php:361
+#: widgets/frame-icon.php:106 widgets/inline-icon.php:106
+#: widgets/woo-addtocart.php:106
+msgid "Icon"
+msgstr ""
+
+#: widgets/inline-icon.php:186
+msgid "Icon Background Color"
+msgstr ""
+
+#: widgets/frame-icon.php:214 widgets/inline-icon.php:201
+#: widgets/woo-addtocart.php:214
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/frame-icon.php:199 widgets/woo-addtocart.php:199
+msgid "Icon Mask (same as the background)"
+msgstr ""
+
+#: includes/widgets/class-widget_ft-inline-icon.php:69
+msgid "Icon Name (fontawesome):"
+msgstr ""
+
+#: widgets/button.php:193
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/testimonial-slider.php:292
+msgid "Icon Shadow Color"
+msgstr ""
+
+#: widgets/intro.php:136 widgets/intro.php:150 widgets/intro.php:206
+#: widgets/intro.php:220
+msgid "Image"
+msgstr ""
+
+#: widgets/intro.php:164
+msgid "Image 1"
+msgstr ""
+
+#: widgets/intro.php:178
+msgid "Image 2"
+msgstr ""
+
+#: widgets/intro.php:192
+msgid "Image 3"
+msgstr ""
+
+#: widgets/slider-thirds.php:171 widgets/slider.php:171
+msgid "Image has link"
+msgstr ""
+
+#: widgets/slider.php:115
+msgid "Image Slider"
+msgstr ""
+
+#: widgets/contact.php:287
+msgid "Info/Description"
+msgstr ""
+
+#: widgets/feature-image.php:211 widgets/inline-icon.php:41
+#: widgets/inline-icon.php:99 widgets/inline-icon.php:178 widgets/intro.php:361
+#: widgets/portfolio.php:336 widgets/team-card.php:196
+#: widgets/team-inline.php:163 widgets/woo-products.php:211
+#: widgets/wp-blog-posts.php:243
+msgid "Inline Icon"
+msgstr ""
+
+#: widgets/contact-form-7.php:139
+msgid "Input Style"
+msgstr ""
+
+#: widgets/pricing-table.php:148
+msgid "Interval"
+msgstr ""
+
+#: widgets/intro.php:41
+msgid "Intro"
+msgstr ""
+
+#: widgets/intro.php:99
+msgid "Intro Layout"
+msgstr ""
+
+#: widgets/intro.php:404
+msgid "Intro Text Background"
+msgstr ""
+
+#: widgets/contact-form-7.php:228
+msgid "Label/Placeholder Color"
+msgstr ""
+
+#: widgets/contact-form-7.php:243
+msgid "Label/Placeholder Focus Color"
+msgstr ""
+
+#: widgets/button.php:127 widgets/page-title.php:112
+msgid "Large"
+msgstr ""
+
+#: widgets/button.php:141
+msgid "Learn More"
+msgstr ""
+
+#: widgets/button.php:197 widgets/button.php:219 widgets/page-title.php:195
+#: widgets/section-title.php:159
+msgid "Left"
+msgstr ""
+
+#: widgets/button.php:153 widgets/contact.php:275 widgets/feature-image.php:175
+#: widgets/frame-icon.php:173 widgets/inline-icon.php:160
+#: widgets/woo-addtocart.php:173 widgets/woo-products.php:175
+msgid "Link"
+msgstr ""
+
+#: widgets/portfolio.php:270
+msgid "Link Text"
+msgstr ""
+
+#: widgets/feature-image.php:191 widgets/woo-products.php:191
+msgid "Link text"
+msgstr ""
+
+#: includes/widgets/class-widget_ft-inline-icon.php:73
+msgid "Link/URL:"
+msgstr ""
+
+#: widgets/contact.php:122 widgets/contact.php:448
+msgid "Location"
+msgstr ""
+
+#: widgets/contact.php:118
+msgid "London Eye, London, United Kingdom"
+msgstr ""
+
+#: widgets/accordion.php:140 widgets/accordion.php:144
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/page-title.php:111
+msgid "Medium"
+msgstr ""
+
+#: widgets/section-title.php:100
+msgid "Memphis"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:306
+msgid "Metadata Color"
+msgstr ""
+
+#: widgets/portfolio.php:112 widgets/wp-blog-posts.php:111
+msgid "Minimal"
+msgstr ""
+
+#: widgets/team-card.php:120 widgets/team-inline.php:120
+#: widgets/testimonial-slider.php:138
+msgid "Name"
+msgstr ""
+
+#: widgets/team-card.php:221 widgets/team-inline.php:171
+#: widgets/testimonial-slider.php:247
+msgid "Name Color"
+msgstr ""
+
+#: widgets/team-card.php:204
+msgid "Name HTML Tag"
+msgstr ""
+
+#: widgets/slider-thirds.php:223 widgets/slider.php:223
+msgid "Navigation Arrows"
+msgstr ""
+
+#: widgets/slider-neue.php:203
+msgid "Navigation far left"
+msgstr ""
+
+#: widgets/portfolio.php:111
+msgid "Neue"
+msgstr ""
+
+#: widgets/slider-neue.php:44 widgets/slider-neue.php:115
+#: widgets/slider-neue.php:216 widgets/slider-thirds.php:248
+#: widgets/slider.php:248
+msgid "Neue Slider"
+msgstr ""
+
+#: widgets/contact.php:268
+msgid "No"
+msgstr ""
+
+#: widgets/contact-form-7.php:102
+msgid "No contact forms found"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:375
+msgid "No posts found."
+msgstr ""
+
+#: widgets/button.php:126
+msgid "Normal"
+msgstr ""
+
+#: widgets/team-card.php:167
+msgid ""
+"Nulla fugiat incididunt exercitation fugiat sint magna dolor nisi occaes at "
+"ecat laborum do duis adipisi es cupidatat este. Laboris aute ipsum occaecat "
+"labore ut excepteur, este elitis consequat eu cupidatat."
+msgstr ""
+
+#: widgets/counter.php:235
+msgid "Number"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:139
+msgid "Number of posts"
+msgstr ""
+
+#: widgets/counter.php:146
+msgid "Number Prefix"
+msgstr ""
+
+#: widgets/counter.php:159
+msgid "Number Suffix"
+msgstr ""
+
+#: widgets/page-title.php:293 widgets/portfolio.php:138
+#: widgets/portfolio.php:149 widgets/portfolio.php:218
+#: widgets/portfolio.php:245 widgets/slider-neue.php:207
+#: widgets/slider-thirds.php:175 widgets/slider.php:175
+msgid "Off"
+msgstr ""
+
+#: widgets/testimonial-slider.php:166 widgets/testimonial-slider.php:182
+#: widgets/testimonial-slider.php:188 widgets/testimonial-slider.php:194
+msgid ""
+"Officia nulla anim non ullamco sit in adipisic exercitation qui elit. Duis "
+"excepteur nostrud elit do ipsum anim incididunt ad tempor laboris dolore "
+"elit. In consectetur nostrud nulla elit ullamco."
+msgstr ""
+
+#: widgets/page-title.php:292 widgets/portfolio.php:137
+#: widgets/portfolio.php:148 widgets/portfolio.php:217
+#: widgets/portfolio.php:244 widgets/slider-neue.php:206
+#: widgets/slider-thirds.php:174 widgets/slider.php:174
+msgid "On"
+msgstr ""
+
+#: widgets/portfolio.php:214
+msgid "Open in lightbox"
+msgstr ""
+
+#: widgets/portfolio.php:241
+msgid "Open in lightbox as video"
+msgstr ""
+
+#: widgets/portfolio.php:203
+msgid "Optional subtitle"
+msgstr ""
+
+#: widgets/contact.php:202
+msgid ""
+"Our office is open Monday to Friday, from 8AM to 4PM, we answer emails "
+"within 24 hour on a business day."
+msgstr ""
+
+#: widgets/page-title.php:317
+msgid "Overlay"
+msgstr ""
+
+#: widgets/portfolio.php:435
+msgid "Overlay (hover)"
+msgstr ""
+
+#: widgets/page-title.php:41 widgets/page-title.php:99
+msgid "Page Title"
+msgstr ""
+
+#: widgets/page-title.php:168
+msgid "Page title example"
+msgstr ""
+
+#: widgets/slider-thirds.php:235 widgets/slider.php:235
+msgid "Pagination Dots"
+msgstr ""
+
+#: widgets/intro.php:122
+msgid "Parallax Effect"
+msgstr ""
+
+#: widgets/button.php:114
+msgid "Play Button (circle)"
+msgstr ""
+
+#: widgets/counter.php:165
+msgid "Plus"
+msgstr ""
+
+#: widgets/portfolio.php:41 widgets/portfolio.php:99
+msgid "Portfolio"
+msgstr ""
+
+#: widgets/portfolio.php:120
+msgid "Portfolio Grid"
+msgstr ""
+
+#: widgets/portfolio.php:293
+msgid "Portfolio Items"
+msgstr ""
+
+#: widgets/portfolio.php:106
+msgid "Portfolio Style"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:226
+msgid "Post button text"
+msgstr ""
+
+#: widgets/pricing-table.php:257
+msgid "Price Color"
+msgstr ""
+
+#: widgets/pricing-table.php:120
+msgid "Price/Amount"
+msgstr ""
+
+#: widgets/pricing-table.php:41 widgets/pricing-table.php:99
+#: widgets/pricing-table.php:249
+msgid "Pricing Table"
+msgstr ""
+
+#: widgets/accordion.php:225 widgets/button.php:251
+#: widgets/contact-form-7.php:147 widgets/contact.php:506
+#: widgets/feature-image.php:270 widgets/intro.php:369
+#: widgets/portfolio.php:397 widgets/pricing-table.php:323
+#: widgets/slider-neue.php:271 widgets/slider-thirds.php:303
+#: widgets/slider.php:303 widgets/team-card.php:282 widgets/team-inline.php:201
+#: widgets/testimonial-slider.php:307 widgets/woo-products.php:270
+#: widgets/wp-blog-posts.php:251
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/pricing-table.php:111
+msgid "Pro"
+msgstr ""
+
+#: widgets/woo-products.php:41 widgets/woo-products.php:99
+msgid "Products"
+msgstr ""
+
+#: widgets/portfolio.php:300 widgets/slider-neue.php:170
+msgid "Project title 1"
+msgstr ""
+
+#: widgets/portfolio.php:309 widgets/slider-neue.php:175
+msgid "Project title 2"
+msgstr ""
+
+#: widgets/portfolio.php:318 widgets/slider-neue.php:180
+msgid "Project title 3"
+msgstr ""
+
+#: widgets/portfolio.php:188 widgets/slider-neue.php:140
+#: widgets/slider-thirds.php:137 widgets/slider.php:137
+msgid "Project title here"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:228
+msgid "Read More"
+msgstr ""
+
+#: widgets/feature-image.php:196 widgets/woo-products.php:196
+msgid "Read more"
+msgstr ""
+
+#: widgets/pricing-table.php:191
+msgid "recommended"
+msgstr ""
+
+#: widgets/button.php:110
+msgid "Regular"
+msgstr ""
+
+#: widgets/button.php:201 widgets/button.php:227 widgets/page-title.php:203
+#: widgets/section-title.php:167
+msgid "Right"
+msgstr ""
+
+#: widgets/team-card.php:134 widgets/team-inline.php:134
+msgid "Role"
+msgstr ""
+
+#: widgets/team-card.php:236 widgets/team-inline.php:186
+#: widgets/testimonial-slider.php:262
+msgid "Role Color"
+msgstr ""
+
+#: widgets/testimonial-slider.php:151
+msgid "Role/Company"
+msgstr ""
+
+#: widgets/accordion.php:242 widgets/button.php:275
+#: widgets/contact-form-7.php:163 widgets/contact.php:523
+#: widgets/feature-image.php:298 widgets/intro.php:387
+#: widgets/portfolio.php:416 widgets/pricing-table.php:341
+#: widgets/slider-neue.php:287 widgets/slider-thirds.php:319
+#: widgets/slider.php:319 widgets/team-card.php:300 widgets/team-inline.php:219
+#: widgets/testimonial-slider.php:325 widgets/woo-products.php:298
+#: widgets/wp-blog-posts.php:269
+msgid "Secondary Color"
+msgstr ""
+
+#: widgets/section-title.php:41
+msgid "Section Title"
+msgstr ""
+
+#: widgets/contact-form-7.php:286
+msgid "Select a contact form, from settings."
+msgstr ""
+
+#: widgets/contact.php:108
+msgid "Select Layout"
+msgstr ""
+
+#: widgets/page-title.php:106
+msgid "Select Size"
+msgstr ""
+
+#: widgets/feature-image.php:106 widgets/intro.php:106
+#: widgets/page-title.php:121 widgets/woo-products.php:106
+#: widgets/wp-blog-posts.php:106
+msgid "Select Style"
+msgstr ""
+
+#: widgets/counter.php:194
+msgid "Separator"
+msgstr ""
+
+#: widgets/button.php:297
+msgid "Shadow Color"
+msgstr ""
+
+#: widgets/accordion.php:176 widgets/button.php:165 widgets/contact.php:231
+#: widgets/contact.php:351 widgets/counter.php:186
+#: widgets/feature-image.php:167 widgets/frame-icon.php:165
+#: widgets/inline-icon.php:152 widgets/intro.php:305 widgets/intro.php:334
+#: widgets/pricing-table.php:178 widgets/pricing-table.php:206
+#: widgets/slider-neue.php:195 widgets/slider-thirds.php:226
+#: widgets/slider-thirds.php:238 widgets/slider.php:226 widgets/slider.php:238
+#: widgets/testimonial-slider.php:207 widgets/testimonial-slider.php:218
+#: widgets/testimonial-slider.php:229 widgets/woo-addtocart.php:165
+#: widgets/woo-products.php:167 widgets/wp-blog-posts.php:168
+#: widgets/wp-blog-posts.php:182 widgets/wp-blog-posts.php:193
+#: widgets/wp-blog-posts.php:204 widgets/wp-blog-posts.php:215
+msgid "Show"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:179
+msgid "Show Author"
+msgstr ""
+
+#: widgets/pricing-table.php:203
+msgid "Show Button"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:212
+msgid "Show Button (Read More)"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:119
+msgid "Show by Category"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:129
+msgid "Show by Tabs (slug/s)"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:201
+msgid "Show Category"
+msgstr ""
+
+#: widgets/contact.php:228
+msgid "Show Contact Features"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:190
+msgid "Show Date"
+msgstr ""
+
+#: widgets/intro.php:302 widgets/intro.php:331
+msgid "Show Description Footer"
+msgstr ""
+
+#: widgets/wp-blog-posts.php:165
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/portfolio.php:145
+msgid "Show filters"
+msgstr ""
+
+#: widgets/accordion.php:173 widgets/button.php:162
+msgid "Show Icon"
+msgstr ""
+
+#: widgets/inline-icon.php:149
+msgid "Show Link/Button"
+msgstr ""
+
+#: widgets/slider-neue.php:192 widgets/testimonial-slider.php:204
+msgid "Show Navigation"
+msgstr ""
+
+#: widgets/testimonial-slider.php:215
+msgid "Show Pagination"
+msgstr ""
+
+#: widgets/testimonial-slider.php:226
+msgid "Show Quote Symbol"
+msgstr ""
+
+#: widgets/contact.php:348
+msgid "Show Social Icons"
+msgstr ""
+
+#: widgets/button.php:122
+msgid "Size"
+msgstr ""
+
+#: widgets/slider-thirds.php:201 widgets/slider.php:201
+msgid "Slide item 1"
+msgstr ""
+
+#: widgets/slider-thirds.php:206 widgets/slider.php:206
+msgid "Slide item 2"
+msgstr ""
+
+#: widgets/slider-thirds.php:211 widgets/slider.php:211
+msgid "Slide item 3"
+msgstr ""
+
+#: widgets/slider.php:44
+msgid "Slider"
+msgstr ""
+
+#: widgets/slider-thirds.php:44
+msgid "Slider Thirds"
+msgstr ""
+
+#: widgets/slider-neue.php:164 widgets/slider-thirds.php:195
+#: widgets/slider.php:195
+msgid "Slides"
+msgstr ""
+
+#: widgets/button.php:128 widgets/page-title.php:110
+msgid "Small"
+msgstr ""
+
+#: widgets/contact.php:337 widgets/contact.php:383
+msgid "Social Icons"
+msgstr ""
+
+#: widgets/team-card.php:176
+msgid "Social Links - Bio"
+msgstr ""
+
+#: widgets/team-inline.php:148
+msgid "Social Links - Shortcode"
+msgstr ""
+
+#: widgets/feature-image.php:111 widgets/woo-products.php:111
+msgid "Stacked"
+msgstr ""
+
+#: widgets/pricing-table.php:220
+msgid "Start Pro"
+msgstr ""
+
+#: widgets/counter.php:122
+msgid "Starting Number"
+msgstr ""
+
+#: widgets/testimonial-slider.php:180
+msgid "Steve Works"
+msgstr ""
+
+#: widgets/button.php:106 widgets/button.php:243 widgets/frame-icon.php:191
+#: widgets/page-title.php:236 widgets/woo-addtocart.php:191
+msgid "Style"
+msgstr ""
+
+#: widgets/intro.php:113
+msgid "Style - Image"
+msgstr ""
+
+#: widgets/intro.php:114
+msgid "Style - Image 2"
+msgstr ""
+
+#: widgets/intro.php:110 widgets/page-title.php:125
+msgid "Style 1"
+msgstr ""
+
+#: widgets/intro.php:111 widgets/page-title.php:126
+msgid "Style 2"
+msgstr ""
+
+#: widgets/intro.php:112
+msgid "Style 3"
+msgstr ""
+
+#: widgets/contact.php:171 widgets/intro.php:262 widgets/page-title.php:177
+#: widgets/portfolio.php:200 widgets/section-title.php:124
+#: widgets/slider-neue.php:151 widgets/slider-thirds.php:145
+#: widgets/slider-thirds.php:158 widgets/slider.php:145 widgets/slider.php:158
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/contact.php:558 widgets/intro.php:436 widgets/page-title.php:259
+#: widgets/portfolio.php:378 widgets/section-title.php:206
+#: widgets/slider-neue.php:256 widgets/slider-thirds.php:288
+#: widgets/slider.php:288
+msgid "Subtitle Color"
+msgstr ""
+
+#: widgets/page-title.php:182
+msgid "Subtitle here"
+msgstr ""
+
+#: widgets/section-title.php:231
+msgid "Subtitle Typography"
+msgstr ""
+
+#: widgets/contact.php:112 widgets/contact.php:469
+msgid "Tabs"
+msgstr ""
+
+#: widgets/team-card.php:41 widgets/team-card.php:99
+msgid "Team Card"
+msgstr ""
+
+#: widgets/team-inline.php:41 widgets/team-inline.php:99
+msgid "Team Inline"
+msgstr ""
+
+#: widgets/testimonial-slider.php:164
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/testimonial-slider.php:115 widgets/testimonial-slider.php:239
+msgid "Testimonial Slider"
+msgstr ""
+
+#: widgets/testimonial-slider.php:277
+msgid "Testimonial Text Color"
+msgstr ""
+
+#: widgets/testimonial-slider.php:44 widgets/testimonial-slider.php:174
+msgid "Testimonials"
+msgstr ""
+
+#: widgets/button.php:139 widgets/pricing-table.php:186
+msgid "Text"
+msgstr ""
+
+#: widgets/team-card.php:162
+msgid "Text - Bio"
+msgstr ""
+
+#: widgets/page-title.php:191
+msgid "Text Alignment"
+msgstr ""
+
+#: widgets/button.php:113
+msgid "Text Arrow"
+msgstr ""
+
+#: widgets/button.php:317 widgets/contact-form-7.php:182
+#: widgets/counter.php:243 widgets/counter.php:277
+msgid "Text Color"
+msgstr ""
+
+#: widgets/button.php:335
+msgid "Text Hover Color"
+msgstr ""
+
+#: widgets/slider-thirds.php:115
+msgid "Thirds Slider"
+msgstr ""
+
+#: widgets/section-title.php:126
+msgid "This is the subtitle"
+msgstr ""
+
+#: widgets/section-title.php:113
+msgid "This is the title"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugins comes as a part of Adri theme for extended functionality."
+msgstr ""
+
+#: widgets/counter.php:183
+msgid "Thousand Separator"
+msgstr ""
+
+#: widgets/contact.php:186 widgets/contact.php:254 widgets/contact.php:437
+#: widgets/counter.php:210 widgets/counter.php:269 widgets/intro.php:248
+#: widgets/page-title.php:163 widgets/portfolio.php:186
+#: widgets/pricing-table.php:106 widgets/section-title.php:108
+#: widgets/section-title.php:183 widgets/slider-neue.php:138
+#: widgets/slider-thirds.php:135 widgets/slider.php:135
+msgid "Title"
+msgstr ""
+
+#: widgets/accordion.php:111 widgets/feature-image.php:134
+#: widgets/frame-icon.php:132 widgets/inline-icon.php:119
+#: widgets/woo-addtocart.php:132 widgets/woo-products.php:134
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/team-card.php:148
+msgid "Title - Bio"
+msgstr ""
+
+#: widgets/accordion.php:195 widgets/contact.php:542
+#: widgets/feature-image.php:236 widgets/frame-icon.php:229
+#: widgets/inline-icon.php:231 widgets/intro.php:421 widgets/page-title.php:244
+#: widgets/portfolio.php:361 widgets/section-title.php:191
+#: widgets/slider-neue.php:241 widgets/slider-thirds.php:273
+#: widgets/slider.php:273 widgets/woo-addtocart.php:229
+#: widgets/woo-products.php:236
+msgid "Title Color"
+msgstr ""
+
+#: widgets/frame-icon.php:137 widgets/inline-icon.php:124
+#: widgets/woo-addtocart.php:137
+msgid "Title example"
+msgstr ""
+
+#: widgets/feature-image.php:139 widgets/intro.php:250 widgets/intro.php:264
+#: widgets/woo-products.php:139
+msgid "Title example here"
+msgstr ""
+
+#: widgets/accordion.php:154 widgets/contact.php:594 widgets/contact.php:614
+#: widgets/feature-image.php:219 widgets/intro.php:451
+#: widgets/page-title.php:217 widgets/portfolio.php:344
+#: widgets/section-title.php:135 widgets/slider-neue.php:224
+#: widgets/slider-thirds.php:256 widgets/slider.php:256
+#: widgets/woo-products.php:219
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/section-title.php:94
+msgid "Title Layout"
+msgstr ""
+
+#: widgets/section-title.php:221
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/section-title.php:99
+msgid "Underline"
+msgstr ""
+
+#: widgets/contact.php:374 widgets/pricing-table.php:232
+msgid "URL"
+msgstr ""
+
+#: widgets/inline-icon.php:138
+msgid "Velit consequat eu cupidatat este irure qui este dolore qui conse."
+msgstr ""
+
+#: widgets/frame-icon.php:151 widgets/woo-addtocart.php:151
+msgid ""
+"Velit consequat eu cupidatat irure qui dolore qui consectetur in non culpa "
+"labore duis. Velit ad nisi dolore fugiat pariatur consequat."
+msgstr ""
+
+#: widgets/feature-image.php:153 widgets/woo-products.php:153
+msgid ""
+"Velit consequat eu cupidatat irure qui este dolore qui consectetur in non "
+"culpa labore duis."
+msgstr ""
+
+#: widgets/counter.php:224
+msgid "View"
+msgstr ""
+
+#: widgets/team-card.php:168
+msgid "Write bio."
+msgstr ""
+
+#: widgets/contact.php:267
+msgid "Yes"
+msgstr ""
+
+#: widgets/contact.php:137
+msgid "Zoom"
+msgstr ""
+
+#: widgets/testimonial-slider.php:186
+msgid "Zuck Marks"
+msgstr ""

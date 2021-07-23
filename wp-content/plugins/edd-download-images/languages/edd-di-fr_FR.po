@@ -1,0 +1,60 @@
+# Copyright (C) 2015 EDD Download Images
+# This file is distributed under the same license as the EDD Download Images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: EDD Download Images 1.0\n"
+"Report-Msgid-Bugs-To: Sumobi<andrew@sumobi.com>\n"
+"POT-Creation-Date: 2015-04-09 21:23:50+00:00\n"
+"PO-Revision-Date: 2015-04-09 23:30+0100\n"
+"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Language-Team: fxbenard <fx@fxbenard.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: edd-download-images.php:93
+msgid "%1$s Images"
+msgstr "%1$s images"
+
+#: edd-download-images.php:112
+msgid "Image URL"
+msgstr "Url de l&rsquo;image"
+
+#: edd-download-images.php:138
+msgid "Add New Image"
+msgstr "Ajouter une nouvelle image"
+
+#: edd-download-images.php:164
+msgid "http://"
+msgstr "http://"
+
+#: edd-download-images.php:166
+msgid "Insert"
+msgstr "Insérer"
+
+#: edd-download-images.php:166
+msgid "Upload an Image"
+msgstr "Mettre en ligne une image"
+
+#. Description of the plugin/theme
+msgid "Allows you to add additional images to a download"
+msgstr "Vous permet d'ajouter des images supplémentaires à un téléchargement"
+
+#~ msgid "EDD Download Images"
+#~ msgstr "EDD Download Images"
+
+#~ msgid "http://sumobi.com/shop/edd-download-images/"
+#~ msgstr "http://sumobi.com/shop/edd-download-images/"
+
+#~ msgid "Andrew Munro, Sumobi"
+#~ msgstr "Andrew Munro, Sumobi"
+
+#~ msgid "http://sumobi.com"
+#~ msgstr "http://sumobi.com"
+
+#~ msgid "Download Images:"
+#~ msgstr "Images du téléchargement :"

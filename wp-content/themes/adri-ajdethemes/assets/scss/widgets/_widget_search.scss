@@ -1,0 +1,85 @@
+/*
+    [7.11] Widget - Search
+--------------------------------- */
+
+.widget_search form {
+    
+    button {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        background: none;
+        border: none;
+        transition: all $tspeed;
+
+        &:hover,
+        &:focus {
+            color: $primary;
+        }
+    }
+
+    .is-focused {
+
+        button {
+            top: 0;
+            right: 18px;
+        }
+    }
+}
+
+form.wp-block-search {
+    position: relative;
+
+    label {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+
+        &:before {
+            content: '\f002';
+            position: absolute;
+            top: 13px;
+            right: 15px;
+            font-family: 'Font Awesome 5 Free';
+            font-size: 1rem;
+            color: $secondary;
+            transition: all $tspeed;
+            z-index: 1;
+        }
+
+        input {
+            margin-bottom: 0;
+        }
+    }
+
+    input[type="search"] {
+        max-width: 100%;
+    }
+
+    input[type="submit"],
+    button {
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+        width: 50px;
+        height: 50px;
+        font-size: 0;
+        border: none;
+        background: none;
+        z-index: 10;
+    }
+}
+
+form.wp-block-search {
+
+    label {
+        font-size: 2px;
+        color: rgba(0,0,0, 0);
+    }
+
+    input[type="search"] {
+        font-size: 1rem;
+    }
+}

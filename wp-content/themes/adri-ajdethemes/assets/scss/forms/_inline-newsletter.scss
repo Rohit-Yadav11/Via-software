@@ -1,0 +1,140 @@
+/*
+    [5.4] Inline Newsletter Form
+--------------------------------- */
+
+.inline-newsletter-form {
+    position: relative;
+    margin-top: 25px;
+
+    input[type="email"] {
+        padding-left: 15px;
+        width: 100%;
+        height: 40px;
+        background: unset;
+        border: 1px solid $secondary;
+        color: $secondary;
+        transition: all $tspeed;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $secondary;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: $secondary;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: $secondary;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: $secondary;
+        }
+
+        &:hover,
+        &:focus {
+            outline: none;
+            background: rgba($secondary, .05);
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background: $secondary;
+        color: $primary;
+        font-size: 1rem;
+        border: unset;
+        overflow: hidden;
+        transition: background-color $tspeed;
+
+        i {
+
+            &:after {
+                content: "\f1d8";
+                position: absolute;
+                bottom: -35px;
+                left: -35px;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            outline: none;
+            background: darken($secondary, 2%);
+
+            i {
+                transform: translateX(35px) translateY(-35px);
+                transition: transform .4s cubic-bezier(.92,.1,.62,.99);
+            }
+        }
+    }
+} // .inline-newsletter-form
+
+
+// 
+// Inverted style
+// ------------------
+
+.inverted.inline-newsletter-form {
+
+    input[type="email"] {
+        border-color: $primary;
+        color: $primary;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $primary;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: $primary;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: $primary;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: $primary;
+        }
+    }
+
+    button {
+        background: $primary;
+        color: $secondary;
+    }
+}
+
+
+// 
+// CTA Inline Input
+// ------------------
+
+.cta-newsletter {
+
+    input[type="email"] {
+        height: 50px;
+        padding-left: 20px;
+
+        &:hover,
+        &:focus {
+            background: rgba($primary, .05);
+        }
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+
+        &:hover,
+        &:focus {
+            background: darken($primary, 5%);
+        }
+    }
+}
+
+.wpcf7-form {
+
+    .cta-newsletter + .wpcf7-response-output {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

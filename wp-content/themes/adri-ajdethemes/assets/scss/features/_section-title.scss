@@ -1,0 +1,55 @@
+/*
+    [11.9] Section Title
+---------------------------- */
+
+.section-title {
+
+    .st-subtitle {
+        display: block;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: $fw-bold;
+        letter-spacing: 2px;
+        color: $primary;
+    }
+
+    .st-title {
+
+        b {
+            font-weight: $fw-bold;
+        }
+    }
+}
+
+.section-title.st-underline {
+
+    .st-subtitle {
+        font-size: $fs-small;
+    }
+
+    .st-title {
+        font-size: 2rem;
+        font-weight: $fw-light;
+
+        b {
+            font-weight: $fw-sbold;
+        }
+
+        u {
+            @include h-underline($size: 10px);
+        }
+    }
+}
+
+.section-title.st-memphis {
+    position: relative;
+    display: inline-block;
+
+    img {
+        position: absolute;
+        right: -90px;
+        top: 50%;
+        transform: translateY(-50%);
+        user-select: none;
+    }
+}

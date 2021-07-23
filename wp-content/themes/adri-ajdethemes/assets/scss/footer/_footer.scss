@@ -1,0 +1,311 @@
+/*
+    [10.0] Footer
+--------------------------------- */
+
+footer.site-footer {
+    position: relative;
+    background: $footer-bg;
+    color: rgba($secondary, .7);
+    overflow: hidden;
+
+    .footer-widgets {
+        padding-top: 90px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .widget {
+        margin-bottom: 90px;
+        color: rgba($secondary, .85);
+        overflow: unset;
+
+        .widget-title {
+            font-size: $h6-size;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: 15px;
+        }
+
+        table,
+        table.wp-calendar-table {
+
+            tr,
+            th,
+            td {
+                border-color: rgba($secondary, .5) !important;
+            }
+
+            #today {
+                background: $secondary;
+                color: $primary;
+            }
+
+            caption {
+                color: rgba($secondary, .85);
+            }
+        } // table
+
+        cite {
+            color: rgba($secondary, .85);
+        }
+
+        strong {
+            color: $secondary;
+        }
+    } // .widget
+
+    .widget_text {
+
+        a {
+            @include a-silent($fhcolor: $secondary);
+            color: $secondary;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: $fs-base;
+
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    @include a-silent($fhcolor: $secondary);
+                    // opacity: .8;
+
+                    &:hover,
+                    &:focus {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .wp-caption {
+
+            a{
+                border: none;
+
+                &:before {
+                    content: none;
+                }
+
+                &:hover,
+                &:focus {
+
+                    &:before {
+                        content: none;
+                    }
+                }
+            }
+        }
+    } // .widget-text
+
+    .widget_categories {
+
+        ul {
+
+            .cat-item {
+                color: rgba($secondary, .7);
+
+                &:hover,
+                &:focus {
+                    color: rgba($secondary, 1);
+                }
+            }
+        }
+    } // .widget_categories
+
+    .widget_pages,
+    .widget_nav_menu {
+
+        ul {
+
+            li {
+
+                a {
+                    color: rgba($secondary, .7);
+
+                    &:hover,
+                    &:focus {
+                        color: rgba($secondary, 1);
+                    }
+
+                    // btn nav item fix;
+                    span:after {
+                        content: none;
+                    }
+                }
+            }
+        }
+    } // .widget_pages
+
+    .widget_tag_cloud {
+
+        .tagcloud {
+
+            a {
+                border: 1px solid $secondary;
+                background: rgba($secondary, 0);
+                color: $secondary;
+
+                &:hover,
+                &:focus {
+                    background: rgba($secondary, 1);
+                    color: $primary;
+                }
+            }
+        }
+    } // .widget_tag_cloud
+
+    .widget_archive {
+
+        ul li a {
+            @include a-silent($fhcolor: $secondary);
+            color: $secondary;
+        }
+    } // .widget_archive
+
+    .widget_meta {
+
+        a {
+            @include a-silent($fhcolor: $secondary);
+            color: $secondary;
+        }
+    } // .widget_meta
+
+    .widget_recent_comments {
+
+        ul li .comment-author-link a {
+            @include a-silent($fhcolor: $secondary);
+            color: rgba($secondary, .85);
+        }
+    } // .widget_recent_comments
+
+
+    //
+    // Scroll Top
+    // -------------------
+
+    .scroll-top {
+        position: absolute;
+        top: calc(50% - 15px);
+        right: -28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 86px;
+        height: 30px;
+        border-bottom: none !important;
+        background: $secondary;
+        font-size: $fs-small;
+        font-weight: $fw-sbold;
+        color: $footer-bg;
+        transform: rotate(-90deg);
+        overflow: hidden;
+
+        .content {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                transform: translateX(0);
+                transition: all $tspeed;
+            }
+
+            i {
+                position: absolute;
+                font-size: 2.2rem;
+                transform: translateX(-15px);
+                opacity: 0;
+                transition: all $tspeed;
+            }
+        }
+
+        &:before {
+            content: none;
+        }
+
+        &:hover,
+        &:focus {
+            color: $footer-bg;
+
+            .content {
+
+                span {
+                    transform: translateX(80px);
+                }
+
+                i {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+} // footer.site-footer
+
+@media (min-width: $lg) {
+    footer.site-footer {
+
+        .widget {
+            margin-bottom: 60px;
+        }
+    }
+} // @media
+
+
+// 
+// Footer "reveal" effect
+// 
+
+@media (min-width: $xl) {
+    .footer-has-reveal {
+        position: relative;
+        z-index: 1;
+    
+        .main-wrapper {
+            background: #fff;
+            z-index: 2;
+        }
+    
+        footer.site-footer.footer-reveal {
+            position: relative;
+            min-height: 490px;
+            z-index: -1;
+    
+            .footer-content {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+    }
+
+    .footer-has-reveal {
+        
+        .site-page-default {
+            min-height: 100vh;
+        }
+    }
+}

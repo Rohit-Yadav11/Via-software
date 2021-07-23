@@ -1,0 +1,40 @@
+/*
+    [7.14] Widgets - Input Select
+--------------------------------- */
+
+.widget_archive,
+.widget_categories {
+
+    form {
+        position: relative;
+        
+        &:before {
+            content: '\f0dd';
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            padding-bottom: 2px;
+            border-left: 1px solid rgba($text-color, .6);
+            font-family: 'Font Awesome 5 Free';
+            font-size: inherit;
+            transition: all $tspeed;
+        }
+
+        &:hover {
+
+            &:before {
+                color: $secondary;
+                border-color: rgba($text-color, 1);
+            }
+        }
+    }
+    
+    select {
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+    }
+}

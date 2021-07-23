@@ -1,0 +1,165 @@
+/*
+    [11.8] Testimonial Slider
+--------------------------------- */
+
+.ft-testimonial-slider {
+
+    .ft-testimonial-item {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        cursor: grab;
+        text-align: center;
+
+        .ft-image {
+            position: relative;
+            flex-shrink: 0;
+            max-width: 140px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .tst-symbol {
+                position: absolute;
+                left: -10px;
+                top: -21px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+                width: 42px;
+                height: 42px;
+                background: $primary;
+                color: $secondary;
+                box-shadow: 5px 5px 0 #fff;
+
+                &:before {
+                    content: '\201C';
+                    position: relative;
+                    top: -3px;
+                    left: -1px;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    font-family: 'Georgia', serif;
+                    font-size: 4.1rem;
+                    line-height: 1;
+                }
+            }
+
+            img {
+                width: 140px;
+                flex-shrink: 0;
+                flex-grow: 0;
+            }
+        }
+
+        .ft-content {
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            max-width: 570px;
+            font-size: 1.125rem;
+            font-weight: $fw-light;
+
+            &:before {
+                content: none;
+            }
+
+            cite {
+                display: block;
+                margin-top: 60px;
+                font-size: $fs-base;
+                color: $secondary;
+                font-style: normal;
+
+                .tst-name {
+                    display: block;
+                }
+
+                .tst-role {
+                    font-size: $fs-small;
+                    color: $gray-light
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .ft-testimonial-slider {
+
+        .ft-testimonial-item {
+            flex-flow: row;
+            padding-left: unset;
+            text-align: unset;
+
+            .ft-image {
+                margin-left: unset;
+                margin-right: unset;
+            }
+
+            .ft-image .tst-symbol {
+                left: -21px;
+            }
+
+            .ft-content {
+                margin-top: 30px;
+                margin-left: 60px;
+                margin-right: unset;
+            }
+        }
+    }
+}
+
+.ft-testimonial-slider.ft-tst-center {
+
+    .ft-testimonial-item {
+        text-align: center;
+
+        .ft-image {
+            margin: auto;
+            max-width: 140px;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .ft-testimonial-slider.ft-tst-center {
+        
+        .ft-testimonial-item {
+            flex-flow: column;
+            
+            .ft-content {
+                margin-top: 60px;
+                margin-left: unset;
+            }
+        }
+    }
+}
+
+.ft-testimonial-slider.ft-tst-right {
+
+    .ft-testimonial-item {
+        flex-flow: column;
+        padding-left: unset;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: $lg) {
+    .ft-testimonial-slider.ft-tst-right {
+
+        .ft-testimonial-item {
+            flex-flow: row-reverse;
+            padding-right: unset;
+    
+            .ft-content {
+                margin-left: unset;
+                margin-right: 60px;
+            }
+        }
+    }
+}

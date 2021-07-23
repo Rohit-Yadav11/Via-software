@@ -1,0 +1,144 @@
+/*
+    Alerts
+--------------------------------- */
+
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-message,
+.woocommerce-Message {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+    padding: 20px 40px;
+    border-top: 4px solid $dark;
+    background: $lighter;
+    text-align: center;
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    a:not(.button) {
+        @include a-silent($fhcolor: darken($primary, 15%));
+    }
+
+    .button {
+        padding: 0 20px !important;
+        height: 37px !important;
+        font-size: $fs-small !important;
+        order: 2;
+    }
+}
+
+@media (min-width: $lg) {
+    .woocommerce-info,
+    .woocommerce-error,
+    .woocommerce-message,
+    .woocommerce-Message {
+        flex-flow: row;
+        text-align: unset;
+
+        .button {
+            min-height: 37px;
+            height: unset !important;
+        }
+    }
+}
+
+ul.woocommerce-info,
+ul.woocommerce-error,
+ul.woocommerce-message,
+ul.woocommerce-Message {
+    list-style: none;
+    display: flex;
+    align-items: unset;
+    flex-flow: column;
+}
+
+.woocommerce-info {
+    border-color: $info;
+    color: $info;
+    background: rgba($info, .15);
+
+    .button {
+        color: #fff !important;
+        background: $info !important;
+        opacity: 1;
+        line-height: 1;
+
+        &:hover,
+        &:focus {
+            opacity: .75;
+        }
+    }
+
+    .showcoupon {
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        border: unset !important;
+        background: $info;
+        color: #fff !important;
+        font-size: $fs-small;
+        opacity: 1;
+        transition: all $tspeed;
+
+        &:before,
+        &:after {
+            content: none !important;
+        }
+
+        &:hover,
+        &:focus {
+            opacity: .75;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .woocommerce-info {
+
+        .showcoupon {
+            height: 37px;
+            padding: 0 20px;
+        }
+    }
+}
+
+.woocommerce-error {
+    border-color: $error;
+    color: $error;
+    background: rgba($error, .15);
+
+    .button {
+        color: #fff !important;
+        background: $error !important;
+        opacity: 1;
+
+        &:hover,
+        &:focus {
+            opacity: .75;
+        }
+    }
+}
+
+.woocommerce-store-notice {
+    position: sticky;
+    margin: 0;
+    padding: 20px 40px;
+    bottom: 0;
+    background: $success;
+    text-align: center;
+    color: #fff;
+    z-index: 99;
+
+    a {
+        @include a-silent($fhcolor: #fff);
+    }
+
+    .woocommerce-store-notice__dismiss-link {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,34 @@
+/*
+    [8.1] WP Block - Image
+--------------------------------- */
+
+.wp-block-image {
+
+    // .components-resizable-box__container {
+    //     width: 100% !important;
+    //     height: auto !important;
+    // }
+
+    img {
+        height: unset;
+    }
+
+    figcaption {
+        line-height: initial;
+
+        &:before {
+            content: '\f03e';
+            margin-right: 7px;
+            font-family: 'Font Awesome 5 Free';
+            font-size: inherit;
+        }
+    }
+
+    .alignleft {
+        margin: 15px 40px 15px 0;
+    }
+    
+    .alignright {
+        margin: 15px 0 15px 40px;
+    }
+}

@@ -1,0 +1,99 @@
+/*
+    [7.16] Shortcode - Widget Text (Accordion)
+----------------------------------------------- */
+
+.widget-accordion {
+    overflow: visible;
+
+    > p {
+        display: none;
+    }
+
+    > br {
+        display: none;
+    }
+
+    .w-acc-item {
+        position: relative;
+
+        [type="radio"] {
+            display: none;
+        }
+
+        label {
+            margin-bottom: 0;
+            cursor: pointer;
+            
+            span {
+                display: flex;
+                align-items: center;
+                margin: 0 0 15px 0 !important;
+                padding: 0;
+                font-size: $h6-size;
+                font-weight: $fw-sbold;
+                color: $headings-color;
+                transition: all $tspeed;
+                overflow: visible;
+                transition: all $tspeed;
+
+                &:hover,
+                &:focus {
+                    transform: translateX(10px);
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: -28px;
+                    display: inline-block;
+                    width: 20px;
+                    border-bottom: 2px solid $secondary;
+                    transform: translateX(-10px);
+                    opacity: 0;
+                    transition: all $tspeed;
+                }
+            }
+
+        }
+
+        .w-acc-content {
+            position: absolute;
+            opacity: 0;
+            transform: translateX(-15px);
+            margin-bottom: 20px;
+
+            > br:first-child {
+                display: none;
+            }
+
+            > br:last-child {
+                display: none;
+            }
+
+            a {
+                color: $secondary;
+                @include a-silent($fhcolor: $secondary);
+            }
+        }
+
+        [type="radio"]:checked ~ label {
+
+            span {
+                transform: translateX(10px);
+
+                &:before {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        [type="radio"]:checked ~ label ~ .w-acc-content {
+            position: relative;
+            opacity: 1;
+            min-height: 80px;
+            transform: translateX(0);
+            transition: all .5s .15s;
+        }
+    }
+} // .widget-accordion

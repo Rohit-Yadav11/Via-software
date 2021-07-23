@@ -1,0 +1,65 @@
+# Copyright (C) 2017 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin//Users/kaz/localdev/www/ultimate_"
+"member/htdocs/wp-content/plugins/login-widget-for-ultimate-member/um-login-"
+"widget\n"
+"POT-Creation-Date: 2017-03-19 21:21:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: templates/login-widget/login-view.php:10
+msgid "Welcome %s"
+msgstr ""
+
+#: templates/login-widget/login-view.php:19
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/login-widget/login-view.php:22
+msgid "My Account"
+msgstr ""
+
+#: templates/login-widget/login-view.php:25
+msgid "Logout"
+msgstr ""
+
+#: um-login-widget.php:34
+msgid "UM Login"
+msgstr ""
+
+#: um-login-widget.php:35
+msgid "Login form for Ultimate Member"
+msgstr ""
+
+#: um-login-widget.php:133
+msgid "Login"
+msgstr ""
+
+#: um-login-widget.php:143
+msgid "Title:"
+msgstr ""
+
+#: um-login-widget.php:147
+msgid "Before Form Text:"
+msgstr ""
+
+#: um-login-widget.php:149 um-login-widget.php:154
+msgid "Shortcodes accepted"
+msgstr ""
+
+#: um-login-widget.php:152
+msgid "After Form Text:"
+msgstr ""
+
+#: um-login-widget.php:188
+msgid "Lost Password?"
+msgstr ""

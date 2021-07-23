@@ -1,0 +1,25 @@
+/*
+    WooCommerce Theme Styles
+--------------------------------- */
+
+@import 'settings';
+@import 'mixins';
+
+@import 'woocommerce/buttons';
+@import 'woocommerce/alerts';
+@import 'woocommerce/star-rating';
+
+@import 'woocommerce/page-title';
+@import 'woocommerce/cart';
+@import 'woocommerce/checkout';
+@import 'woocommerce/account';
+@import 'woocommerce/account-login';
+@import 'woocommerce/shop';
+@import 'woocommerce/single-product';
+@import 'woocommerce/single-tabs';
+@import 'woocommerce/related-products';
+
+@import 'widgets/woo_widget_shopping_cart';
+@import 'widgets/woo_widget_product_categories';
+@import 'widgets/woo_widget_price_filter';
+@import 'widgets/woo_widget_product_search';

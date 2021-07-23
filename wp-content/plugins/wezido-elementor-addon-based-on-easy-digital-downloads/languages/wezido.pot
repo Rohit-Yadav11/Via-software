@@ -1,0 +1,813 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wezido - Elementor Addon Based on Easy Digital "
+"Downloads\n"
+"POT-Creation-Date: 2021-02-14 13:04+0600\n"
+"PO-Revision-Date: 2021-02-14 13:04+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wezido.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: elementor-widgets/class-before-after.php:36
+msgid "Before After"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:84
+msgid "Wezido Before After"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:91
+msgid "Before Image"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:104
+msgid "After Image"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:117
+msgid "Before Image Title"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:119
+msgid "before"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:120
+#: elementor-widgets/class-before-after.php:131
+msgid "Type your text here"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:128
+msgid "After Image Title"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:130
+msgid "after"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:143
+#: elementor-widgets/class-edd-recent.php:189
+#: elementor-widgets/class-flipbox.php:202 elementor-widgets/class-post.php:189
+#: elementor-widgets/class-pricing-table.php:217
+#: elementor-widgets/class-team-member.php:232
+#: elementor-widgets/class-title.php:114
+msgid "Style"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:151
+#: elementor-widgets/class-edd-recent.php:237
+#: elementor-widgets/class-flipbox.php:228 elementor-widgets/class-post.php:237
+msgid "Border Radius"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:163
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:179
+msgid "Tooltip Text Color"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:195
+msgid "Handle Background Color"
+msgstr ""
+
+#: elementor-widgets/class-before-after.php:211
+msgid "Handle Text Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:40
+msgid "Edd Recent"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:89
+msgid "Wezido EDD Recent Grid"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:96
+#: elementor-widgets/class-post.php:96
+msgctxt "Admin Panel"
+msgid "Amount of item to display"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:105
+#: elementor-widgets/class-post.php:105
+msgctxt "Admin Panel"
+msgid "Layout"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:106
+#: elementor-widgets/class-post.php:106
+msgctxt "wezido"
+msgid "Column layout for the list\""
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:124
+#: elementor-widgets/class-post.php:124
+msgid "Select Categories"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:140
+#: elementor-widgets/class-post.php:140
+msgid "Exclude Category"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:141
+#: elementor-widgets/class-post.php:141
+msgid "Add one category slug"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:157
+#: elementor-widgets/class-post.php:157
+msgid "Select Tags"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:173
+#: elementor-widgets/class-post.php:173
+msgid "Order"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:198
+#: elementor-widgets/class-flipbox.php:251
+#: elementor-widgets/class-flipbox.php:367 elementor-widgets/class-post.php:198
+#: elementor-widgets/class-team-member.php:323
+msgid "Background"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:207
+#: elementor-widgets/class-edd-recent.php:361
+#: elementor-widgets/class-edd-recent.php:423
+#: elementor-widgets/class-flipbox.php:492
+#: elementor-widgets/class-flipbox.php:554 elementor-widgets/class-post.php:207
+#: elementor-widgets/class-post.php:341 elementor-widgets/class-post.php:391
+#: elementor-widgets/class-pricing-table.php:317
+#: elementor-widgets/class-pricing-table.php:379
+#: elementor-widgets/class-title.php:196
+msgid "Border Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:222
+#: elementor-widgets/class-post.php:222
+msgid "Border Hover Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:254
+#: elementor-widgets/class-flipbox.php:276
+#: elementor-widgets/class-flipbox.php:378 elementor-widgets/class-post.php:254
+msgid "Title Typography"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:262
+#: elementor-widgets/class-flipbox.php:285
+#: elementor-widgets/class-flipbox.php:387 elementor-widgets/class-post.php:262
+#: elementor-widgets/class-pricing-table.php:239
+#: elementor-widgets/class-title.php:156
+msgid "Title Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:278
+#: elementor-widgets/class-post.php:274
+msgid "Pricing Typography"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:285
+#: elementor-widgets/class-post.php:281
+msgid "Pricing Background"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:299
+#: elementor-widgets/class-post.php:291
+msgid "Pricing Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:313
+#: elementor-widgets/class-post.php:301
+msgid "Meta Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:328
+#: elementor-widgets/class-flipbox.php:595 elementor-widgets/class-post.php:312
+#: elementor-widgets/class-pricing-table.php:419
+msgid "Button Typography"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:337
+#: elementor-widgets/class-flipbox.php:468 elementor-widgets/class-post.php:321
+#: elementor-widgets/class-pricing-table.php:293
+msgid "Normal"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:343
+#: elementor-widgets/class-edd-recent.php:405
+#: elementor-widgets/class-flipbox.php:474
+#: elementor-widgets/class-flipbox.php:536 elementor-widgets/class-post.php:327
+#: elementor-widgets/class-post.php:377
+#: elementor-widgets/class-pricing-table.php:299
+#: elementor-widgets/class-pricing-table.php:361
+msgid "Background Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:379
+#: elementor-widgets/class-edd-recent.php:441
+#: elementor-widgets/class-flipbox.php:510
+#: elementor-widgets/class-flipbox.php:572 elementor-widgets/class-post.php:355
+#: elementor-widgets/class-post.php:405
+#: elementor-widgets/class-pricing-table.php:335
+#: elementor-widgets/class-pricing-table.php:397
+msgid "Text Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:399
+#: elementor-widgets/class-flipbox.php:530 elementor-widgets/class-post.php:371
+#: elementor-widgets/class-pricing-table.php:355
+msgid "Hover"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:462
+#: elementor-widgets/class-flipbox.php:260 elementor-widgets/class-post.php:422
+msgid "Overlay Color"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:472
+#: elementor-widgets/class-post.php:432
+msgid "Overlay Background"
+msgstr ""
+
+#: elementor-widgets/class-edd-recent.php:576
+#: elementor-widgets/class-post.php:536
+msgctxt ""
+msgid ", "
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:41
+msgid "Flipbox"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:90
+msgid "Wezido Flipbox"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:97
+msgid "Front Panel Data"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:105
+#: elementor-widgets/class-flipbox.php:145
+#: elementor-widgets/class-pricing-table.php:91
+#: elementor-widgets/class-pricing-table.php:162
+#: elementor-widgets/class-title.php:101
+msgid "Title"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:107
+msgid "Frontside title"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:109
+#: elementor-widgets/class-flipbox.php:149
+#: elementor-widgets/class-flipbox.php:177
+#: elementor-widgets/class-team-member.php:110
+#: elementor-widgets/class-title.php:104
+msgid "Type your title here"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:115
+#: elementor-widgets/class-flipbox.php:155
+#: elementor-widgets/class-team-member.php:129
+msgid "Description"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:118
+#: elementor-widgets/class-flipbox.php:158
+#: elementor-widgets/class-team-member.php:132
+msgid "Default description"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:119
+#: elementor-widgets/class-flipbox.php:159
+#: elementor-widgets/class-team-member.php:133
+msgid "Type your description here"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:126
+#: elementor-widgets/class-flipbox.php:165
+#: elementor-widgets/class-pricing-table.php:135
+#: elementor-widgets/class-pricing-table.php:170
+#: elementor-widgets/class-team-member.php:144
+#: elementor-widgets/class-team-member.php:377
+msgid "Icon"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:136
+msgid "Back Panel Data"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:147
+msgid "Backside title"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:173
+msgid "Button Title"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:175
+msgid "Submit"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:184
+#: elementor-widgets/class-team-member.php:156
+msgid "Link"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:186
+#: elementor-widgets/class-team-member.php:164
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:210
+msgid "Hover Style"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:214
+msgid "Side Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:215
+msgid "Slide Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:216
+msgid "Down Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:217
+msgid "Up Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:218
+msgid "Lift Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:219
+msgid "Diagonal Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:220
+msgid "Diagonal Invert Flip"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:242
+msgid "Front Panel Style"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:300
+#: elementor-widgets/class-flipbox.php:402
+msgid "Description Typography"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:309
+#: elementor-widgets/class-flipbox.php:411
+#: elementor-widgets/class-team-member.php:358
+msgid "Description Color"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:324
+#: elementor-widgets/class-flipbox.php:426
+#: elementor-widgets/class-pricing-table.php:177
+#: elementor-widgets/class-pricing-table.php:225
+msgid "Icon Color"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:340
+#: elementor-widgets/class-flipbox.php:442
+msgid "Icon Size"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:359
+msgid "Back Panel Style"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:458
+msgid "Button Style"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:603
+msgid "Button Padding"
+msgstr ""
+
+#: elementor-widgets/class-flipbox.php:615
+#: elementor-widgets/class-pricing-table.php:427
+msgid "Button Border Radius"
+msgstr ""
+
+#: elementor-widgets/class-post.php:40
+msgid "Blog Post"
+msgstr ""
+
+#: elementor-widgets/class-post.php:89
+msgid "Wezido post Recent Grid"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:36
+msgid "Pricing Table"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:84
+msgid "Wezido Pricing"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:94
+msgid "Enter Table Title"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:102
+msgid "Currency"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:105
+msgid "Enter Table Price Currency"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:113
+msgid "Price"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:116
+msgid "Enter Table Price Value"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:124
+msgid "Timeframe"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:127
+msgid "Enter Table Price Timeframe"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:141
+msgid "Enter Table Title Icon"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:151
+msgid "Table Option List"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:156
+msgid "Title #1"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:164
+msgid "List Title"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:192
+msgid "Button Text"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:195
+msgid "Enter Button Text"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:203
+msgid "Button Url"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:206
+msgid "Enter Button Url"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:228
+msgid "Select Icon Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:242
+#: elementor-widgets/class-pricing-table.php:255
+msgid "Select Title Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:252
+msgid "Title Background Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:264
+msgid "Pricing Amount Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:267
+msgid "Select Pricing Amount Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:278
+msgid "Pricing Content Color"
+msgstr ""
+
+#: elementor-widgets/class-pricing-table.php:281
+msgid "Select Pricing Content Color"
+msgstr ""
+
+#: elementor-widgets/class-simple-menu.php:40
+#: elementor-widgets/class-simple-menu.php:113
+msgid "Cool and Simple Menu"
+msgstr ""
+
+#: elementor-widgets/class-simple-menu.php:120
+msgid "Select Menu"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:41
+msgid "Team Member"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:89
+msgid "Wezido Team Member"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:96
+msgid "Choose Team Member Image"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:107
+msgid "Member Name"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:109
+#: elementor-widgets/class-title.php:103
+msgid "Default title"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:118
+msgid "Member Designation"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:120
+msgid "Default Designation"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:122
+msgid "Type your designation here"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:171
+#: elementor-widgets/class-team-member.php:431
+msgid "Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:175
+#: elementor-widgets/class-team-member.php:435
+msgid "Official Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:176
+#: elementor-widgets/class-team-member.php:436
+msgid "Custom"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:184
+#: elementor-widgets/class-team-member.php:444
+#: elementor-widgets/class-team-member.php:569
+msgid "Primary Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:198
+#: elementor-widgets/class-team-member.php:458
+#: elementor-widgets/class-team-member.php:584
+msgid "Secondary Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:212
+msgid "Member Social"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:240
+#: elementor-widgets/class-team-member.php:404
+#: elementor-widgets/class-title.php:122
+msgid "Alignment"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:244
+#: elementor-widgets/class-team-member.php:408
+#: elementor-widgets/class-title.php:126
+msgid "Left"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:248
+#: elementor-widgets/class-team-member.php:412
+#: elementor-widgets/class-title.php:130
+msgid "Center"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:252
+#: elementor-widgets/class-team-member.php:416
+#: elementor-widgets/class-title.php:134
+msgid "Right"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:266
+msgid "Member Name Typography"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:274
+msgid "Member Name Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:286
+msgid "Member Designation Typography"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:294
+msgid "Member Designation Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:308
+msgid "Member Style"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:312
+#: elementor-widgets/class-title.php:185
+msgid "Style One"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:313
+#: elementor-widgets/class-title.php:186
+msgid "Style Two"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:314
+#: elementor-widgets/class-title.php:187
+msgid "Style Three"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:331
+msgid "Image Border Radius"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:343
+msgid "Social Background"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:386
+msgid "Shape"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:390
+msgid "Rounded"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:391
+msgid "Square"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:392
+msgid "Circle"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:473
+msgid "Size"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:490
+msgid "Padding"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:516
+msgid "Spacing"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:547
+msgid "wezidoer Radius"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:561
+msgid "Icon Hover"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:600
+msgid "wezidoer Color"
+msgstr ""
+
+#: elementor-widgets/class-team-member.php:615
+msgid "Hover Animation"
+msgstr ""
+
+#: elementor-widgets/class-title.php:37
+msgid "Heading"
+msgstr ""
+
+#: elementor-widgets/class-title.php:85
+msgid "Wezido Heading"
+msgstr ""
+
+#: elementor-widgets/class-title.php:92
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor-widgets/class-title.php:148
+msgid "Typography"
+msgstr ""
+
+#: elementor-widgets/class-title.php:168
+msgid "Margin"
+msgstr ""
+
+#: elementor-widgets/class-title.php:181
+msgid "Heading Style"
+msgstr ""
+
+#: elementor-widgets/class-title.php:188
+msgid "None"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:166
+msgid "Wezido"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:182
+msgid "H1"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:183
+msgid "H2"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:184
+msgid "H3"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:185
+msgid "H4"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:186
+msgid "H5"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:187
+msgid "H6"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:188
+msgid "p"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:189
+msgid "div"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:190
+msgid "span"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:304
+msgid "Previous"
+msgstr ""
+
+#: elementor-widgets/class-wezido-elementor-widgets.php:305
+msgid "Next"
+msgstr ""
+
+#: wezido.php:45
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: wezido.php:46
+msgid "Wezido - Elementor Addon"
+msgstr ""
+
+#: wezido.php:47
+msgid "Elementor"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wezido - Elementor Addon Based on Easy Digital Downloads"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://teconce.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An Elementor Extension Works with the Easy Digital Download Products"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Teconce"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://teconce.com/"
+msgstr ""

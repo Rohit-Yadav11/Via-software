@@ -1,0 +1,69 @@
+/*
+    [7.8] Widget - Recent Comments
+--------------------------------- */
+
+.widget_recent_comments {
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: unset;
+            }
+
+            .comment-author-link {
+                display: inline-flex;
+                align-items: center;
+
+                a {
+                    @include a-silent($fhcolor: $link-color);
+                    font-style: italic;
+                    padding-right: 3px;
+                }
+            }
+
+            > a {
+                display: block;
+                font-weight: $fw-sbold;
+                color: $secondary;
+                transition: all $tspeed;
+
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+.wp-block-latest-comments {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+
+        .wp-block-latest-comments__comment-author {
+            @include a-silent($fhcolor: $link-color);
+            font-style: italic;
+            padding-right: 3px;
+        }
+
+        .wp-block-latest-comments__comment-link {
+            color: $secondary;
+            font-weight: $fw-sbold;
+
+            &:hover,
+            &:focus {
+                opacity: .7;
+            }
+        }
+    }
+}

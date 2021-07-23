@@ -1,0 +1,34 @@
+// Grid styling
+.edd_downloads_list {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+}
+
+@media (min-width: 768px) {
+	.edd_downloads_list:not(.edd_download_columns_1) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1200px) {
+	.edd_downloads_list.edd_download_columns_2 { grid-template-columns: repeat(2, 1fr); }
+	.edd_downloads_list.edd_download_columns_3 { grid-template-columns: repeat(3, 1fr); }
+	.edd_downloads_list.edd_download_columns_4 { grid-template-columns: repeat(4, 1fr); }
+	.edd_downloads_list.edd_download_columns_5 { grid-template-columns: repeat(5, 1fr); }
+	.edd_downloads_list.edd_download_columns_6 { grid-template-columns: repeat(6, 1fr); }
+}
+
+@supports (display: grid) {
+	.edd_downloads_list .edd_download { 
+		width: auto;
+		max-width: none;
+	}
+	
+	// If the browser supports CSS Grid we'll zero out the margin and padding,
+	// since these are best left to CSS Grid.
+	.edd_download_inner {
+		padding: 0;
+		margin: 0;
+	}
+}

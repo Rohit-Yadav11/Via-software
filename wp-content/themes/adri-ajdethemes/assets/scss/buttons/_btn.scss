@@ -1,0 +1,59 @@
+/*
+    [4.0] Buttons
+--------------------------------- */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+    font-weight: $fw-sbold;
+    background: $secondary;
+    color: $primary;
+    box-shadow: 0 0 0 $primary;
+    transition: all $tspeed;
+
+    .btn-icon-left {
+        padding-right: 10px;
+    }
+
+    .btn-icon-right {
+        padding-left: 10px;
+    }
+}
+
+
+// Block/Full Width
+.btn-block {
+    display: flex;
+    width: 100%;
+}
+
+
+// Group
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .btn {
+        margin: 7px 0;
+    }
+}
+
+
+// Size
+.btn-sm {
+    padding: 0 20px;
+    height: 37px;
+    font-size: $fs-small;
+}
+
+.btn-lg {
+    padding: 0 40px;
+    height: 57px;
+    font-size: 1.125rem;
+}

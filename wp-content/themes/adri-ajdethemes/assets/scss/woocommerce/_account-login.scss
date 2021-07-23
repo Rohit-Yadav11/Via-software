@@ -1,0 +1,60 @@
+/*
+    Account - Login
+--------------------------------- */
+
+.woocommerce-account {
+
+    .woocommerce {
+
+        h2 {
+            margin: 0 auto 30px auto;
+            padding: 0 15px;
+            max-width: 500px;
+        }
+
+        .woocommerce-form-login,
+        .lost_reset_password {
+            margin: 0 auto;
+            padding: 0 15px;
+            max-width: 500px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            input {
+                margin-bottom: 30px;
+            }
+
+            button {
+                display: block;
+                width: 100%;
+            }
+
+            .lost_password {
+                margin-top: 15px;
+                
+                a {
+                    @include a-silent($fhcolor: $text-color);
+                }
+            }
+        }
+
+        .woocommerce-account-login,
+        .lost_reset_password {
+            height: 100vh;
+            padding-top: 90px;
+
+            .form-row {
+                margin-top: 30px;
+            }
+        }
+
+        .lost_reset_password {
+
+            .form-row {
+                margin-top: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+/*
+    [7.16] WooCommerce Widget - Product Categories
+--------------------------------------------------- */
+
+@import 'widgets/widget_archive';
+
+.widget_product_categories {
+    @extend .widget_archive;
+}

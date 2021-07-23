@@ -1,0 +1,58 @@
+/*
+  [4.4] Button Text Arrow
+---------------------------- */
+
+.btn-txt-arr {
+  display: inline-flex;
+  align-items: center;
+  font-weight: $fw-sbold;
+  color: $secondary;
+  background: none;
+  border: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $secondary;
+
+    .arr-box {
+      background: rgba($primary, 1);
+
+      i,
+      span {
+        transform: translateX(12px);
+      }
+    }
+  }
+
+  .arr-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    width: 30px;
+    height: 30px;
+    background: rgba($primary, .4);
+    transition: all $tspeed;
+
+    i,
+    span {
+      position: relative;
+      display: inline-block;
+      font-size: 1.9rem;
+      transform: translateX(-12px);
+      transition: transform $tspeed;
+    }
+  }
+
+  .btn-icon-left {
+    padding-right: 10px;
+    font-size: 1.1rem;
+  }
+} // .btn-txt-arr
+
+.btn-sm.btn-txt-arr,
+.btn-lg.btn-txt-arr {
+  padding: unset;
+  height: unset;
+}

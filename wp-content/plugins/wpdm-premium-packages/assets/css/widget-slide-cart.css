@@ -1,0 +1,67 @@
+#wpdm-cart-panel, #wpdm-cart-panel *:not(.btn):not(#wpdmpp_mini_cart_subtotal):not(.fa):not(#wpdm-cit):not(#wpdm-cic) {
+    color: #333333 !important;
+}
+#wpdm-cart-panel{
+    position: fixed;
+    display: block;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+}
+#wpdm-cart-panel {
+    position: fixed;
+    display: block;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+#wpdm-cart-panel-trigger {
+    float: right;;
+    right: 40px;
+    margin-top: -63px;
+    height: 64px;
+    margin-right: 40px;
+    padding: 10px 15px 10px 60px;
+    background: #ffffff url("../images/shoppingbag.png") no-repeat 15px center;
+    background-size: 48px;
+    font-size: 8pt;
+    text-align: right;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid #ffffff;
+    box-shadow: -1px -8px 10px rgba(0, 0, 0, 0.04);
+    text-transform: uppercase;
+    color: #d58df0 !important;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    background-position: 5px center;
+    z-index: 999999;
+    cursor: pointer;
+}
+#wpdm-cic, .wpdm-cart-info{
+    color: #d58df0 !important;
+    padding-top: 4px;
+}
+#wpdm-cart-panel-trigger h3 {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0 0 3px 0;
+    font-weight: 700;
+    color: #B373CC !important;
+}
+
+#mini_cart_details{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100% !important;
+}

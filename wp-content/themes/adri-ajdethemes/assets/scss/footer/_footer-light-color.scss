@@ -1,0 +1,376 @@
+/*
+    [10.4] Footer Light Color
+--------------------------------- */
+
+footer.footer-color-light {
+    color: $lighter;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #fff;
+    }
+
+    p > a {
+        @include a-silent($fhcolor: $lighter);
+    }
+
+
+    // 
+    // Widgets - Footer Light
+    // ------------------------
+
+    .widget {
+        color: $lighter;
+
+        strong {
+            color: $lighter;
+        }
+
+        .widget-title {
+            color: $lighter;
+        }
+
+        table,
+        table.wp-calendar-table {
+
+            thead tr th {
+                color: #fff !important;
+            }
+
+            tr,
+            th,
+            td {
+                border-color: rgba(#fff, .5) !important;
+            }
+
+            #today {
+                background: #fff;
+                color: $primary;
+            }
+
+            caption {
+                color: rgba(#fff, .85);
+            }
+        } // table
+
+        .wp-calendar-nav {
+
+            a {
+                &:hover,
+                &:focus {
+                    color: #fff;
+                }
+            }
+        }
+    } // .widget
+
+    .widget_text {
+
+        a {
+            @include a-silent($fhcolor: $lighter);
+        }
+
+        i {
+            color: #fff;
+        }
+
+        ul {
+
+            li {
+
+                a {
+                    @include a-silent($fhcolor: $lighter);
+                }
+            }
+        }
+    }
+
+    .widget-accordion {
+
+        .w-acc-item {
+            
+            label {
+                
+                span {
+                    color: #fff;
+
+                    &:before {
+                        border-color: #fff;
+                    }
+                }
+            }
+
+            .w-acc-content {
+                
+                a {
+
+                    &:before {
+                        background-color: #fff;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        color: #fff;
+                        border-color: rgba(#fff, .7);
+                    }
+                }
+            }
+        }
+    } // .widget-accordion
+
+    .widget_pages,
+    .widget_nav_menu {
+
+        ul {
+
+            li {
+
+                a {
+                    color: rgba(#fff, .7);
+
+                    &:before {
+                        border-color: #fff;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        color: rgba(#fff, 1);
+                    }
+                }
+            }
+        }
+    } // .widget_pages
+
+    .widget_rss,
+    .widget_recent_entries {
+
+        a {
+            color: #fff;
+        }
+
+        cite {
+            color: $lighter;
+        }
+    }
+
+    .widget_tag_cloud {
+
+        .tagcloud {
+
+            a {
+                border-color: #fff;
+                background: rgba(#fff, 0);
+                color: #fff;
+
+                &:hover,
+                &:focus {
+                    background: rgba(#fff, 1);
+                    color: $primary;
+                }
+            }
+        }
+    } // widget_tag_cloud
+
+    .widget_categories {
+
+        ul {
+
+            .cat-item {
+                color: rgba(#fff, .7);
+
+                &:before {
+                    border-color: #fff;
+                }
+
+                &:hover,
+                &:focus {
+                    color: rgba(#fff, 1);
+
+                    a {
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    } // .widget_categories
+
+    .widget_archive {
+
+        ul li a {
+            @include a-silent($fhcolor: #fff);
+            color: #fff;
+        }
+    } // .widget_archive
+
+    .widget_meta {
+
+        a {
+            @include a-silent($fhcolor: #fff);
+            color: #fff;
+        }
+    } // .widget_meta
+
+    .widget_recent_comments {
+
+        ul {
+
+            li {
+
+                a {
+                    color: #fff;
+                }
+
+                .comment-author-link {
+
+                    a {
+                        @include a-silent($fhcolor: #fff);
+                        color: rgba(#fff, .85);
+                    }
+                }
+            }
+        }
+    } // .widget_recent_comments
+
+    .widget_search {
+
+        .form-group {
+
+            label {
+                color: $secondary;
+            }
+        }
+    }
+
+
+
+    #ctf {
+
+        .ctf-item {
+
+            &:before {
+                border-color: #fff;
+            }
+
+            .ctf-tweet-content {
+
+                &:before {
+                    color: #fff;
+                }
+
+                &:hover,
+                &:focus {
+                    color: #fff;
+
+                    .ctf-tweet-text {
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    } // #ctf
+
+    .wpcf7,
+    .widget-inline-input {
+
+        input {
+            border-color: $lighter;
+            color: #fff;
+
+            &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: $lighter;
+            }
+            &::-moz-placeholder { /* Firefox 19+ */
+                color: $lighter;
+            }
+            &:-ms-input-placeholder { /* IE 10+ */
+                color: $lighter;
+            }
+            &:-moz-placeholder { /* Firefox 18- */
+                color: $lighter;
+            }
+        }
+    }
+
+    .widget-inline-input {
+        
+        button,
+        [type="submit"] {
+            border-color: $lighter;
+            color: $lighter;
+
+            &:before {
+                border-color: $lighter;
+            }
+        }
+    }
+
+
+    // 
+    // Footer Nav. - Light
+    // ----------------------
+
+    .footer-bottom-content {
+
+        ul.menu {
+
+            li {
+                color: $lighter;
+        
+                &:hover,
+                &:focus {
+                    color: #fff;
+                }
+        
+                a {
+                    color: inherit;
+        
+                    &:before {
+                        background-color: #fff;
+                    }
+                    
+                    &:after {
+                        color: rgba(#fff, .5);
+                    }
+        
+                    &:hover,
+                    &:focus {
+                        border-color: #fff;
+                    }
+                }
+            }
+        }
+    } // .footer-bottom-content .menu
+
+
+    // 
+    // Other - Footer Light
+    // ----------------------
+
+    .footer-bottom {
+        border-color: rgba(#fff, .1);
+    }
+
+    .copyright {
+        color: rgba($lighter, .7);
+    }
+
+    .footer-bottom-social-icons {
+
+        .social-icons li a {
+            color: #fff;
+
+            &:hover,
+            &:focus {
+                color: #fff;
+            }
+        }
+    }
+
+    .scroll-top {
+        background: #fff;
+    }
+} // .footer-color-light

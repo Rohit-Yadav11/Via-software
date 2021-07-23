@@ -1,0 +1,39 @@
+/*
+    [8.5] WP Block - File
+--------------------------------- */
+
+.wp-block-file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    a {
+        font-weight: $fw-sbold;
+
+        &:after {
+            content: '\f56d';
+            font-family: 'Font Awesome 5 Free';
+            font-size: inherit;
+            margin-left: 10px;
+
+        }
+    }
+
+    .wp-block-file__button {
+        border-radius: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .wp-block-file__textlink {
+        height: 30px;
+        border-bottom: 1px solid rgba($primary, .4);
+        color: darken($primary, 2%);
+        font-weight: $fw-sbold;
+    }
+
+    .wp-block-file__content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

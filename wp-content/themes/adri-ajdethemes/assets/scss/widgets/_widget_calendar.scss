@@ -1,0 +1,109 @@
+/*
+    [7.2] Widget - Calendar
+--------------------------------- */
+
+.widget_calendar,
+.wp-block-calendar {
+
+    table {
+        width: 100%;
+
+        caption {
+            font-style: italic;
+        }
+
+        tr th,
+        tr td {
+            padding: 5px;
+        }
+
+        thead {
+            color: $secondary;
+            
+            tr {
+                
+                th {
+                    font-weight: $fw-sbold;
+                    text-align: center !important;
+                }
+            }
+        }
+
+        tbody {
+
+            tr {
+                text-align: center;
+            }
+
+            a {
+                display: block;
+                font-weight: $fw-sbold;
+                color: $secondary;
+                background: rgba($primary, 0);
+                transition: all $tspeed;
+
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                    background: rgba($primary, 1);
+                }
+            }
+        }
+    } // table
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: inherit;
+            transition: color $tspeed;
+
+            &:hover,
+            &:focus {
+                text-decoration: none;
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.wp-block-calendar,
+.editor-styles-wrapper .wp-block-calendar {
+
+    table {
+        width: 100%;
+
+        td {
+
+            a {
+                display: block !important;
+                font-weight: $fw-sbold;
+                color: $secondary !important;
+                border: none !important;
+
+                &:before {
+                    content: none !important;
+                }
+            }
+        }
+    }
+
+    nav.wp-calendar-nav {
+
+        a {
+            font-style: italic;
+            color: $text-color !important;
+            border: none !important;
+
+            &:before {
+                content: none !important;
+            }
+
+            &:hover,
+            &:focus {
+                color: $secondary !important;
+            }
+        }
+    }
+}

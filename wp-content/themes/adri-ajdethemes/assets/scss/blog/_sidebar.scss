@@ -1,0 +1,15 @@
+/*
+    [6.12] Sidebar
+--------------------------------- */
+
+aside.widgets {
+    overflow: hidden;
+}
+
+.col-lg-3 {
+
+    aside.widgets {
+        position: sticky;
+        top: 90px;
+    }
+}

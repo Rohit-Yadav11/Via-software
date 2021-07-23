@@ -1,0 +1,362 @@
+/*
+    Account
+--------------------------------- */
+
+.woocommerce-account {
+
+    .woocommerce {
+
+        nav.woocommerce-MyAccount-navigation {
+            display: block;
+            margin-bottom: 90px;
+            max-width: 100%;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 17px 0;
+                    font-weight: $fw-sbold;
+                    color: $gray;
+                    opacity: .55;
+                    transition: all $tspeed;
+
+                    &:first-child {
+                        padding-top: 0;
+                    }
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    &:before {
+                        order: 2;
+                        color: inherit;
+                        transition: color $tspeed;
+                    }
+
+                    a {
+                        padding: 0;
+                        margin: 0;
+                        color: inherit;
+                    }
+
+                    &:hover {
+                        color: $secondary;
+                        opacity: 1;
+
+                        &:before {
+                            color: darken($primary, 15%);
+                        }
+                    }
+                }
+
+                .is-active {
+                    color: $secondary;
+                    opacity: 1;
+
+                    &:before {
+                        color: darken($primary, 15%);
+                    }
+                }
+
+                .woocommerce-MyAccount-navigation-link--dashboard:before {
+                    content: '\f1de';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+                
+                .woocommerce-MyAccount-navigation-link--orders:before {
+                    content: '\f217';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+                
+                .woocommerce-MyAccount-navigation-link--downloads:before {
+                    content: '\f381';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+                
+                .woocommerce-MyAccount-navigation-link--edit-address:before {
+                    content: '\f2b9';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+                
+                .woocommerce-MyAccount-navigation-link--edit-account:before {
+                    content: '\f2bd';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+                
+                .woocommerce-MyAccount-navigation-link--customer-logout:before {
+                    content: '\f2f5';
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: inherit;
+                }
+            }
+        } // nav
+
+        .woocommerce-MyAccount-content {
+            margin-bottom: 90px;
+            width: 100%;
+            float: right;
+            
+            p {
+                line-height: 1.9rem;
+
+                strong {
+                    color: $secondary;
+                }
+
+                a {
+                    @include a-link($color: $primary);
+                }
+            }
+
+            h3 {
+                margin-bottom: 30px;
+            }
+
+            fieldset {
+                margin-top: 60px;
+            }
+
+            .woocommerce-Addresses {
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+
+                .col-1,
+                .col-2 {
+                    display: block;
+                    max-width: 100%;
+                    flex: unset;
+                    padding: unset;
+                }
+
+                .col-1 {
+                    margin-right: 60px;
+                }
+
+                header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                }
+
+                .edit {
+                    position: relative;
+                    margin-bottom: 30px;
+                    font-size: 0;
+                    color: darken($primary, 15%);
+
+                    &:hover,
+                    &:focus {
+                        color: $secondary;
+                    }
+
+                    &:before {
+                        content: '\f044';
+                        font-family: 'Font Awesome 5 Free';
+                        font-size: 1rem;
+                    }
+                }
+
+                address {
+                    font-size: $fs-small;
+                    font-style: italic;
+                }
+            }
+
+            table.woocommerce-orders-table,
+            table.woocommerce-table--order-downloads {
+                width: 100%;
+                margin: 0;
+                border: none;
+                border-radius: unset;
+
+                tr {
+                    min-height: 90px;
+                    height: 90px;
+                }
+
+                thead {
+                    display: none;
+                    background: $lighter;
+        
+                    th {
+                        height: 90px;
+                        padding: 0 0 0 40px;
+                        font-weight: $fw-sbold;
+                        color: $secondary;
+                    }
+                }
+
+                tbody {
+
+                    tr {
+                        display: flex;
+                        flex-flow: column;
+                        min-height: unset;
+                        height: auto;
+                        padding: 40px 0;
+                        text-align: center;
+
+                        &:nth-child(odd) {
+                            background: $lighter;
+                        }
+
+                        td {
+                            // margin-bottom: 15px;
+                            padding: 10px 0;
+
+                            .button {
+                                padding: 0 20px;
+                                height: 37px;
+                                font-size: $fs-small;
+                            }
+
+                            a {
+                                color: darken($primary, 15%);
+
+                                &:hover,
+                                &:focus {
+                                    color: $secondary;
+                                }
+                            }
+                        }
+
+                        td.download-file {
+
+                            a.button {
+                                padding: 0;
+                                background: unset;
+                                font-size: 1rem;
+                                font-weight: unset;
+
+                                &:before {
+                                    content: '\f56d';
+                                    margin-right: 10px;
+                                    font-family: 'Font Awesome 5 Free';
+                                    font-size: inherit;
+                                }
+                            }
+                        }
+
+                        td.woocommerce-orders-table__cell-order-number,
+                        td.woocommerce-orders-table__cell-order-date,
+                        td.woocommerce-orders-table__cell-order-status,
+                        td.woocommerce-orders-table__cell-order-total,
+                        // download
+                        td.download-product,
+                        td.download-remaining,
+                        td.download-expires,
+                        td.download-file {
+
+                            &:before {
+                                content: attr(data-title) ": ";
+                                font-weight: $fw-sbold;
+                                color: $secondary;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        } // .woocommerce-MyAccount-content
+    } // .woocommerce
+} // .woocommerce-account
+
+@media (min-width: $lg) {
+    .woocommerce-account {
+        
+        .woocommerce {
+            
+            nav.woocommerce-MyAccount-navigation {
+                margin-right: 30px;
+                // margin-bottom: unset;
+                max-width: 30%;
+                float: left;
+
+                ul {
+
+                    li {
+                        justify-content: unset;
+
+                        &:before {
+                            order: unset;
+                            margin-right: 17px;
+                        }
+                    }
+                }
+            }
+
+            .woocommerce-MyAccount-content {
+                max-width: 65%;
+
+                table.woocommerce-orders-table,
+                table.woocommerce-table--order-downloads {
+
+                    thead {
+                        display: table-header-group;
+                    }
+
+                    tbody {
+
+                        tr {
+                            display: table-row;
+                            text-align: initial;
+                            min-height: 90px;
+                            height: 90px;
+                            padding-bottom: unset;
+
+                            &:nth-child(odd) {
+                                background: unset;
+                            }
+
+                            &:nth-child(even) {
+                                background: $lighter;
+                            }
+
+                            td {
+                                margin-bottom: unset;
+                                padding-left: 40px;
+
+                                &:before {
+                                    content: none !important;
+                                }
+                            }
+
+                            td.download-file {
+                                min-width: 230px;
+                            }
+                        }
+                    }
+                }
+            }
+        } // .woocommerce
+    } // .woocommerce-account
+} // @media
+
+@media (min-width: $sm) {
+    .woocommerce-account {
+        
+        .woocommerce {
+
+            .woocommerce-MyAccount-content {
+
+                .woocommerce-Addresses {
+                    flex-flow: row;
+                }
+            }
+        } // .woocommerce
+    } // .woocommerce-account
+} // @media

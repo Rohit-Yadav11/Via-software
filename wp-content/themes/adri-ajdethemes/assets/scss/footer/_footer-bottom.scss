@@ -1,0 +1,47 @@
+/*
+    [10.1] Footer Bottom
+--------------------------------- */
+
+.footer-bottom {
+    display: block;
+    padding: 40px 0;
+    border-top: 1px solid rgba($secondary, .1);
+
+    .footer-bottom-content {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .copyright {
+        font-size: $fs-small;
+        color: rgba($secondary, .7);
+    }
+
+    .footer-bottom-social-icons {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        height: 100%;
+
+        .social-icons li a {
+            opacity: .5;
+
+            &:hover,
+            &:focus {
+                opacity: 1;
+                color: $secondary;
+            }
+        }
+    }
+} // .footer-bottom
+
+@media (min-width: $lg) {
+    .footer-bottom {
+
+        .footer-bottom-social-icons {
+            justify-content: flex-end;
+            margin-top: unset;
+        }
+    }
+}

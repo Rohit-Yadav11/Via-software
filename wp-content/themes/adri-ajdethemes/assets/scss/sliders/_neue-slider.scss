@@ -1,0 +1,112 @@
+/*
+    [14.1] Neue Slider
+--------------------------------- */
+
+.neue-slider-container.swiper-container {
+    margin-right: -9px;
+    overflow: unset;
+
+    .ns-item.swiper-slide {
+        padding-bottom: 2px;
+
+        .ns-content {
+            margin-top: 20px;
+
+            .ns-subtitle {
+                line-height: 1;
+            }
+
+            .ns-title {
+                margin: 10px 0 0 0;
+                line-height: 1;
+            }
+        }
+    }
+
+    .ns-item.swiper-slide {
+        opacity: 0;
+        visibility: hidden;
+        transition: all $tspeed;
+
+        .ns-content {
+            opacity: 0;
+            transform: translateX(25px);
+        }
+    }
+
+    .ns-item.swiper-slide.swiper-slide-prev {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity $tspeed;
+    }
+
+    .ns-item.swiper-slide.swiper-slide-active {
+        opacity: 1;
+        visibility: visible;
+        min-width: 75%;
+
+        .ns-content {
+            opacity: 1;
+            transform: translateX(0);
+            transition: all $tspeed .6s;
+        }
+    }
+
+    .ns-item.swiper-slide.swiper-slide-next {
+        opacity: .3;
+        visibility: visible;
+        width: 65% !important;
+    }
+}
+
+@media (max-width: $md) {
+    .neue-slider-container.swiper-container {
+        margin-right: unset;
+        overflow: hidden;
+
+        .ns-item.swiper-slide {
+            width: 100%;
+            min-width: 100%;
+        }
+    }
+}
+
+.elementor-container-ns-slider {
+    overflow: hidden;
+}
+
+//
+// Nav Far Left
+//
+.neue-slider-container.swiper-container {
+
+    .ns-nav-far-left.ns-nav {
+        margin-top: unset;
+	    left: -290px;
+    	top: -60px;
+        height: 0;
+    }
+}
+
+//
+// Elementor editor preview fix
+//
+.elementor-editor-active {
+
+    .elementor-container-ns-slider {
+        overflow: hidden !important;
+    }
+
+    .neue-slider-container.swiper-container {
+
+        .ns-item.swiper-slide {
+            opacity: 1 !important;
+            visibility: visible !important;
+
+            .ns-content {
+                opacity: 1 !important;
+                transform: translateX(0) !important;
+            }
+        }
+    }
+}

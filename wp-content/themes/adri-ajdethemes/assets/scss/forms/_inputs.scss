@@ -1,0 +1,91 @@
+/*
+    [5.1] Inputs Fields
+--------------------------------- */
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+    background: $primary;
+
+    label {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 1;
+        transition: transform $tspeed;
+    }
+
+    br {
+        display: none !important;
+    }
+}
+
+.form-style {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px 0 15px !important;
+    width: 100%;
+    border: 1px solid $gray-light;
+    background: #fff;
+    color: $secondary;
+
+    transform: translate(0, 0);
+    transition: all $tspeed;
+
+    &:hover {
+        border-color: $secondary;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: $secondary;
+    }
+}
+
+input.form-style {
+    height: 50px;
+}
+
+.form-group.is-focused,
+.form-group.is-not-empty {
+
+    label {
+        top: 5px;
+        font-size: .81rem;
+        font-weight: $fw-sbold;
+        color: $secondary;
+        transition: all $tspeed;
+    }
+}
+
+.form-group.is-focused {
+
+    .form-style {
+       transform: translate(-8px, -8px);
+    }
+
+    label {
+        transform: translate(-8px, -8px);
+    }
+}
+
+// Input File
+
+[type="file"] {
+    padding: 11px;
+    width: 100%;
+    background: #fff;
+}
+
+.form-group-file {
+    margin-bottom: 30px;
+    background: #fff;
+    border: 1px solid $gray-light;
+
+    label {
+        padding-left: 11px;
+        font-weight: $fw-sbold;
+        font-size: $fs-small;
+        color: $secondary
+    }
+}

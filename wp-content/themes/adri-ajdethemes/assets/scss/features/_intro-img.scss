@@ -1,0 +1,20 @@
+/*
+    [11.12] Feature - Intro Image
+----------------------------------- */
+
+.ft-intro-img {
+    display: inline-block;
+    background: $primary;
+
+    img {
+        transform: translate(0, 0);
+        transition: all $tspeed;
+    }
+}
+
+.focus-on.ft-intro-img {
+
+    img {
+        transform: translate(-15px, -15px);
+    }
+}

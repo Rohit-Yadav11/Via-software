@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../includes/settings/wizard/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+.w3eden{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+}
+.text-right{
+    text-align: right;
+}
+.w3eden th{
+    border-bottom: 0 !important;
+}
+.w3eden th,
+.w3eden td{
+    font-size: 9pt;
+}
+.w3eden .alert.alert-success:before{
+    padding-top: 14px;
+}
+.w3eden h3{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 11pt;
+}
+.w3eden em{
+    color: #888;
+    margin-bottom: 8px;
+}
+.w3eden .panel{
+    border-radius: 0;
+}
+.w3eden .panel.info-panel .panel-body{
+    height: 145px;
+}
+.w3eden .panel .panel-heading{
+    border-radius: 0;
+}
+.w3eden .panel-default .panel-heading{
+    background: #fafafa;
+    border-radius: 0;
+}
+.w3eden h3.invoice-no{
+    font-family: Courier, monospace;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #349ADE;
+}
+.w3eden .frow .panel-body{
+    height: 50px;
+}
+.w3eden .frow #btn-print{
+    margin-top: -5px;
+    margin-right: -8px;
+}
+@media print {
+    #btn-print {
+        display: none;
+    }
+}

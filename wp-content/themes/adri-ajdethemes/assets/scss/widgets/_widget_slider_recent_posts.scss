@@ -1,0 +1,178 @@
+/*
+    [7.18] Widget - Recent Posts Slider
+---------------------------------------- */
+
+.widget_recent_posts_slider {
+
+    .slide-recent-post {
+        position: relative;
+        height: 230px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        
+        a {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+
+            .post-content {
+                padding: 40px;
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba($secondary, .6);
+                z-index: 0;
+                transition: all $tspeed;
+            }
+
+            &:hover {
+
+                &:before {
+                    background: rgba($primary, .75);
+                }
+
+                .post-date {
+                    color: $secondary;
+                }
+
+                .post-title {
+                    color: $secondary;
+                    
+                    &:before {
+                        border-color: $secondary;
+                    }
+                }
+            }
+
+            .post-date {
+                position: relative;
+                display: block;
+                margin-bottom: 10px;
+                font-size: $fs-small;
+                color: rgba(#fff, .7);
+                transform: translateX(35px);
+                transition: all $tspeed;
+                z-index: 2;
+            }
+
+            .post-title {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 0;
+                max-height: 80px;
+                color: #fff;
+                font-size: $h5-size;
+                overflow: hidden;
+                transition: all $tspeed;
+
+                &:before {
+                    content: '';
+                    position: relative;
+                    top: 11px;
+                    display: block;
+                    margin-right: 10px;
+                    flex-shrink: 0;
+                    width: 25px;
+                    border-bottom: 3px solid $primary;
+                    transition: all $tspeed;
+                }
+            }
+        }
+    } // .slide-recent-post
+
+    .sl-nav {
+        position: relative;
+        display: flex;
+        padding-top: 5px;
+        justify-content: space-between;
+
+        button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            width: unset;
+            height: unset;
+            background: none;
+            font-weight: $fw-sbold;
+            font-size: $fs-small;
+            color: $secondary;
+            opacity: 1;
+
+            &:hover {
+                color: $primary;
+            }
+
+            &:before,
+            &:after {
+                content: none;
+            }
+
+            i {
+                position: relative;
+                top: 1px;
+                display: block;
+                font-size: 29px;
+            }
+        }
+
+        button.swiper-button-prev {
+
+            i {
+                margin-right: 12px;
+                margin-left: -5px;
+            }
+        }
+        
+        button.swiper-button-next {
+
+            i {
+                margin-left: 12px;
+                margin-right: -5px;
+            }
+        }
+
+        span {
+            position: relative;
+            top: 6px;
+            display: block;
+            height: 19px;
+            border-left: 1px solid rgba($secondary, .5);
+            transform: rotate(20deg);
+        }
+    } // .sl-nav
+} // .widget_recent_posts_slider
+
+// Tight sidebar
+.col-lg-3 {
+
+    .widget_recent_posts_slider {
+
+        .slide-recent-post {
+            height: 180px;
+
+            a {
+
+                .post-content {
+                    padding: 30px;
+                }
+
+                .post-title {
+                    font-size: $h6-size;
+                    max-height: 71px;
+                }
+            }
+        }
+    }
+}

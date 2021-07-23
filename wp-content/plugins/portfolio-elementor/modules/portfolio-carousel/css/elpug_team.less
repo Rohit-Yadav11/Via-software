@@ -1,0 +1,175 @@
+/* Team Module (bearr-team) */
+//Mixins and Variables
+.absolute-centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.anima (@anima) {
+  -webkit-transition: all @anima ease-in-out;
+    -moz-transition: all @anima ease-in-out;
+    transition: all @anima ease-in-out;
+}
+
+.background-cover, .bg-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.translateY(@translateY) {
+  transform: translateY(@translateY);
+    -webkit-transform: translateY(@translateY);
+    -moz-transform: translateY(@translateY);
+}
+
+.translateX(@translateX) {
+  transform: translateX(@translateX);
+    -webkit-transform: translateX(@translateX);
+    -moz-transform: translateX(@translateX);
+}
+
+.translate(@translateX, @translateY) {
+  transform: translate(@translateX,@translateY);
+  -webkit-transform: translate(@translateX,@translateY);
+  -moz-transform: translate(@translateX,@translateY);
+}
+//CSS
+.elpug-team-item-wrapper {
+    text-align: center;
+}
+
+.elpug-team-carousel {
+    margin-bottom: 20px;
+    .owl-stage-outer {
+        padding-top: 10px !important;
+    }
+}
+
+.elpug-team-item-links {
+    list-style: none;
+    margin-top: 10px;
+    li {
+        display: inline-block;
+        margin-top: 18px;
+        font-size: 16px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}
+
+.elpug-team-item {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+
+.elpug-team-item-heading {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.elpug-team-item-position {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.elpug-team-item-description {
+    font-size: 13px;
+    line-height: 1.4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.elpug-team-image {
+    background-position: center center;
+    .bg-cover;
+}
+
+//style1
+.elpug-team-style1 {
+    text-align: center;
+    .elpug-team-image {
+        margin-bottom: 8px;
+        border-radius: 6px!important;
+        background: none !important;
+         > img {        
+            border-radius: 6px!important;
+        } 
+    }
+   
+}
+
+.elpug-team-style3 {
+    text-align: center;
+    .elpug-team-image {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        img {
+            display: none;
+        }
+    }
+}
+
+//style 2
+.elpug-team-style2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    .anima(0.4s);
+    a {
+        color: #fff!important;
+    }
+    .elpug-team-image, .elpug-team-image img{
+        border-radius: 10px!important;
+        background: none !important;
+    }        
+    &:hover {
+        figcaption {
+            
+        }
+    }
+    figcaption {
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        .anima(0.3s);
+         .translate(0px, -20px);
+         opacity: 0;
+         background: #333;
+        &:hover {
+            opacity: 0.9;   
+            .translate(0px, 0px);        
+            .elpug-team-caption {
+                opacity: 1;
+            }
+        }
+    }
+    .elpug-team-caption {
+        .absolute-centered;
+        width: 100%;
+        opacity: 0;
+        .anima(0.3s);
+    }
+    .elpug-team-item-heading, .elpug-team-item-position, .elpug-team-item-description {      
+        color: #fff;
+    } 
+    > img {
+        width: 100%;
+    }
+}

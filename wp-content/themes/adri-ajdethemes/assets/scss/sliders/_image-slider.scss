@@ -1,0 +1,32 @@
+/*
+    [14.2] Image Slider
+--------------------------------- */
+
+.image-slider-container {
+    text-align: center;
+
+    figcaption {
+        text-align: center;
+        margin-top: 30px;
+
+        .isl-subtitle {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .isl-title {
+            display: block;
+        }
+    }
+
+    .swiper-nav-arrow.has-pagination {
+        margin-top: -60px;
+    }
+
+    .swiper-pagination {
+        position: relative;
+        padding-top: 30px;
+        bottom: unset !important;
+        justify-content: center;
+    }
+}

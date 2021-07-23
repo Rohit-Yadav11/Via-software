@@ -1,0 +1,72 @@
+/*
+    [16.1] Contact - Classic
+--------------------------------- */
+
+.cnt-classic {
+
+    .cnt-description {
+        margin-top: 30px;
+    }
+
+    .cnt-map {
+
+        .social-icons {
+            margin: 30px 0 30px 0;
+        }
+
+        iframe {
+            height: 430px;
+        }
+    }
+
+    .cnt-info-list {
+        list-style: none;
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: flex;
+            margin-top: 30px;
+
+            &:hover,
+            &:focus {
+
+                .cnt-icon {
+                    background: $primary;
+                    color: $secondary;
+                }
+            }
+
+            .cnt-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+                width: 40px;
+                height: 40px;
+                flex-shrink: 0;
+                background: $secondary;
+                color: #fff;
+                transition: all $tspeed;
+            }
+
+            .cnt-info-content {
+                margin-top: 8px;
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .cnt-classic {
+
+        .cnt-map {
+            
+            .social-icons {
+                justify-content: flex-end;
+            }
+        }
+    }
+}

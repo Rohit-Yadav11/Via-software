@@ -1,0 +1,120 @@
+/*
+    [7.3] Widget - Categories
+--------------------------------- */
+
+.widget_categories > ul,
+ul.wp-block-categories-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: initial !important;
+
+    > .cat-item {
+        position: relative;
+        padding-bottom: 10px;
+        color: $gray-light;
+        font-size: $fs-small;
+        transform: translateX(0);
+        transition: all $tspeed;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: 0;
+            display: inline-block;
+            width: 20px;
+            border-bottom: 2px solid $dark;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-60px);
+            transition: all $tspeed;
+        }
+
+        &:hover,
+        &:focus {
+            color: $primary;
+            transform: translateX(30px);
+
+            &:before {
+                transform: translateX(-30px);
+                opacity: 1;
+                visibility: visible;
+                transition-delay: .25s;
+            }
+
+            > a {
+                color: $dark;
+            }
+
+            .children {
+                transform: translateX(-30px);
+
+                .children {
+                    transform: translateX(0);
+                }
+            }
+        }
+
+        > a {
+            margin-right: 5px;
+            color: inherit;
+            font-weight: $fw-sbold;
+            font-size: $fs-base;
+            text-decoration: none;
+
+            &:hover,
+            &:focus {
+                color: $dark;
+            }
+        }
+    }
+
+    .children,
+    .wp-block-categories__list {
+        list-style: none;
+        margin: 10px 0 0 10px;
+        padding: 0;
+        font-size: $fs-small;
+        transform: translateX(0);
+        transition: all $tspeed;
+
+        li {
+            margin-bottom: 10px;
+            color: $gray-light;
+            transition: all $tspeed;
+            
+            &:last-child {
+                margin-bottom: unset;
+            }
+            
+            a {
+                color: inherit;
+                font-weight: $fw-reg;
+            }
+
+            &:hover,
+            &:focus {
+                color: $primary;
+                
+                > a {
+                    color: $dark;
+                }
+            }
+        }
+    }
+}
+
+ul.wp-block-categories-list.aligncenter,
+[data-align="center"] .wp-block-categories ul.wp-block-categories__list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+ul.wp-block-categories-list.alignright,
+[data-align="right"] .wp-block-categories ul.wp-block-categories__list {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}

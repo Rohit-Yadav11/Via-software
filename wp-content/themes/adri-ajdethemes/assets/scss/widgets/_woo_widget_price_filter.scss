@@ -1,0 +1,61 @@
+/*
+    [7.17] WooCommerce Widget - Filter
+--------------------------------------- */
+
+.widget_price_filter {
+
+    form {
+
+        .price_slider  {
+            position: relative;
+            height: 6px;
+            background: $light;
+            cursor: pointer;
+
+            .ui-slider-range {
+                position: absolute;
+                top: 0;
+                display: block;
+                height: 100%;
+                background: $primary;
+                z-index: 1;
+                transition: all $tspeed;
+            }
+
+            .ui-slider-handle {
+                position: absolute;
+                margin-top: -4px;
+                top: auto;
+                display: block;
+                width: 15px;
+                height: 15px;
+                background: $primary;
+                z-index: 2;
+                transition: all $tspeed;
+
+                &:hover {
+                    background: $secondary;
+                }
+            }
+        }
+        
+        .button {
+            padding: unset;
+            background: unset;
+            color: $secondary;
+            font-size: inherit;
+
+            &:hover,
+            &:focus {
+                background: unset;
+                color: $primary;
+            }
+        }
+
+        .price_label {
+            margin-top: 15px;
+            float: right;
+            color: $text-color;
+        }
+    }
+}

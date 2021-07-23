@@ -1,0 +1,75 @@
+/*
+    [7.17] Shortcode - Widget Text (Newsletter)
+------------------------------------------------ */
+
+.widget_text i {
+    color: rgba($secondary, 1);
+}
+
+.widget-inline-input {
+    position: relative;
+
+    [type="email"] {
+        margin: unset;
+        width: 100%;
+        height: 40px;
+        background: none;
+        border: 1px solid $secondary;
+        color: $secondary;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $secondary;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: $secondary;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: $secondary;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: $secondary;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        padding-right: 15px;
+        height: 40px;
+        font-weight: $fw-sbold;
+        background: none;
+        border-top: 1px solid $secondary;
+        border-bottom: 1px solid $secondary;
+        border-right: 1px solid $secondary;
+        border-left: none;
+        color: rgba($secondary, .7);
+        transition: all $tspeed;
+
+        &:before {
+            content: '';
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            left: 0;
+            height: 20px;
+            margin-right: 15px;
+            border-left: 1px solid $secondary;
+            transform: rotate(30deg);
+            transition: transform $tspeed;
+        }
+
+        &:hover,
+        &:focus {
+            color: rgba($secondary, 1);
+
+            &:before {
+                transform: rotate(0);
+            }
+        }
+    }
+}
+

@@ -1,0 +1,53 @@
+/*
+    [7.13] Widget - Text
+--------------------------------- */
+
+.widget_text {
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    input,
+    textarea,
+    select {
+        display: block;
+        max-width: 100%;
+    }
+
+    p {
+        padding-bottom: 10px;
+    }
+
+    p > a {
+        @include a-silent($fhcolor: $primary);
+    }
+
+    li > a {
+        @include a-silent($fhcolor: $primary);
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .social-icons {
+        margin-top: 30px;
+    }
+} // .widget_text
+
+// MM text widget
+.mega-menu-item {
+
+    .widget_text {
+
+        .textwidget {
+            margin-top: 15px;
+            color: $light;
+        }
+    }
+}

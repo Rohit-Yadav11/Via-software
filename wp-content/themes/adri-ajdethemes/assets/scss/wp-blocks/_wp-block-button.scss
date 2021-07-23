@@ -1,0 +1,105 @@
+/*
+    [8.4] WP Block - Button
+--------------------------------- */
+
+
+// 
+// Block Editor - File Button
+// ---------------------------
+
+.wp-block-file {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .wp-block-file__button {
+        @extend .btn;
+        
+        margin-bottom: 15px;
+        min-height: 50px;
+        height: auto !important;
+        border-radius: 100px;
+        font-size: 1rem;
+        line-height: initial;
+    }
+}
+
+.wp-block-file {
+    width: 100%;
+}
+
+
+.wp-block-file {
+    
+    .wp-block-file__button {
+        @extend .btn-classic;
+    }
+}
+
+
+// 
+// Block Editor - Button
+// -----------------------
+
+.wp-block-button {
+    margin-bottom: 15px;
+
+    .wp-block-button__link {
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 100px;
+        background: $primary;
+        color: $secondary;
+        font-size: $fs-base;
+        font-weight: $fw-sbold;
+        line-height: initial;
+        text-align: center;
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+            background: darken($primary, 3%);
+        }
+    }
+}
+
+.wp-block-button.is-style-outline {
+
+    .wp-block-button__link {
+        min-height: 48px;
+        padding: 10px 28px;
+        background: none;
+        border: 2px solid $secondary;
+        color: $secondary;
+        
+        &:hover,
+        &:focus {
+            background: $secondary;
+            border-color: $secondary;
+            color: $primary;
+        }
+    }
+}
+
+.wp-block-button.is-style-squared {
+
+    .wp-block-button__link {
+        border-radius: 0;
+    }
+}
+
+[data-align="right"] .wp-block-button,
+[data-align="left"] .wp-block-button {
+    width: unset;
+}
+
+[data-align="left"] .wp-block-button {
+    float: left;
+    margin: 15px 40px 15px 0;
+    clear: both;
+}
+
+[data-align="right"] .wp-block-button {
+    float: right;
+    margin: 15px 0 15px 40px;
+    clear: both;
+}

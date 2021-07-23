@@ -1,0 +1,68 @@
+/*
+    WooCommerce - Related Products
+------------------------------------------ */
+
+.woocommerce-related-products {
+    background: $lighter;
+
+    .related {
+        padding-top: 90px;
+        padding-bottom: 30px;
+        margin: unset;
+
+        > h2 {
+            margin-bottom: 90px;
+        }
+    }
+
+    ul.products {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: unset;
+
+        .product {
+            margin-bottom: 60px;
+            padding: 0;
+        }
+    }
+} // .woocommerce-related-products
+
+
+@media (min-width: $md) {
+    .woocommerce-related-products {
+        
+        ul.products {
+
+            .product {
+
+                &:nth-child(odd) {
+                    padding-right: 15px;
+                }
+                
+                &:nth-child(even) {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .woocommerce-related-products {
+
+        .related {
+            padding-bottom: 90px;
+        }
+        
+        ul.products {
+            margin-left: -15px;
+            
+            .product {
+                margin-bottom: 0;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}

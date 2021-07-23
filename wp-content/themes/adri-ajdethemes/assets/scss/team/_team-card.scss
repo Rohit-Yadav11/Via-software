@@ -1,0 +1,151 @@
+/*
+    [12.1] Team Card
+--------------------------------- */
+
+.team-card {
+
+    .tm-img-wrapper {
+        position: relative;
+    }
+
+    .tm-bio {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-flow: column;
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+        background: $secondary;
+        box-shadow: 0 0 0 $primary;
+        opacity: 0;
+        visibility: hidden;
+        transition: all $tspeed;
+
+        .tm-title,
+        .tm-description,
+        .tm-icon-links {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all $tspeed;
+        }
+
+        .tm-title {
+            margin: 0 0 30px 0;
+            color: #fff;
+            transition-delay: .2s;
+            word-break: break-word;
+        }
+
+        .tm-description {
+            margin: 0 0 20px 0;
+            color: $light;
+            transition-delay: .27s;
+            word-break: break-word;
+            overflow-y: auto;
+        }
+        
+        .tm-icon-links {
+            margin-top: auto;
+            transition-delay: .34s;
+
+            &:before {
+                content: '';
+                display: block;
+                margin-bottom: 30px;
+                width: 80px;
+                height: 2px;
+                background: $primary;
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin-left: 20px;
+                margin-right: 0;
+                color: $gray-light;
+
+                &:first-child {
+                    margin-left: unset;
+                }
+
+                a {
+                    color: inherit;
+
+                    &:hover,
+                    &:focus {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .tm-info {
+        position: relative;
+        margin-top: 30px;
+
+        .tm-name {
+            margin: 0 0 5px 0;
+        }
+
+        .tm-role {
+            opacity: .7;
+        }
+    }
+
+    .btn-bio {
+        position: absolute;
+        top: 0;
+        right: 0;
+        @include plus-btn-box($size:30px, $plus-size:12px);
+        background: $primary;
+        opacity: 1;
+        transition: all $tspeed;
+
+        span {
+            transform: rotate(0);
+            transition: all $tspeed;
+        }
+
+        &:hover {
+            opacity: .4;
+        }
+    }
+}
+
+.open.team-card {
+
+    .tm-bio {
+        opacity: 1;
+        visibility: visible;
+        box-shadow: 15px 15px 0 $primary;
+
+        .tm-title,
+        .tm-description,
+        .tm-icon-links {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .btn-bio {
+        // background: $primary;
+        opacity: .4;
+
+        span {
+            transform: rotate(45deg);
+            animation: none;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

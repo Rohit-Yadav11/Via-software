@@ -1,0 +1,55 @@
+/*
+    [4.3] Button Classic
+--------------------------------- */
+
+.btn-classic {
+
+    &:hover,
+    &:focus {
+        background: $primary;
+        color: $secondary;
+    }
+
+    &:focus {
+        transform: scale(0.97);
+    }
+}
+
+.btn-classic.btn-inverted {
+    background: $primary;
+    color: $secondary;
+
+    &:hover,
+    &:focus {
+        background: $secondary;
+        color: $primary;
+    }
+}
+
+.btn-classic.btn-hover-has-same-bg {
+
+    &:hover,
+    &:focus {
+        background: darken($primary, 7%);
+        color: $secondary;
+    }
+}
+
+.btn-classic.btn-has-dark-bg {
+    color: #fff !important;
+
+    &:hover,
+    &:focus {
+        color: #fff !important;
+    }
+
+    > a,
+    > a.menu-link,
+    > a.mega-menu-link {
+        color: inherit !important;
+
+        &:before {
+            display: none;
+        }
+    }
+}

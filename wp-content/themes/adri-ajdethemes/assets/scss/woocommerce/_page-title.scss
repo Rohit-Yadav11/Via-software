@@ -1,0 +1,43 @@
+/*
+    WooCommerce - Page Title
+------------------------------------- */
+
+.woocommerce-page-title {
+    margin-bottom: 90px;
+    padding: 60px 0;
+    background: rgba($secondary, .05);
+    
+    .pt-content {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+
+        nav.woocommerce-breadcrumb {
+            display: block;
+            margin-top: 15px;
+            order: 2;
+            font-size: $fs-small;
+            color: $gray-light;
+
+            a {
+                color: $secondary;
+
+                &:hover,
+                &:focus {
+                    color: darken($primary, 15%);
+                }
+            }
+        }
+        
+        header {
+            order: 1;
+
+            .page-title {
+                display: unset;
+                margin: unset;
+                padding: unset;
+                background: none;
+            }
+        }
+    } // .pt-content
+} // .woocommerce-page-title

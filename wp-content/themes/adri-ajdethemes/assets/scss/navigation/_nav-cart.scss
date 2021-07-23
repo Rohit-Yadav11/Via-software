@@ -1,0 +1,106 @@
+/*
+    [9.5] Navigation - Cart
+--------------------------------- */
+
+.site-header-cart {
+
+    .cart-contents {
+        position: relative;
+
+        .amount {
+            display: none;
+        }
+
+        .count {
+            position: absolute;
+            top: -5px;
+            right: -7px;
+            display: block;
+            text-align: center;
+            width: 15px;
+            height: 15px;
+            border-radius: 100px;
+            background: $primary;
+            color: $secondary;
+            font-size: .62rem;
+            font-weight: $fw-sbold;
+            line-height: 15px;
+            overflow: hidden;
+        }
+
+        &:before {
+            content: '\f07a';
+            font-family: 'Font Awesome 5 Free';
+            color: $light;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .site-header-cart {
+
+        .nav-cart-items {
+            position: absolute;
+            padding: 20px;
+            top: 100%;
+            right: 15px;
+            background: $nav_dropdown_bg;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all $tspeed .2s;
+            z-index: 99;
+
+            .widget_shopping_cart  {
+                margin-bottom: 0;
+
+                a,
+                .amount {
+                    color: $light;
+                }
+
+                a.remove {
+                    color: rgba($light, .4) !important;
+
+                    &:hover,
+                    &:focus {
+                        color: $error !important;
+                    }
+                }
+
+                .total {
+                    color: $primary;
+
+                    strong {
+                        color: inherit;
+                    }
+                }
+
+                .buttons {
+                    margin-bottom: 0;
+
+                    a {
+                        height: unset;
+                    }
+                }
+
+                .woocommerce-mini-cart__buttons {
+                    border-color: rgba($light, .15);
+                }
+            }
+        } // .nav-cart-items 
+
+        li {
+
+            &:hover,
+            &:focus {
+
+                .nav-cart-items {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(0);
+                }
+            }
+        }
+    } // .site-header-cart
+} // @media

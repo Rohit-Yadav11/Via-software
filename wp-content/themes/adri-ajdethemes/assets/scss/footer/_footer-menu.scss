@@ -1,0 +1,111 @@
+/*
+    [10.2] Footer Menu
+--------------------------------- */
+
+.footer-bottom-content {
+
+    ul.menu {
+        list-style: none;
+        display: flex;
+        margin: 0 0 15px 0;
+        padding: 0;
+
+        li {
+            display: block;
+            margin-right: 20px;
+            color: $secondary;
+            font-size: $fs-small;
+            min-width: fit-content;
+            min-width: -moz-fit-content;
+
+            &:last-child {
+                margin-right: unset;
+            }
+
+            a {
+                color: inherit;
+                @include a-silent($fhcolor: $secondary);
+            }
+        } // li
+
+        .menu-item-has-children {
+
+            a {
+
+                &:after {
+                    content: '\f0d8';
+                    margin-left: 5px;
+                    font-family: 'Font Awesome 5 Free';
+                    color: rgba($secondary, .5);
+                    opacity: .3;
+                    transition: opacity 0.35s;
+                }
+            }
+
+            &:hover,
+            &:focus {
+
+                > .sub-menu {
+                    visibility: visible;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            
+            .sub-menu {
+                position: absolute;
+                bottom: 100%;
+                display: flex;
+                flex-flow: column;
+                min-width: 200px;
+                margin: 0;
+                padding: 20px;
+                height: auto;
+                background: $secondary;
+                visibility: hidden;
+                opacity: 0;
+                transform: translateY(10px);
+                transition: all 0.35s 0.2s;
+                z-index: 99;
+
+                li {
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: unset;
+                    }
+
+                    a {
+                        padding-bottom: 3px;
+                        @include a-silent($fhcolor: $primary);
+                        color: $lighter;
+                    }
+
+                    .sub-menu {
+                        left: 100%;
+                        bottom: calc(100% - 50px);
+
+                        .sub-menu {
+
+                            .sub-menu {
+                                left: unset;
+                                bottom: 100%;
+                            }
+                        }
+                    }
+                } // li
+
+                .menu-item-has-children {
+
+                    a {
+
+                        &:after {
+                            content: '\f0da';
+                            color: rgba($primary, .5);
+                        }
+                    }
+                }
+            } // .sub-menu
+        } // .menu-item-has-children
+    } // ul.menu
+} // .footer-bottom-content

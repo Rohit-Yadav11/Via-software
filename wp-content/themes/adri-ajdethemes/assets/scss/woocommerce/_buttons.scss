@@ -1,0 +1,50 @@
+/*
+    Buttons
+--------------------------------- */
+
+.woocommerce #respond input#submit,
+.woocommerce a.button, .woocommerce button.button,
+.woocommerce input.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    height: 50px;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: $fw-sbold;
+    line-height: 1;
+    background: $secondary;
+    color: $primary;
+    border: none;
+    transition: all $tspeed;
+
+    &:hover,
+    &:focus {
+        color: $secondary;
+        background: $primary;
+    }
+}
+
+#add_payment_method .wc-proceed-to-checkout, 
+.woocommerce-cart .wc-proceed-to-checkout, 
+.woocommerce-checkout .wc-proceed-to-checkout {
+    padding: 0;
+
+    a.checkout-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 40px;
+        height: 57px;
+        font-size: 1.125rem;
+        background: $primary;
+        color: $secondary;
+
+        &:hover,
+        &:focus {
+            background: $secondary;
+            color: $primary;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+// Styling for the front-end.
+
+// CSS grid styling
+// In the future we should build both the front-end and admin CSS styling from the same source file.
+@import 'grid';
+
+// Styling for the download terms (download categories and tags).
+// In the future we should build both the front-end and admin CSS styling from the same source file.
+@import 'download-terms';

@@ -1,0 +1,72 @@
+/*
+  [6.3] Blog Post - Minimal
+--------------------------------- */
+
+article.post-min {
+
+    .post-title {
+        margin: 0 0 60px 0;
+        font-size: $h4-size;
+        color: $secondary;
+
+        a {
+            @include a-h-underline($pos: $h4-size, $size: 6px);
+        }
+    }
+
+    .post-meta {
+        flex-flow: column;
+        align-items: unset;
+        justify-content: flex-start;
+    }
+
+    .post-cat,
+    .post-date {
+        font-size: $fs-small;
+    }
+
+    .post-author {
+        color: $secondary;
+        font-weight: $fw-sbold;
+
+        a {
+            color: inherit;
+            opacity: 1;
+
+            &:hover,
+            &:focus {
+                color: inherit;
+                opacity: .7;
+            }
+        }
+    }
+
+    .post-date {
+        margin-top: 3px;
+        font-size: $fs-small;
+        color: $gray-light;
+    }
+} // article.post-min
+
+
+// 
+// Elementor Widget - Blog Posts (Minimal)
+// -----------------------------------------
+
+.elementor-element {
+
+    article.post-min {
+
+        .post-title {
+
+            a {
+                background-size: 6px 6px;
+
+                &:hover,
+                &:focus {
+                    background-size: 0 0;
+                }
+            }
+        }
+    }
+}

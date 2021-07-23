@@ -1,0 +1,277 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+.w3eden hr{
+    margin: 15px 0;
+    border: 0;
+}
+.d-block{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.wpdmpp-license-select{
+    margin: 10px 0 20px;
+}
+.wpdmpp-license-select .license-heading{
+    margin-bottom: 10px;
+}
+h3.wpdmpp-product-price{
+    font-weight: 900;
+}
+.cart-total-final.btn{
+    background: transparent;
+}
+.w3eden span.fa-stack,
+.admin-orders span.fa-stack{
+    font-size: 0.85em;
+    display: inline-block;
+    height: 1.7em;
+    line-height: 1.7em;
+    position: relative;
+    vertical-align: middle;
+    width: 1.7em;
+    box-sizing: content-box !important;
+}
+.admin-orders .fa-stack .fa-stack-2x{
+    display: none;
+}
+.admin-orders .fa-stack .fa-stack-1x{
+    border-radius: 500px;
+    border: 1px solid #444444;
+    font-size: 90%;
+    box-sizing: content-box !important;
+}
+.admin-orders table .oa-Processing .fa-stack-1x,
+.admin-orders table .oa-Processing{
+    color: #3498DB;
+    border-color: #3498DB;
+}
+.fa-stack.oa-Refunded,
+.fa-stack.oa-Refunded .fa-stack-1x,
+.download-off .fa-stack-1x,
+.download-off{
+    color: #cccccc;
+    border-color: #cccccc !important;
+}
+.renew-active,
+.renew-active *,
+.download-on,
+.download-on .fa-stack-1x,
+.admin-orders table .oa-Completed .fa-stack-1x,
+.admin-orders table .oa-Completed{
+    color: #5CA572;
+    border-color: #5CA572 !important;
+}
+.admin-orders table .oa-Cancelled .fa-stack-1x,
+.admin-orders table .oa-Cancelled{
+    color: #C64F4D;
+    border-color: #C64F4D;
+}
+.admin-orders table .oa-Disputed .fa-stack-1x,
+.admin-orders table .oa-Disputed{
+    color: #F75D74;
+    border-color: #F75D74;
+}
+.admin-orders table .oa-Expired .fa-stack-1x,
+.admin-orders table .oa-Expired{
+    color: #F2983E;
+    border-color: #F2983E;
+}
+.admin-orders table .oa-Gifted .fa-stack-1x,
+.admin-orders table .oa-Gifted{
+    color: #CD6DED;
+    border-color: #CD6DED;
+}
+.text-filter{
+    margin-left: 10px;
+    color: #B56CA4;
+}
+div.tooltip,
+div.tooltip-inner{
+    border-radius: 2px !important;
+    padding: 5px 10px !important;
+}
+.w3eden .note { color: #888; }
+
+.w3eden .order.summery.row .panel-body h3{
+    font-size: 15pt;
+    font-weight: 700;
+    font-family: monospace;
+}
+.w3eden .table.table-vt td{
+    vertical-align: top !important;
+}
+.w3eden a,.w3eden a:focus{
+    outline: none !important;
+}
+
+.renew-cancelled, .renew-cancelled *{
+    color: #e8473c !important;
+    border-color: #e8473c !important;
+}
+.w3eden .pm-status span i{
+    margin-left: 5px;
+    transform: scale(1.1);
+}
+.w3eden .pm-status{
+    font-weight: 400;
+}
+.bootstrap-select{
+    margin-top: 0 !important;
+}
+.ellipsis{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#the-list small.ellipsis{
+    max-width: 250px;
+}
+.w3eden .table input{
+    margin-top: 0 !important;
+}
+.w3eden .table tbody th{
+    background: #f5f5f5 !important;
+    border-right: 1px solid #dddddd !important;
+}
+.w3eden .panel-body .lead {
+    font-size: 11pt;
+}
+@media (max-width: 1400px) {
+    #oslabel, #pslabel{
+        display: none;
+    }
+}
+
+.w3eden .tablenav{
+    text-align: center;
+}
+.w3eden .tablenav .tablenav-pages{
+    float: none;
+}
+.w3eden .tablenav .tablenav-pages span, .w3eden .tablenav .tablenav-pages a {
+    display: inline-block;
+    padding: 7px 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff !important;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none !important;
+    transition: all ease-in-out 300ms;
+}
+.w3eden .tablenav .tablenav-pages span.current,
+.w3eden .tablenav .tablenav-pages a:hover {
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary) !important;
+    color: #ffffff !important;
+    transition: all ease-in-out 300ms;
+}
+.w3eden .table-wpdmpp{
+    overflow: hidden;
+}
+.w3eden .table-wpdmpp th{
+    background: #ffffff !important;
+}
+.fa.fa-star.text-danger {
+    font-size: 6px;
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+    color: var(--color-danger);
+}
+
+/*
+.w3eden .table.table-wpdmpp input{
+    margin: 0 !important;
+    margin-top: 0 !important;
+}
+.table.table-wpdmpp thead tr {
+    border-radius: 0 0 5px 5px;
+}
+.table.table-wpdmpp tfoot tr {
+    border-radius: 5px 5px 0 0;
+}
+.table.table-wpdmpp tbody tr {
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-transition: all ease-in-out 300ms;
+    -moz-transition: all ease-in-out 300ms;
+    -ms-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    background: transparent !important;
+}
+
+.table.table-wpdmpp tbody tr:hover {
+    -webkit-box-shadow: 0 1px 5px rgba(18, 28, 46, 0.2);
+    box-shadow: 0 1px 5px rgba(18, 28, 46, 0.2);
+    -webkit-transition: all ease-in-out 300ms;
+    -moz-transition: all ease-in-out 300ms;
+    -ms-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+}
+
+.table.table-wpdmpp {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    background: transparent !important;
+}
+
+.w3eden .table.table-wpdmpp th,
+.w3eden .table.table-wpdmpp td{
+    padding: 10px;
+}
+
+.w3eden .table.table-wpdmpp tbody tr td:first-child,
+.w3eden .table.table-wpdmpp tbody tr th:first-child{
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+
+.w3eden .table.table-wpdmpp tbody tr td:last-child{
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+}
+
+.w3eden .table.table-wpdmpp thead tr {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+    background: transparent !important;
+
+}
+.w3eden .table.table-wpdmpp tfoot tr {
+    box-shadow: 0 -2px 1px rgba(0,0,0,0.1);
+}
+.w3eden .table.table-wpdmpp thead th {
+    border-top: 0;
+    background: transparent !important;
+    border-bottom: 0 !important;
+}
+.w3eden .table.table-wpdmpp tfoot th{
+    border-bottom: 0;
+    background: transparent !important;
+    border-top: 0 !important;
+}
+.w3eden .table.table-wpdmpp th{
+    border-top: 0;
+}
+
+.w3eden .table tbody th {
+    background: #ececec66 !important;
+}
+.w3eden .table th input{
+    margin: 0;
+}
+
+.w3eden .table.table-wpdmpp td {
+    background-color: #fff;
+    border: none;
+    border-top: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+*/

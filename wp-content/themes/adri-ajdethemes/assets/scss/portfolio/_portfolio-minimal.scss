@@ -1,0 +1,72 @@
+/*
+    [15.2] Portfolio - Minimal
+--------------------------------- */
+
+.pf-minimal {
+    position: relative;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pf-img-link {
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $lighter;
+            opacity: 0;
+            transition: all $tspeed;
+        }
+
+        .pf-link-symbol {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            bottom: unset;
+            left: unset;
+            opacity: 0;
+            transform: translateX(10px); 
+            transition: all $tspeed;
+        }
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-10px);
+        transition: all $tspeed;
+    }
+
+    &:hover,
+    &:focus {
+
+        .pf-img-link {
+
+            &:after {
+                opacity: .7;
+            }
+
+            .pf-link-symbol {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        figcaption {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+        }
+    }
+}

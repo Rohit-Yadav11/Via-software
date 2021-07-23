@@ -1,0 +1,85 @@
+/*
+    [11.11] Feature - Intro 3
+--------------------------------- */
+
+.ft-intro-3 {
+
+    .ft-i-title {
+        position: relative;
+        padding: 30px;
+        background: $primary;
+
+        .section-title {
+
+            .st-subtitle {
+                color: #fff
+            }
+        }
+    }
+
+    .ft-img-wrapper {
+        position: relative;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .ft-i-img {
+            top: -5%;
+            left: 200px;
+        }
+
+        .ft-i-img-2 {
+           right: 0;
+           left: 150px;
+           top: 15%;
+        }
+
+        .ft-i-img-3 {
+            top: 230px;
+            left: -30px;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .ft-intro-3 {
+
+        .ft-i-title {
+            display: block;
+            padding: 40px 30px;
+            max-width: 230px;
+            width: 230px;
+        }
+
+        img {
+            position: absolute;
+            width: auto !important;
+            height: auto;
+        }
+
+        .ft-img-wrapper {
+            display: block;
+            margin-left: 30px;
+            max-width: 570px;
+            min-height: 490px;
+            right: 0;
+
+            .ft-i-img {
+                top: -5%;
+                left: 200px;
+            }
+    
+            .ft-i-img-2 {
+               right: 0;
+               top: 15%;
+            }
+    
+            .ft-i-img-3 {
+                top: 40%;
+                left: -30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,170 @@
+/*
+    [14.0] Sliders
+--------------------------------- */
+
+// Pagination
+.swiper-pagination-lines.swiper-pagination {
+	display: none;
+	justify-content: flex-end;
+	max-width: 770px;
+	left: 0;
+	right: 0;
+	bottom: 35px !important;
+	margin: auto;
+	display: none;
+
+	.swiper-pagination-bullet {
+		display: block;
+		width: 25px;
+		height: 3px;
+		border-radius: 0;
+		background: $secondary;
+		opacity: .2;
+		transition: all $tspeed;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.swiper-pagination-bullet.swiper-pagination-bullet-active {
+		background: $primary;
+		opacity: 1;
+	}
+}
+
+@media (min-width: $lg) {
+	.swiper-pagination-lines.swiper-pagination {
+		display: flex;
+	}
+}
+
+// Navigation Arrows
+.swiper-nav-arrow.swiper-button-prev,
+.swiper-nav-arrow.swiper-button-next {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 60px;
+	height: 60px;
+	background: $primary;
+	border: none;
+	color: $secondary;
+	opacity: .4;
+	transition: all $tspeed;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		opacity: 1;
+	}
+
+	&:after {
+		content: none;
+		display: none;
+	}
+}
+
+.swiper-nav-arrow.swiper-button-prev:before,
+.swiper-nav-arrow.swiper-button-next:before {
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.15rem;
+	line-height: 1;
+}
+
+.swiper-nav-arrow.swiper-button-prev:before {
+	content: '\f053';
+}
+
+.swiper-nav-arrow.swiper-button-next:before {
+	content: '\f054';
+}
+
+@media (min-width: $lg) {
+	.swiper-nav-arrow.swiper-button-prev,
+	.swiper-nav-arrow.swiper-button-next {
+		display: flex;
+	}
+}
+
+// Neue Navigation Arrows
+.ns-nav {
+	position: relative;
+	margin-top: 60px;
+	left: 225px;
+	display: none;
+	flex-shrink: 0;	
+	z-index: 10;
+
+	.ns-button-sep {
+		display: block;
+		width: 1px;
+		height: 55px;
+		background: $secondary;
+		opacity: .2;
+		transform: rotate(30deg);
+	}
+
+	.ns-button-prev {
+		top: 5px;
+		left: -25px;
+
+		i {
+			transform: translate(12px);
+		}
+
+		&:hover {
+
+			i {
+				transform: translate(-12px);
+			}
+		}
+	}
+	
+	.ns-button-next {
+		top: 20px;
+		right: -25px;
+
+		i {
+			transform: translate(-12px);
+		}
+
+		&:hover {
+
+			i {
+				transform: translate(12px);
+			}
+		}
+	}
+	
+	.ns-button-prev,
+	.ns-button-next {
+		position: relative;
+		display: block;
+		flex-shrink: 0;
+		width: 30px;
+		height: 30px;
+		background: $primary;
+		color: $secondary;
+		opacity: .4;
+		transition: all $tspeed;
+
+		i {
+			display: inline-block;
+            font-size: 1.9rem;
+            transition: transform $tspeed;
+		}
+		
+		&:hover {
+			opacity: 1;
+			cursor: pointer;
+		}
+	}
+}
+
+@media (min-width: $xl) {
+	.ns-nav {
+		display: flex;
+	}
+}

@@ -1,0 +1,2810 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPDM Premium Packages\n"
+"POT-Creation-Date: 2019-09-12 12:06+0600\n"
+"PO-Revision-Date: 2019-09-12 12:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: WP Download Manager\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/libs/cart.php:918 includes/libs/cart.php:943
+msgid "Invalid or Expired Coupon Code"
+msgstr ""
+
+#: includes/libs/cart.php:1249 includes/libs/class.CustomActions.php:96
+msgid "Order status updated"
+msgstr ""
+
+#: includes/libs/cart.php:1258 includes/libs/class.CustomActions.php:35
+msgid "Payment status updated"
+msgstr ""
+
+#: includes/libs/cart.php:1384 includes/libs/cart.php:1453
+msgid "Free"
+msgstr ""
+
+#: includes/libs/cart.php:1446 includes/libs/class.CustomColumns.php:20
+#: templates/metaboxes/wpdm-pp-settings.php:166
+#: templates/metaboxes/wpdm-pp-settings.php:174
+#: templates/metaboxes/wpdm-pp-settings.php:204
+#: templates/user-dashboard/purchased-items.php:25
+#: templates/wpdm-pp-earnings.php:119
+#: templates4/metaboxes/wpdm-pp-settings.php:166
+#: templates4/metaboxes/wpdm-pp-settings.php:174
+#: templates4/metaboxes/wpdm-pp-settings.php:204
+#: templates4/user-dashboard/purchased-items.php:25
+#: templates4/wpdm-pp-earnings.php:119
+msgid "Price"
+msgstr ""
+
+#: includes/libs/cart.php:1447 includes/libs/cart.php:1527
+#: includes/libs/cart.php:1532
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/libs/cart.php:1523 templates/partials/guest-order-details.php:72
+#: templates/partials/user-order-details.php:60
+#: templates/user-dashboard/order-details.php:140
+#: templates/user-dashboard/order-details.php:208
+#: templates/user-dashboard/purchase-orders.php:115
+#: templates/user-dashboard/purchase-orders.php:199
+#: templates/user-dashboard/purchased-items.php:28
+#: templates/user-dashboard/purchased-items.php:51
+#: templates4/partials/guest-order-details.php:71
+#: templates4/partials/user-order-details.php:59
+#: templates4/user-dashboard/order-details.php:140
+#: templates4/user-dashboard/order-details.php:208
+#: templates4/user-dashboard/purchase-orders.php:116
+#: templates4/user-dashboard/purchase-orders.php:200
+#: templates4/user-dashboard/purchased-items.php:28
+#: templates4/user-dashboard/purchased-items.php:51
+#: wpdm-premium-packages.php:1071
+msgid "Download"
+msgstr ""
+
+#: includes/libs/class.CronJobs.php:102
+msgid "Total Auto-renewal Amount"
+msgstr ""
+
+#: includes/libs/class.CronJobs.php:103
+msgid "Total Manual-renewal Amount"
+msgstr ""
+
+#: includes/libs/class.CronJobs.php:104
+msgid "Renewal Date"
+msgstr ""
+
+#: includes/libs/class.CronJobs.php:105
+#, php-format
+msgid "[%s] Order Expiration and Subscription reminder sent."
+msgstr ""
+
+#: includes/libs/class.CustomActions.php:58
+msgid "Order Renewed Successfully!"
+msgstr ""
+
+#: includes/libs/class.CustomColumns.php:21
+#: templates/wpdm-pp-seller-dashboard.php:111
+#: templates4/wpdm-pp-seller-dashboard.php:111
+msgid "Sales Quantity"
+msgstr ""
+
+#: includes/libs/class.CustomColumns.php:21
+#: includes/menus/templates/create-order.php:40
+#: includes/menus/templates/view-order.php:46
+#: templates/checkout-cart/cart.php:46 templates/checkout-cart/cart.php:123
+#: templates/dashboard-widgets/top-sales.php:18
+#: templates/partials/guest-order-details.php:66
+#: templates/partials/user-order-details.php:54
+#: templates/user-dashboard/order-details.php:128
+#: templates/user-dashboard/purchase-orders.php:194
+#: templates/wpdm-pp-earnings.php:118 templates/wpdm-pp-invoice.php:87
+#: templates4/checkout-cart/cart.php:46 templates4/checkout-cart/cart.php:124
+#: templates4/dashboard-widgets/top-sales.php:18
+#: templates4/partials/guest-order-details.php:66
+#: templates4/partials/user-order-details.php:53
+#: templates4/user-dashboard/order-details.php:128
+#: templates4/user-dashboard/purchase-orders.php:195
+#: templates4/wpdm-pp-earnings.php:118 templates4/wpdm-pp-invoice.php:86
+msgid "Quantity"
+msgstr ""
+
+#: includes/libs/class.CustomColumns.php:22
+msgid "Total Sales"
+msgstr ""
+
+#: includes/libs/class.CustomColumns.php:35
+msgid "Total Sales, Click to Recalculate"
+msgstr ""
+
+#: includes/libs/class.DashboardWidgets.php:29
+#: includes/libs/class.DashboardWidgets.php:55
+#: includes/libs/class.DashboardWidgets.php:80
+#: includes/libs/class.DashboardWidgets.php:105 wpdm-premium-packages.php:293
+msgid "Loading...."
+msgstr ""
+
+#: includes/libs/class.DashboardWidgets.php:131 wpdm-premium-packages.php:330
+msgid "Sales Overview"
+msgstr ""
+
+#: includes/libs/class.DashboardWidgets.php:132
+msgid "Latest Orders"
+msgstr ""
+
+#: includes/libs/class.DashboardWidgets.php:133
+msgid "Recently Sold Items"
+msgstr ""
+
+#: includes/libs/class.DashboardWidgets.php:134
+msgid "Top Selling Items ( Last 90 Days )"
+msgstr ""
+
+#: includes/libs/class.LicenseManager.php:45
+#: includes/libs/class.LicenseManager.php:61
+msgid "Unauthorized access"
+msgstr ""
+
+#: includes/libs/class.LicenseManager.php:59
+msgid "Domain is removed"
+msgstr ""
+
+#: includes/libs/class.Payment.php:99 includes/settings/payment-options.php:34
+msgid "Active"
+msgstr ""
+
+#: includes/libs/class.Payment.php:108
+msgid "Title"
+msgstr ""
+
+#: includes/libs/class.ShortCodes.php:117
+msgid "Product ID is missing!"
+msgstr ""
+
+#: includes/libs/functions.php:295
+msgid "Withdraw Request Sent!"
+msgstr ""
+
+#: includes/libs/functions.php:483
+#: templates/user-dashboard/purchased-items.php:45
+#: templates4/user-dashboard/purchased-items.php:45
+msgid "Product Deleted"
+msgstr ""
+
+#: includes/libs/functions.php:498 templates/checkout-cart/checkout.php:77
+#: templates/partials/guest-order-details.php:207
+#: templates/partials/user-order-details.php:191
+#: templates/user-dashboard/order-details.php:281
+#: templates4/checkout-cart/checkout.php:72
+#: templates4/partials/guest-order-details.php:206
+#: templates4/partials/user-order-details.php:190
+#: templates4/user-dashboard/order-details.php:281
+msgid "Pay Now"
+msgstr ""
+
+#: includes/libs/functions.php:604
+#, php-format
+msgid "Sales price will expire on %s"
+msgstr ""
+
+#: includes/libs/functions.php:604
+msgid "This is a discounted price for a limited time"
+msgstr ""
+
+#: includes/libs/functions.php:759
+msgid "Unauthorized Operation!"
+msgstr ""
+
+#: includes/libs/functions.php:789
+msgid "User Not Found!"
+msgstr ""
+
+#: includes/libs/functions.php:831
+msgid "Purchase Confirmation - Guest"
+msgstr ""
+
+#: includes/libs/functions.php:833 includes/libs/functions.php:843
+msgid "Thanks For Your Purchase"
+msgstr ""
+
+#: includes/libs/functions.php:841
+msgid "Purchase Confirmation"
+msgstr ""
+
+#: includes/libs/functions.php:851
+msgid "Subscription Reminder"
+msgstr ""
+
+#: includes/libs/functions.php:853
+msgid "[#sitename#] Subscription Reminder"
+msgstr ""
+
+#: includes/libs/functions.php:861
+msgid "Order Renew Confirmation"
+msgstr ""
+
+#: includes/libs/functions.php:863
+msgid "Order Renewed Successfully"
+msgstr ""
+
+#: includes/libs/functions.php:871
+msgid "New Sale Notification"
+msgstr ""
+
+#: includes/libs/functions.php:873
+msgid "Congratulations! You have a sale."
+msgstr ""
+
+#: includes/libs/functions.php:882
+msgid "Order Status Notification"
+msgstr ""
+
+#: includes/libs/functions.php:884
+msgid "Order ([#orderid#]) Status Changed"
+msgstr ""
+
+#: includes/libs/functions.php:892
+msgid "Order Expiry Notification"
+msgstr ""
+
+#: includes/libs/functions.php:894
+msgid "Your order is about to expire"
+msgstr ""
+
+#: includes/libs/functions.php:902
+msgid "Email Saved Cart"
+msgstr ""
+
+#: includes/libs/functions.php:905
+msgid "Someone sent you a cart!"
+msgstr ""
+
+#: includes/libs/functions.php:916
+msgid ""
+"Database error detected. Please try deactivate and then reactivating plugin."
+msgstr ""
+
+#: includes/libs/payment-methods/Cash/class.Cash.php:50
+#: includes/libs/payment-methods/Cheque/class.Cheque.php:48
+#: includes/menus/templates/view-order.php:165
+msgid "Order Status:"
+msgstr ""
+
+#: includes/libs/payment-methods/Cash/class.Cash.php:56
+#: includes/libs/payment-methods/Cheque/class.Cheque.php:54
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:124
+#: includes/libs/payment-methods/TestPay/class.TestPay.php:47
+msgid "Return Url:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:77
+msgid "Paypal Mode:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:83
+msgid "Paypal Email:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:94
+msgid "Client ID:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:100
+msgid "Client Secret:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:106
+msgid "Client ID (Sandbox):"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:112
+msgid "Client Secret (Sandbox):"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:118
+#: includes/libs/payment-methods/TestPay/class.TestPay.php:41
+msgid "Cancel Url:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:131
+msgid "Checkout Page Logo Url:"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:207
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:274
+msgid "Proceeding to Paypal...."
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:210
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:277
+msgid "There are some problems with PayPal setup, please notify site admin"
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:569
+msgid "Completing Order..."
+msgstr ""
+
+#: includes/libs/payment-methods/Paypal/class.Paypal.php:655
+msgid "Completing Purchase..."
+msgstr ""
+
+#: includes/menus/class.AdminMenus.php:23
+#: includes/menus/templates/orders.php:21
+msgid "Orders"
+msgstr ""
+
+#: includes/menus/class.AdminMenus.php:24
+msgid "License Manager"
+msgstr ""
+
+#: includes/menus/class.AdminMenus.php:25
+#: includes/menus/templates/coupon-codes.php:35
+msgid "Coupon Codes"
+msgstr ""
+
+#: includes/menus/class.AdminMenus.php:26
+#: includes/menus/templates/payouts.php:47
+msgid "Payouts"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:37
+msgid "Add New"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:38
+#: includes/menus/templates/orders.php:115
+msgid "Search"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:39
+#: includes/menus/templates/orders.php:26
+msgid "Delete Selected"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:51
+#: includes/menus/templates/new-coupon.php:33
+msgid "Coupon Code:"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:54
+#: includes/menus/templates/edit-coupon.php:42
+#: includes/menus/templates/edit-license.php:43
+#: includes/menus/templates/new-coupon.php:57
+#: includes/menus/templates/new-license.php:27
+msgid "Product ID:"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:57
+#: includes/menus/templates/new-coupon.php:66
+#: templates/wpdm-pp-edit-profile.php:96 templates4/wpdm-pp-edit-profile.php:97
+msgid "Description:"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:60
+msgid "Search Coupon"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:64
+#, php-format
+msgid "%d coupon code(s) found"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:73
+#: includes/menus/templates/view-order.php:48
+#: templates/checkout-cart/cart.php:44 templates/checkout-cart/cart.php:117
+#: templates4/checkout-cart/cart.php:44 templates4/checkout-cart/cart.php:118
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:74
+#: templates/metaboxes/wpdm-pp-settings.php:250
+#: templates/partials/guest-order-details.php:215
+#: templates/partials/user-order-details.php:202
+#: templates/wpdm-pp-invoice.php:90
+#: templates4/metaboxes/wpdm-pp-settings.php:250
+#: templates4/partials/guest-order-details.php:214
+#: templates4/partials/user-order-details.php:201
+#: templates4/wpdm-pp-invoice.php:89
+msgid "Discount"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:75
+msgid "Type"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:76
+#: templates/partials/guest-order-details.php:65
+#: templates/partials/user-order-details.php:53
+#: templates/user-dashboard/order-details.php:127
+#: templates/user-dashboard/purchase-orders.php:193
+#: templates4/partials/guest-order-details.php:65
+#: templates4/partials/user-order-details.php:52
+#: templates4/user-dashboard/order-details.php:127
+#: templates4/user-dashboard/purchase-orders.php:194
+msgid "Product"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:77
+#: includes/menus/templates/manage-license.php:59
+#: includes/menus/templates/manage-license.php:71
+#: includes/menus/templates/orders.php:172
+#: includes/menus/templates/orders.php:213
+#: templates/user-dashboard/purchase-orders.php:44
+#: templates4/user-dashboard/purchase-orders.php:44
+msgid "Expire Date"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:78
+msgid "Usage / Limit"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:79
+msgid "Spend Limit (min/max)"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:80
+#: includes/menus/templates/payout-dues.php:17
+#: includes/settings/tax-options.php:91
+msgid "Action"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:93
+msgid "Never"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:97
+msgid "Edit"
+msgstr ""
+
+#: includes/menus/templates/coupon-codes.php:98
+#: includes/menus/templates/renew-invoices.php:31
+#: templates/metaboxes/wpdm-pp-settings.php:88
+#: templates4/metaboxes/wpdm-pp-settings.php:88
+msgid "Delete"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:38
+#: includes/menus/templates/view-order.php:44
+#: templates/dashboard-widgets/top-sales.php:17
+#: templates/wpdm-pp-invoice.php:86
+#: templates4/dashboard-widgets/top-sales.php:17
+#: templates4/wpdm-pp-invoice.php:85
+msgid "Item Name"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:39
+#: includes/menus/templates/view-order.php:45
+#: templates/checkout-cart/cart.php:39 templates/checkout-cart/cart.php:106
+#: templates/partials/guest-order-details.php:67
+#: templates/partials/user-order-details.php:55
+#: templates/user-dashboard/order-details.php:129
+#: templates/user-dashboard/purchase-orders.php:195
+#: templates/wpdm-pp-invoice.php:88 templates4/checkout-cart/cart.php:39
+#: templates4/checkout-cart/cart.php:107
+#: templates4/partials/guest-order-details.php:67
+#: templates4/partials/user-order-details.php:54
+#: templates4/user-dashboard/order-details.php:129
+#: templates4/user-dashboard/purchase-orders.php:196
+#: templates4/wpdm-pp-invoice.php:87
+msgid "Unit Price"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:41
+#: templates/checkout-cart/cart.php:148 templates/checkout-cart/cart.php:150
+#: templates/user-dashboard/order-details.php:293
+#: templates/wpdm-pp-invoice.php:89 templates4/checkout-cart/cart.php:149
+#: templates4/checkout-cart/cart.php:151
+#: templates4/user-dashboard/order-details.php:293
+#: templates4/wpdm-pp-invoice.php:88
+msgid "Subtotal"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:55
+#: includes/menus/templates/view-order.php:155
+msgid "View Order"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:61
+#: includes/menus/templates/view-order.php:196
+msgid "Message"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:65
+#: includes/menus/templates/manage-license.php:57
+#: includes/menus/templates/manage-license.php:69
+#: includes/menus/templates/orders.php:113
+#: includes/menus/templates/view-order.php:200
+#: templates/user-dashboard/purchased-items.php:26
+#: templates4/user-dashboard/purchased-items.php:26
+msgid "Order ID"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:73
+#: includes/menus/templates/orders.php:170
+#: includes/menus/templates/orders.php:211
+#: includes/menus/templates/view-order.php:208
+#: templates/wpdm-pp-invoice.php:228 templates4/wpdm-pp-invoice.php:227
+msgid "Order Date"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:81
+#: includes/menus/templates/view-order.php:236
+msgid "Order Total"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:91
+#: includes/menus/templates/view-order.php:342
+msgid "Order Items"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:111
+#: includes/menus/templates/new-coupon.php:119
+#: includes/menus/templates/new-license.php:76
+msgid "Select Product"
+msgstr ""
+
+#: includes/menus/templates/create-order.php:115
+#: includes/menus/templates/new-coupon.php:123
+#: includes/menus/templates/new-license.php:80
+msgid "Search Product..."
+msgstr ""
+
+#: includes/menus/templates/create-order.php:189
+msgid "Cart is empty"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:17
+msgid "Edit Coupon"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:30
+#: includes/menus/templates/edit-license.php:31
+#: includes/menus/templates/manage-license.php:30
+#: includes/menus/templates/new-license.php:18
+msgid "License No:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:36
+#: includes/menus/templates/edit-license.php:37
+#: includes/menus/templates/manage-license.php:27
+#: includes/menus/templates/new-license.php:23
+#: templates/partials/guest-order-search-form.php:29
+#: templates4/partials/guest-order-search-form.php:29
+msgid "Order ID:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:48
+msgid "Status:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:50
+msgid "Online"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:51
+msgid "Offline"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:57
+#: includes/menus/templates/edit-license.php:58
+#: includes/menus/templates/new-license.php:40
+msgid "Domains:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:59
+#: includes/menus/templates/edit-license.php:62
+#: includes/menus/templates/new-license.php:42
+msgid "One domain per line. Don't use 'http://' or 'www' only 'domain.com'"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:64
+#: includes/menus/templates/edit-license.php:67
+#: includes/menus/templates/new-license.php:46
+msgid "Activation Date:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:70
+#: includes/menus/templates/edit-license.php:74
+#: includes/menus/templates/new-coupon.php:72
+msgid "Expire Date:"
+msgstr ""
+
+#: includes/menus/templates/edit-coupon.php:76
+#: includes/menus/templates/edit-license.php:49
+#: includes/menus/templates/new-license.php:34
+msgid "Domain Limit:"
+msgstr ""
+
+#: includes/menus/templates/edit-license.php:18
+msgid "Edit License"
+msgstr ""
+
+#: includes/menus/templates/edit-license.php:20
+#: includes/menus/templates/edit-license.php:84
+msgid "Update License"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:8
+msgid "Licenses"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:33
+msgid "Website/IP:"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:41
+#, php-format
+msgid "%d license(s) found"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:55
+#: includes/menus/templates/manage-license.php:67
+msgid "License Key"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:56
+#: includes/menus/templates/manage-license.php:68
+#: templates/user-dashboard/purchased-items.php:24
+#: templates4/user-dashboard/purchased-items.php:24
+msgid "Product Name"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:58
+#: includes/menus/templates/manage-license.php:70
+msgid "Activation Date"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:60
+#: includes/menus/templates/manage-license.php:72
+msgid "Domains"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:84
+#: includes/menus/templates/view-order.php:75
+#: templates/checkout-cart/cart.php:60
+#: templates/user-dashboard/order-details.php:177
+#: templates/user-dashboard/purchased-items.php:40
+#: templates4/checkout-cart/cart.php:60
+#: templates4/user-dashboard/order-details.php:177
+#: templates4/user-dashboard/purchased-items.php:40
+#, php-format
+msgid "%s License"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:110
+msgid "&laquo;"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:111
+msgid "&raquo;"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:123
+#: includes/menus/templates/orders.php:370
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:147
+msgid "License Integration"
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:187
+msgid "Wait..."
+msgstr ""
+
+#: includes/menus/templates/manage-license.php:191
+msgid "Unlocked"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:18
+msgid "Edit Coupon Code"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:18
+msgid "New Coupon Code"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:21
+msgid "Back"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:39
+msgid "Discount Type:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:41
+msgid "Percent"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:42
+msgid "Fixed"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:48
+msgid "Discount Amount:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:78
+msgid "Minimum Spend:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:84
+msgid "Maximum Spend:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:92
+msgid "Limit Usage:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:98
+msgid "Allowed Emails:"
+msgstr ""
+
+#: includes/menus/templates/new-coupon.php:104
+msgid "Save Coupon Code"
+msgstr ""
+
+#: includes/menus/templates/new-license.php:8
+msgid "New License"
+msgstr ""
+
+#: includes/menus/templates/new-license.php:50
+msgid "Expire Period:"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:51
+#: templates/partials/order-notes.php:58 templates4/partials/order-notes.php:58
+msgid "Select File"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:71
+#: templates/partials/order-notes.php:78 templates4/partials/order-notes.php:78
+msgid "Allowed Files"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:179
+#: includes/menus/templates/order-notes.php:197
+#: templates/partials/order-notes.php:197
+#: templates/partials/order-notes.php:212
+#: templates4/partials/order-notes.php:197
+#: templates4/partials/order-notes.php:212
+msgid "Add Note"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:181
+msgid "Also mail to:"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:182
+#: templates/partials/order-notes.php:191
+#: templates4/partials/order-notes.php:191
+msgid "Site Admin"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:183
+#: templates/partials/order-notes.php:192
+#: templates4/partials/order-notes.php:192
+msgid "Seller"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:184
+#: includes/menus/templates/orders.php:169
+#: includes/menus/templates/orders.php:210
+#: templates/partials/order-notes.php:193
+#: templates4/partials/order-notes.php:193
+msgid "Customer"
+msgstr ""
+
+#: includes/menus/templates/order-notes.php:193
+#: templates/partials/order-notes.php:208
+#: templates4/partials/order-notes.php:208
+msgid "Adding..."
+msgstr ""
+
+#: includes/menus/templates/orders.php:24
+msgid "Create Order"
+msgstr ""
+
+#: includes/menus/templates/orders.php:32
+msgid "Processing Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:33
+msgid "Cancelled Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:34
+msgid "Disputed Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:35
+#: includes/menus/templates/orders.php:59
+msgid "Refunded Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:53
+msgid "Completed Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:65
+msgid "Abandoned Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:71
+msgid "Expired Orders"
+msgstr ""
+
+#: includes/menus/templates/orders.php:93
+msgid "Order status:"
+msgstr ""
+
+#: includes/menus/templates/orders.php:101
+msgid "Payment status:"
+msgstr ""
+
+#: includes/menus/templates/orders.php:111
+msgid "From Date"
+msgstr ""
+
+#: includes/menus/templates/orders.php:112
+msgid "To Date"
+msgstr ""
+
+#: includes/menus/templates/orders.php:114
+msgid "Customer ID / Email / Username"
+msgstr ""
+
+#: includes/menus/templates/orders.php:123
+msgid "Total Sales:"
+msgstr ""
+
+#: includes/menus/templates/orders.php:124
+msgid "order(s) found"
+msgstr ""
+
+#: includes/menus/templates/orders.php:153
+#: includes/menus/templates/orders.php:196
+#: templates/partials/guest-order-details.php:256
+#: templates/partials/user-order-details.php:246
+#: templates/user-dashboard/order-details.php:392
+#: templates/user-dashboard/purchase-orders.php:192
+#: templates4/partials/guest-order-details.php:254
+#: templates4/partials/user-order-details.php:245
+#: templates4/user-dashboard/order-details.php:392
+#: templates4/user-dashboard/purchase-orders.php:193
+msgid "Order Status"
+msgstr ""
+
+#: includes/menus/templates/orders.php:159
+#: includes/menus/templates/orders.php:202
+#: templates/user-dashboard/purchase-orders.php:96
+#: templates4/user-dashboard/purchase-orders.php:96
+msgid "Order"
+msgstr ""
+
+#: includes/menus/templates/orders.php:162
+#: includes/menus/templates/orders.php:203
+#: templates/partials/user-orders-list.php:22 templates/wpdm-pp-invoice.php:297
+#: templates4/partials/user-orders-list.php:22
+#: templates4/wpdm-pp-invoice.php:296
+msgid "Payment Status"
+msgstr ""
+
+#: includes/menus/templates/orders.php:168
+#: includes/menus/templates/orders.php:209
+#: includes/menus/templates/view-order.php:50
+#: includes/menus/templates/view-order.php:145
+#: templates/checkout-cart/cart.php:47 templates/checkout-cart/cart.php:186
+#: templates/checkout-cart/cart.php:188
+#: templates/dashboard-widgets/sales-overview.php:110
+#: templates/metaboxes/product-sales-overview.php:117
+#: templates/partials/guest-order-details.php:71
+#: templates/partials/guest-order-details.php:220
+#: templates/partials/user-order-details.php:59
+#: templates/partials/user-order-details.php:211
+#: templates/user-dashboard/order-details.php:138
+#: templates/user-dashboard/order-details.php:314
+#: templates/user-dashboard/purchase-orders.php:198
+#: templates/wpdm-pp-invoice.php:91 templates/wpdm-pp-invoice.php:92
+#: templates4/checkout-cart/cart.php:47 templates4/checkout-cart/cart.php:187
+#: templates4/checkout-cart/cart.php:189
+#: templates4/dashboard-widgets/sales-overview.php:109
+#: templates4/metaboxes/product-sales-overview.php:117
+#: templates4/partials/guest-order-details.php:70
+#: templates4/partials/guest-order-details.php:219
+#: templates4/partials/user-order-details.php:58
+#: templates4/partials/user-order-details.php:210
+#: templates4/user-dashboard/order-details.php:138
+#: templates4/user-dashboard/order-details.php:314
+#: templates4/user-dashboard/purchase-orders.php:199
+#: templates4/wpdm-pp-invoice.php:90 templates4/wpdm-pp-invoice.php:91
+msgid "Total"
+msgstr ""
+
+#: includes/menus/templates/orders.php:171
+#: includes/menus/templates/orders.php:212
+msgid "Renew Cycle"
+msgstr ""
+
+#: includes/menus/templates/orders.php:175
+#: includes/menus/templates/orders.php:216
+msgid "Item Download Status"
+msgstr ""
+
+#: includes/menus/templates/orders.php:183
+#: includes/menus/templates/orders.php:224
+msgid "Auto Renew Status"
+msgstr ""
+
+#: includes/menus/templates/orders.php:293
+#: templates4/user-dashboard/purchased-items.php:47
+msgid "View Order Details"
+msgstr ""
+
+#: includes/menus/templates/orders.php:296
+msgid "items"
+msgstr ""
+
+#: includes/menus/templates/orders.php:296
+msgid "item"
+msgstr ""
+
+#: includes/menus/templates/orders.php:297
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/menus/templates/orders.php:309
+msgid "via"
+msgstr ""
+
+#: includes/menus/templates/orders.php:314
+msgid "All orders placed by this customer"
+msgstr ""
+
+#: includes/menus/templates/orders.php:323
+#, php-format
+msgid "%d time(s)"
+msgstr ""
+
+#: includes/menus/templates/orders.php:323
+msgid "First Purchase"
+msgstr ""
+
+#: includes/menus/templates/orders.php:327
+msgid "New"
+msgstr ""
+
+#: includes/menus/templates/orders.php:327
+msgid "Downloaded"
+msgstr ""
+
+#: includes/menus/templates/orders.php:416
+msgid "Are you sure you want to delete selected orders?"
+msgstr ""
+
+#: includes/menus/templates/orders.php:435
+msgid "Are you sure to delete all '#_#' orders?"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:10
+msgid "Payout Status:"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:11
+msgid "Pending"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:12
+msgid "Completed"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:13
+msgid "Cancel"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:19
+#: includes/menus/templates/payout-all.php:27
+#: includes/menus/templates/payout-dues.php:13
+#: templates/checkout-cart/checkout-name-email.php:20
+#: templates4/checkout-cart/checkout-name-email.php:20
+msgid "Name"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:20
+#: includes/menus/templates/payout-all.php:28
+#: includes/menus/templates/payout-dues.php:14
+msgid "PayPal Account"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:21
+#: includes/menus/templates/payout-all.php:29
+#: includes/menus/templates/payout-dues.php:15
+#: templates/dashboard-widgets/top-sales.php:19
+#: templates4/dashboard-widgets/top-sales.php:19
+msgid "Amount"
+msgstr ""
+
+#: includes/menus/templates/payout-all.php:22
+#: includes/menus/templates/payout-all.php:30
+#: includes/menus/templates/payout-dues.php:16
+#: templates/user-dashboard/purchase-orders.php:45
+#: templates4/user-dashboard/purchase-orders.php:45
+msgid "Status"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:6
+msgid "Commissions"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:9
+#: templates/metaboxes/wpdm-pp-settings.php:249
+#: templates4/metaboxes/wpdm-pp-settings.php:249
+msgid "Role"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:10
+msgid "Commission (%)"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:13
+msgid "Default"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:33
+msgid "Payout Duration"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:36
+msgid "Duration of payout to mature :"
+msgstr ""
+
+#: includes/menus/templates/payout-settings.php:37
+#: includes/settings/basic-options.php:193
+msgid "Days"
+msgstr ""
+
+#: includes/menus/templates/payouts.php:52
+msgid "All Payouts"
+msgstr ""
+
+#: includes/menus/templates/payouts.php:53
+msgid "Dues"
+msgstr ""
+
+#: includes/menus/templates/payouts.php:54
+msgid "Payout Settings"
+msgstr ""
+
+#: includes/menus/templates/renew-invoices.php:14
+#: templates/partials/renew-invoices.php:13
+#: templates4/partials/renew-invoices.php:13
+msgid "Order Renew Invoices"
+msgstr ""
+
+#: includes/menus/templates/renew-invoices.php:19
+#: templates/partials/renew-invoices.php:18
+#: templates4/partials/renew-invoices.php:18
+msgid "Renew Date"
+msgstr ""
+
+#: includes/menus/templates/renew-invoices.php:20
+#: includes/settings/basic-options.php:257
+#: templates/partials/guest-order-details.php:51
+#: templates/partials/guest-order-details.php:52
+#: templates/partials/renew-invoices.php:19
+#: templates/partials/user-order-details.php:38
+#: templates/partials/user-order-details.php:39
+#: templates/user-dashboard/order-details.php:110
+#: templates4/partials/guest-order-details.php:51
+#: templates4/partials/guest-order-details.php:52
+#: templates4/partials/renew-invoices.php:19
+#: templates4/partials/user-order-details.php:38
+#: templates4/partials/user-order-details.php:39
+#: templates4/user-dashboard/order-details.php:110
+msgid "Invoice"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:47
+#: templates/checkout-cart/cart.php:41 templates/checkout-cart/cart.php:111
+#: templates/partials/guest-order-details.php:69
+#: templates/partials/user-order-details.php:57
+#: templates/user-dashboard/order-details.php:135
+#: templates/user-dashboard/purchase-orders.php:197
+#: templates/wpdm-pp-invoice.php:85 templates4/checkout-cart/cart.php:41
+#: templates4/checkout-cart/cart.php:112
+#: templates4/partials/user-order-details.php:56
+#: templates4/user-dashboard/order-details.php:135
+#: templates4/user-dashboard/purchase-orders.php:198
+#: templates4/wpdm-pp-invoice.php:84
+msgid "Role Discount"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:49
+#: templates/checkout-cart/cart.php:164 templates/checkout-cart/cart.php:166
+#: templates/partials/guest-order-details.php:68
+#: templates/partials/user-order-details.php:56
+#: templates/user-dashboard/order-details.php:131
+#: templates/user-dashboard/order-details.php:300
+#: templates/user-dashboard/purchase-orders.php:196
+#: templates/wpdm-pp-invoice.php:84 templates4/checkout-cart/cart.php:165
+#: templates4/checkout-cart/cart.php:167
+#: templates4/partials/guest-order-details.php:68
+#: templates4/partials/user-order-details.php:55
+#: templates4/user-dashboard/order-details.php:131
+#: templates4/user-dashboard/order-details.php:300
+#: templates4/user-dashboard/purchase-orders.php:197
+#: templates4/wpdm-pp-invoice.php:83
+msgid "Coupon Discount"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:137
+msgid "Cart Coupon Discount"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:141
+#: templates/checkout-cart/cart.php:175 templates/checkout-cart/cart.php:177
+#: templates/partials/user-order-details.php:206
+#: templates/user-dashboard/order-details.php:307
+#: templates/wpdm-pp-invoice.php:93 templates4/checkout-cart/cart.php:176
+#: templates4/checkout-cart/cart.php:178
+#: templates4/partials/user-order-details.php:205
+#: templates4/user-dashboard/order-details.php:307
+#: templates4/wpdm-pp-invoice.php:92
+msgid "Tax"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:156
+#: includes/menus/templates/view-order.php:409
+#: templates/checkout-cart/checkout-login-register.php:193
+#: templates/checkout-cart/checkout-login-register.php:215
+#: templates/partials/resolve-order.php:27
+#: templates/user-dashboard/purchase-orders.php:26
+#: templates4/checkout-cart/checkout-login-register.php:203
+#: templates4/checkout-cart/checkout-login-register.php:228
+#: templates4/partials/resolve-order.php:27
+#: templates4/user-dashboard/purchase-orders.php:26
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/menus/templates/view-order.php:177
+msgid "Payment Status:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:202
+#, php-format
+msgid "%s transaction ID"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:227
+msgid "Auto-Renew Date"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:227
+msgid "Expiry Date"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:246
+msgid "Order Summary"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:248
+msgid "Total Coupon Discount:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:249
+msgid "Role Discount:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:270
+msgid "Customer Info"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:274
+#: includes/menus/templates/view-order.php:284
+msgid "Customer Name:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:275
+#: includes/menus/templates/view-order.php:285
+msgid "Customer Email:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:290
+msgid "This order is not associated with any registered user"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:292
+msgid "Assign User"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:300
+msgid "IP Information"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:302
+msgid "IP Address:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:303
+msgid "Location:"
+msgstr ""
+
+#: includes/menus/templates/view-order.php:358
+msgid "Order Notes"
+msgstr ""
+
+#: includes/settings/basic-options.php:11
+msgid "Base Country"
+msgstr ""
+
+#: includes/settings/basic-options.php:14
+#: templates/checkout-cart/checkout-billing-info.php:47
+#: templates/partials/guest-order-billing-info.php:127
+#: templates/user-dashboard/billing-info.php:91
+#: templates4/checkout-cart/checkout-billing-info.php:47
+#: templates4/partials/guest-order-billing-info.php:127
+#: templates4/user-dashboard/billing-info.php:91
+msgid "--Select Country--"
+msgstr ""
+
+#: includes/settings/basic-options.php:29
+msgid "Allowed Countries"
+msgstr ""
+
+#: includes/settings/basic-options.php:33
+msgid "Select All/None"
+msgstr ""
+
+#: includes/settings/basic-options.php:63
+msgid "Frontend Settings"
+msgstr ""
+
+#: includes/settings/basic-options.php:67
+msgid "Ask for billing address on checkout page"
+msgstr ""
+
+#: includes/settings/basic-options.php:72
+msgid "Authorize MasterKey to download premium packages"
+msgstr ""
+
+#: includes/settings/basic-options.php:76
+msgid "Enable guest checkout"
+msgstr ""
+
+#: includes/settings/basic-options.php:81
+msgid "Enable guest download"
+msgstr ""
+
+#: includes/settings/basic-options.php:86
+msgid "Cart Page :"
+msgstr ""
+
+#: includes/settings/basic-options.php:90
+#: includes/settings/basic-options.php:96
+#: includes/settings/basic-options.php:108
+#: includes/settings/basic-options.php:113
+#: includes/settings/basic-options.php:125
+#: includes/settings/basic-options.php:130
+#: includes/settings/wizard/class.SetupWizard.php:294
+#: includes/settings/wizard/class.SetupWizard.php:307
+#: includes/settings/wizard/class.SetupWizard.php:322
+msgid "None Selected"
+msgstr ""
+
+#: includes/settings/basic-options.php:103
+msgid "Orders Page :"
+msgstr ""
+
+#: includes/settings/basic-options.php:120
+msgid "Guest Order Page :"
+msgstr ""
+
+#: includes/settings/basic-options.php:137
+msgid "Continue Shopping URL:"
+msgstr ""
+
+#: includes/settings/basic-options.php:143
+msgid "Purchase Settings"
+msgstr ""
+
+#: includes/settings/basic-options.php:148
+msgid "Disable user role based discount"
+msgstr ""
+
+#: includes/settings/basic-options.php:153
+msgid "Disable product specific coupons"
+msgstr ""
+
+#: includes/settings/basic-options.php:158
+msgid "Show <strong>Buy Now</strong> option"
+msgstr ""
+
+#: includes/settings/basic-options.php:163
+msgid "Redirect to shopping cart after a product is added to the cart"
+msgstr ""
+
+#: includes/settings/basic-options.php:168
+msgid "Show 'Add To Cart' button as customer download link fallback"
+msgstr ""
+
+#: includes/settings/basic-options.php:173
+msgid "Keep license key valid for expired orders"
+msgstr ""
+
+#: includes/settings/basic-options.php:178
+msgid "Send order expiration alert to customer"
+msgstr ""
+
+#: includes/settings/basic-options.php:184
+msgid "Auto renew order on expiration"
+msgstr ""
+
+#: includes/settings/basic-options.php:189
+msgid "Order Validity Period:"
+msgstr ""
+
+#: includes/settings/basic-options.php:198
+msgid "Order Title:"
+msgstr ""
+
+#: includes/settings/basic-options.php:202
+#, php-format
+msgid "%s = Product Name, %s = Order ID"
+msgstr ""
+
+#: includes/settings/basic-options.php:205
+msgid "Order ID Prefix:"
+msgstr ""
+
+#: includes/settings/basic-options.php:218
+msgid "License Settings"
+msgstr ""
+
+#: includes/settings/basic-options.php:260
+msgid "Invoice Logo URL"
+msgstr ""
+
+#: includes/settings/basic-options.php:269
+msgid "Company Address"
+msgstr ""
+
+#: includes/settings/basic-options.php:276
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/settings/basic-options.php:281
+msgid "Disable plugin CSS from front-end"
+msgstr ""
+
+#: includes/settings/payment-options.php:12
+msgid "Payment Methods Configuration"
+msgstr ""
+
+#: includes/settings/payment-options.php:31
+msgid "Drag and Drop to re-order"
+msgstr ""
+
+#: includes/settings/payment-options.php:36
+msgid "Inactive"
+msgstr ""
+
+#: includes/settings/payment-options.php:60
+msgid "Currency Configuration"
+msgstr ""
+
+#: includes/settings/payment-options.php:64
+msgid "Currency:"
+msgstr ""
+
+#: includes/settings/payment-options.php:68
+msgid "Currency sign position:"
+msgstr ""
+
+#: includes/settings/payment-options.php:71
+msgid "Before - $99"
+msgstr ""
+
+#: includes/settings/payment-options.php:72
+msgid "After - 99$"
+msgstr ""
+
+#: includes/settings/payment-options.php:77
+msgid "Thousand separator:"
+msgstr ""
+
+#: includes/settings/payment-options.php:83
+msgid "Decimal separator:"
+msgstr ""
+
+#: includes/settings/payment-options.php:89
+msgid "Number of decimals:"
+msgstr ""
+
+#: includes/settings/settings.php:12
+msgid "Basic"
+msgstr ""
+
+#: includes/settings/settings.php:13
+#: includes/settings/wizard/class.SetupWizard.php:53
+msgid "Payment"
+msgstr ""
+
+#: includes/settings/settings.php:14
+msgid "Taxes"
+msgstr ""
+
+#: includes/settings/tax-options.php:74
+msgid "Tax Options"
+msgstr ""
+
+#: includes/settings/tax-options.php:76
+msgid "Tax Calculation"
+msgstr ""
+
+#: includes/settings/tax-options.php:78
+msgid "Enable tax calculation"
+msgstr ""
+
+#: includes/settings/tax-options.php:82
+msgid "Tax Rates"
+msgstr ""
+
+#: includes/settings/tax-options.php:88
+#: templates/checkout-cart/checkout-billing-info.php:40
+#: templates/partials/guest-order-billing-info.php:118
+#: templates/user-dashboard/billing-info.php:84
+#: templates4/checkout-cart/checkout-billing-info.php:40
+#: templates4/partials/guest-order-billing-info.php:118
+#: templates4/user-dashboard/billing-info.php:84
+msgid "Country"
+msgstr ""
+
+#: includes/settings/tax-options.php:89
+msgid "State"
+msgstr ""
+
+#: includes/settings/tax-options.php:90
+msgid "Rate(%)"
+msgstr ""
+
+#: includes/settings/tax-options.php:139
+msgid "All States"
+msgstr ""
+
+#: includes/settings/tax-options.php:164
+msgid "Add Tax Rate"
+msgstr ""
+
+#: includes/settings/tax-options.php:177
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: includes/settings/wizard/class.SetupWizard.php:43
+msgid "Basics"
+msgstr ""
+
+#: includes/settings/wizard/class.SetupWizard.php:48
+msgid "Pages"
+msgstr ""
+
+#: includes/settings/wizard/class.SetupWizard.php:59
+msgid "Ready!"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:76
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:81
+msgid "Show as Panel"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:114
+msgid "Coupon does not exist"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:148
+msgid "Delete cart item"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:154
+msgid "Checkout"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:161
+msgid "Cart is Empty !"
+msgstr ""
+
+#: includes/widgets/widget-cart.php:161 templates/checkout-cart/cart.php:198
+#: templates4/checkout-cart/cart-empty.php:23
+#: templates4/checkout-cart/cart.php:199
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/add-to-cart/form.php:30 templates4/add-to-cart/form.php:30
+#, php-format
+msgid "%s %s discount will be applied in the cart"
+msgstr ""
+
+#: templates/add-to-cart/pay-as-you-want-form.php:26
+#: templates4/add-to-cart/pay-as-you-want-form.php:27
+msgid "Name Your Price:"
+msgstr ""
+
+#: templates/add-to-cart/pay-as-you-want-form.php:31
+#: templates4/add-to-cart/pay-as-you-want-form.php:33
+#, php-format
+msgid "Minimum Price: %s"
+msgstr ""
+
+#: templates/add-to-cart/select-license.php:18
+#: templates/partials/user-order-details.php:58
+#: templates/user-dashboard/order-details.php:137
+#: templates/user-dashboard/purchase-orders.php:200
+#: templates4/add-to-cart/select-license.php:18
+#: templates4/partials/user-order-details.php:57
+#: templates4/user-dashboard/order-details.php:137
+#: templates4/user-dashboard/purchase-orders.php:201
+msgid "License"
+msgstr ""
+
+#: templates/checkout-cart/cart-empty.php:26
+msgid "Cart is Empty"
+msgstr ""
+
+#: templates/checkout-cart/cart-empty.php:27
+#: templates4/checkout-cart/cart-empty.php:19
+msgid "No item is added in the cart yet."
+msgstr ""
+
+#: templates/checkout-cart/cart-empty.php:29
+msgid "Explore Products"
+msgstr ""
+
+#: templates/checkout-cart/cart-save.php:18
+#: templates4/checkout-cart/cart-save.php:19
+msgid "Saved Cart URL"
+msgstr ""
+
+#: templates/checkout-cart/cart.php:38 templates/wpdm-pp-earnings.php:117
+#: templates4/checkout-cart/cart.php:38 templates4/wpdm-pp-earnings.php:117
+msgid "Item"
+msgstr ""
+
+#: templates/checkout-cart/cart.php:98
+msgid "Remove From Cart"
+msgstr ""
+
+#: templates/checkout-cart/cart.php:127 templates4/checkout-cart/cart.php:128
+msgid "Item Total"
+msgstr ""
+
+#: templates/checkout-cart/cart.php:201 templates4/checkout-cart/cart.php:202
+msgid "Save Cart"
+msgstr ""
+
+#: templates/checkout-cart/cart.php:206 templates4/checkout-cart/cart.php:207
+msgid "Update Cart"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:14
+#: templates/user-dashboard/billing-info.php:18
+#: templates4/checkout-cart/checkout-billing-info.php:14
+#: templates4/user-dashboard/billing-info.php:18
+msgid "Billing Address"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:21
+#: templates/checkout-cart/checkout-billing-info.php:22
+#: templates/checkout-cart/checkout-login-register.php:58
+#: templates/partials/guest-order-billing-info.php:47
+#: templates/partials/guest-order-billing-info.php:50
+#: templates/user-dashboard/billing-info.php:23
+#: templates/user-dashboard/billing-info.php:26
+#: templates4/checkout-cart/checkout-billing-info.php:21
+#: templates4/checkout-cart/checkout-billing-info.php:22
+#: templates4/checkout-cart/checkout-login-register.php:60
+#: templates4/partials/guest-order-billing-info.php:47
+#: templates4/partials/guest-order-billing-info.php:50
+#: templates4/user-dashboard/billing-info.php:23
+#: templates4/user-dashboard/billing-info.php:26
+msgid "First Name"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:21
+#: templates/checkout-cart/checkout-billing-info.php:25
+#: templates/checkout-cart/checkout-billing-info.php:40
+#: templates/checkout-cart/checkout-billing-info.php:55
+#: templates/checkout-cart/checkout-billing-info.php:67
+#: templates/checkout-cart/checkout-billing-info.php:84
+#: templates/checkout-cart/checkout-billing-info.php:93
+#: templates/checkout-cart/checkout-billing-info.php:109
+#: templates/partials/guest-order-billing-info.php:48
+#: templates/partials/guest-order-billing-info.php:54
+#: templates/partials/guest-order-billing-info.php:69
+#: templates/partials/guest-order-billing-info.php:88
+#: templates/partials/guest-order-billing-info.php:98
+#: templates/partials/guest-order-billing-info.php:108
+#: templates/partials/guest-order-billing-info.php:119
+#: templates/partials/guest-order-billing-info.php:164
+#: templates/user-dashboard/billing-info.php:24
+#: templates/user-dashboard/billing-info.php:32
+#: templates/user-dashboard/billing-info.php:49
+#: templates/user-dashboard/billing-info.php:66
+#: templates/user-dashboard/billing-info.php:77
+#: templates/user-dashboard/billing-info.php:85
+#: templates/user-dashboard/billing-info.php:110
+#: templates/user-dashboard/billing-info.php:117
+#: templates4/checkout-cart/checkout-billing-info.php:21
+#: templates4/checkout-cart/checkout-billing-info.php:25
+#: templates4/checkout-cart/checkout-billing-info.php:40
+#: templates4/checkout-cart/checkout-billing-info.php:55
+#: templates4/checkout-cart/checkout-billing-info.php:67
+#: templates4/checkout-cart/checkout-billing-info.php:84
+#: templates4/checkout-cart/checkout-billing-info.php:93
+#: templates4/checkout-cart/checkout-billing-info.php:109
+#: templates4/partials/guest-order-billing-info.php:48
+#: templates4/partials/guest-order-billing-info.php:54
+#: templates4/partials/guest-order-billing-info.php:69
+#: templates4/partials/guest-order-billing-info.php:88
+#: templates4/partials/guest-order-billing-info.php:98
+#: templates4/partials/guest-order-billing-info.php:108
+#: templates4/partials/guest-order-billing-info.php:119
+#: templates4/partials/guest-order-billing-info.php:164
+#: templates4/user-dashboard/billing-info.php:24
+#: templates4/user-dashboard/billing-info.php:32
+#: templates4/user-dashboard/billing-info.php:49
+#: templates4/user-dashboard/billing-info.php:66
+#: templates4/user-dashboard/billing-info.php:77
+#: templates4/user-dashboard/billing-info.php:85
+#: templates4/user-dashboard/billing-info.php:110
+#: templates4/user-dashboard/billing-info.php:117
+msgid "Required"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:25
+#: templates/checkout-cart/checkout-billing-info.php:26
+#: templates/checkout-cart/checkout-login-register.php:62
+#: templates/partials/guest-order-billing-info.php:53
+#: templates/partials/guest-order-billing-info.php:56
+#: templates/user-dashboard/billing-info.php:31
+#: templates/user-dashboard/billing-info.php:34
+#: templates4/checkout-cart/checkout-billing-info.php:25
+#: templates4/checkout-cart/checkout-billing-info.php:26
+#: templates4/checkout-cart/checkout-login-register.php:64
+#: templates4/partials/guest-order-billing-info.php:53
+#: templates4/partials/guest-order-billing-info.php:56
+#: templates4/user-dashboard/billing-info.php:31
+#: templates4/user-dashboard/billing-info.php:34
+msgid "Last Name"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:32
+#: templates/partials/guest-order-billing-info.php:62
+#: templates/user-dashboard/billing-info.php:42
+#: templates4/checkout-cart/checkout-billing-info.php:32
+#: templates4/partials/guest-order-billing-info.php:62
+#: templates4/user-dashboard/billing-info.php:42
+msgid "Company Name"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:34
+#: templates4/checkout-cart/checkout-billing-info.php:34
+msgid "(Optional)"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:46
+#: templates/partials/guest-order-billing-info.php:126
+#: templates4/checkout-cart/checkout-billing-info.php:46
+#: templates4/partials/guest-order-billing-info.php:126
+msgid "Please Select Your Country"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:55
+#: templates4/checkout-cart/checkout-billing-info.php:55
+msgid "State / Province"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:58
+#: templates4/checkout-cart/checkout-billing-info.php:58
+msgid "state / province / region"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:67
+#: templates/partials/guest-order-billing-info.php:69
+#: templates/user-dashboard/billing-info.php:48
+#: templates4/checkout-cart/checkout-billing-info.php:67
+#: templates4/partials/guest-order-billing-info.php:69
+#: templates4/user-dashboard/billing-info.php:48
+msgid "Address Line 1"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:69
+#: templates/partials/guest-order-billing-info.php:72
+#: templates4/checkout-cart/checkout-billing-info.php:69
+#: templates4/partials/guest-order-billing-info.php:72
+msgid "address line 1"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:75
+#: templates/partials/guest-order-billing-info.php:78
+#: templates/user-dashboard/billing-info.php:59
+#: templates4/checkout-cart/checkout-billing-info.php:75
+#: templates4/partials/guest-order-billing-info.php:78
+#: templates4/user-dashboard/billing-info.php:59
+msgid "Address Line 2"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:77
+#: templates/partials/guest-order-billing-info.php:80
+#: templates4/checkout-cart/checkout-billing-info.php:77
+#: templates4/partials/guest-order-billing-info.php:80
+msgid "address line 2"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:84
+#: templates4/checkout-cart/checkout-billing-info.php:84
+msgid "City / Town"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:86
+#: templates4/checkout-cart/checkout-billing-info.php:86
+msgid "city"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:93
+#: templates4/checkout-cart/checkout-billing-info.php:93
+msgid "Zip / Postal Code"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:95
+#: templates4/checkout-cart/checkout-billing-info.php:95
+msgid "zip or postal code"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:105
+#: templates/partials/guest-order-billing-info.php:149
+#: templates/partials/guest-order-billing-info.php:151
+#: templates/user-dashboard/billing-info.php:127
+#: templates/user-dashboard/billing-info.php:129
+#: templates4/checkout-cart/checkout-billing-info.php:105
+#: templates4/partials/guest-order-billing-info.php:149
+#: templates4/partials/guest-order-billing-info.php:151
+#: templates4/user-dashboard/billing-info.php:127
+#: templates4/user-dashboard/billing-info.php:129
+msgid "Phone"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:106
+#: templates4/checkout-cart/checkout-billing-info.php:106
+msgid "Valid Phone Number"
+msgstr ""
+
+#: templates/checkout-cart/checkout-billing-info.php:109
+#: templates/checkout-cart/checkout-billing-info.php:110
+#: templates/checkout-cart/checkout-name-email.php:23
+#: templates4/checkout-cart/checkout-billing-info.php:109
+#: templates4/checkout-cart/checkout-billing-info.php:110
+#: templates4/checkout-cart/checkout-name-email.php:23
+msgid "Enter Order Notification Email"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:18
+#: templates4/checkout-cart/checkout-login-register.php:20
+msgid "Please register or login to checkout"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:23
+#: templates4/checkout-cart/checkout-login-register.php:25
+msgid "Signup"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:49
+#: templates4/checkout-cart/checkout-login-register.php:51
+msgid "Registration Failed!"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:68
+#: templates4/checkout-cart/checkout-login-register.php:70
+msgid "Username"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:75
+#: templates4/checkout-cart/checkout-login-register.php:77
+msgid "E-mail"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:84
+#: templates/checkout-cart/checkout-login-register.php:132
+#: templates4/checkout-cart/checkout-login-register.php:86
+#: templates4/checkout-cart/checkout-login-register.php:134
+msgid "Password"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:90
+#: templates4/checkout-cart/checkout-login-register.php:92
+msgid "Not Matched!"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:90
+#: templates4/checkout-cart/checkout-login-register.php:92
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:100
+#: templates4/checkout-cart/checkout-login-register.php:102
+msgid "Register"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:111
+#: templates/checkout-cart/checkout-login-register.php:150
+#: templates4/checkout-cart/checkout-login-register.php:113
+#: templates4/checkout-cart/checkout-login-register.php:150
+msgid "Login"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:118
+#: templates4/checkout-cart/checkout-login-register.php:120
+msgid "Login Failed!"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:126
+#: templates4/checkout-cart/checkout-login-register.php:128
+msgid "Email or Username"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:138
+#: templates4/checkout-cart/checkout-login-register.php:144
+msgid "Forgot Password?"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:138
+#: templates4/checkout-cart/checkout-login-register.php:144
+msgid "Request New"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:146
+#: templates4/checkout-cart/checkout-login-register.php:146
+msgid "Remember Me"
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:204
+#: templates/checkout-cart/checkout-login-register.php:226
+#: templates4/checkout-cart/checkout-login-register.php:214
+#: templates4/checkout-cart/checkout-login-register.php:239
+msgid "Loading Payment Options..."
+msgstr ""
+
+#: templates/checkout-cart/checkout-login-register.php:220
+#: templates4/checkout-cart/checkout-login-register.php:233
+msgid "Failed! Incorrect login info."
+msgstr ""
+
+#: templates/checkout-cart/checkout-name-email.php:14
+#: templates4/checkout-cart/checkout-name-email.php:14
+msgid "Please Enter Your Name & Email"
+msgstr ""
+
+#: templates/checkout-cart/checkout-payment-methods.php:16
+#: templates4/checkout-cart/checkout-payment-methods.php:16
+msgid "Select Payment Method:"
+msgstr ""
+
+#: templates/checkout-cart/checkout.php:71
+#: templates4/checkout-cart/checkout.php:66
+msgid "Total Including Tax:"
+msgstr ""
+
+#: templates/dashboard-widgets/latest-orders.php:22
+#: templates/dashboard-widgets/recent-sales.php:27
+#: templates4/dashboard-widgets/latest-orders.php:22
+#: templates4/dashboard-widgets/recent-sales.php:26
+msgid "Order#"
+msgstr ""
+
+#: templates/dashboard-widgets/recent-sales.php:16
+#: templates4/dashboard-widgets/recent-sales.php:15
+msgid "Item Deleted!"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:55
+#: templates/metaboxes/product-sales-overview.php:62
+#: templates4/dashboard-widgets/sales-overview.php:54
+#: templates4/metaboxes/product-sales-overview.php:62
+msgid "Last 7 Days Sales"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:72
+#: templates/metaboxes/product-sales-overview.php:79
+#: templates4/dashboard-widgets/sales-overview.php:71
+#: templates4/metaboxes/product-sales-overview.php:79
+msgid "Today"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:78
+#: templates/metaboxes/product-sales-overview.php:85
+#: templates4/dashboard-widgets/sales-overview.php:77
+#: templates4/metaboxes/product-sales-overview.php:85
+msgid "Yesterday"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:86
+#: templates/metaboxes/product-sales-overview.php:93
+#: templates4/dashboard-widgets/sales-overview.php:85
+#: templates4/metaboxes/product-sales-overview.php:93
+msgid "This Week"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:90
+#: templates/metaboxes/product-sales-overview.php:97
+#: templates4/dashboard-widgets/sales-overview.php:89
+#: templates4/metaboxes/product-sales-overview.php:97
+msgid "Last Week"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:94
+#: templates/metaboxes/product-sales-overview.php:101
+#: templates/wpdm-pp-seller-dashboard.php:72
+#: templates4/dashboard-widgets/sales-overview.php:93
+#: templates4/metaboxes/product-sales-overview.php:101
+#: templates4/wpdm-pp-seller-dashboard.php:72
+msgid "This Month"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:98
+#: templates/metaboxes/product-sales-overview.php:105
+#: templates4/dashboard-widgets/sales-overview.php:97
+#: templates4/metaboxes/product-sales-overview.php:105
+msgid "Last Month"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:102
+#: templates/metaboxes/product-sales-overview.php:109
+#: templates4/dashboard-widgets/sales-overview.php:101
+#: templates4/metaboxes/product-sales-overview.php:109
+msgid "This Year"
+msgstr ""
+
+#: templates/dashboard-widgets/sales-overview.php:106
+#: templates/metaboxes/product-sales-overview.php:113
+#: templates4/dashboard-widgets/sales-overview.php:105
+#: templates4/metaboxes/product-sales-overview.php:113
+msgid "Last Year"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:34
+#: templates4/metaboxes/wpdm-pp-settings.php:34
+msgid "Product Code"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:36
+#: templates4/metaboxes/wpdm-pp-settings.php:36
+msgid "Define a unique product code"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:40
+#: templates4/metaboxes/wpdm-pp-settings.php:40
+msgid "Pricing"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:44
+#: templates4/metaboxes/wpdm-pp-settings.php:44 wpdm-premium-packages.php:1206
+msgid "Base Price"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:48
+#: templates4/metaboxes/wpdm-pp-settings.php:48 wpdm-premium-packages.php:1207
+msgid "Sales Price"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:52
+#: templates4/metaboxes/wpdm-pp-settings.php:52
+msgid "Valid Until"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:58
+#: templates4/metaboxes/wpdm-pp-settings.php:58
+msgid ""
+"Pay as you want ( The base price will be treated as the minimum amount )"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:65
+#: templates4/metaboxes/wpdm-pp-settings.php:65
+msgid "Activate Extra Gigs"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:77
+#: templates4/metaboxes/wpdm-pp-settings.php:77
+msgid "Group ID#"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:81
+#: templates/metaboxes/wpdm-pp-settings.php:166
+#: templates4/metaboxes/wpdm-pp-settings.php:81
+#: templates4/metaboxes/wpdm-pp-settings.php:166
+msgid "Multiple Select"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:82
+#: templates4/metaboxes/wpdm-pp-settings.php:82
+msgid "Group Name"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:82
+#: templates4/metaboxes/wpdm-pp-settings.php:82
+msgid "Enter a Gig Name"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:84
+#: templates4/metaboxes/wpdm-pp-settings.php:84
+msgid "Gig Name"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:85
+#: templates4/metaboxes/wpdm-pp-settings.php:85
+msgid "Gig Description"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:86
+#: templates4/metaboxes/wpdm-pp-settings.php:86
+msgid "Gig ID "
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:87
+#: templates4/metaboxes/wpdm-pp-settings.php:87
+msgid "Extra Cost"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:109
+#: templates4/metaboxes/wpdm-pp-settings.php:109
+msgid "Add Gig"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:117
+#: templates4/metaboxes/wpdm-pp-settings.php:117
+msgid "Add Gig Group"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:124
+#: templates4/metaboxes/wpdm-pp-settings.php:124
+msgid "Free Downloads"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:148
+#: templates4/metaboxes/wpdm-pp-settings.php:148
+msgid "Add Free File(s)"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:166
+#: templates4/metaboxes/wpdm-pp-settings.php:166
+msgid "Group ID"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:186
+#: templates4/metaboxes/wpdm-pp-settings.php:186
+msgid "Licensing Option"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:189
+#: templates4/metaboxes/wpdm-pp-settings.php:189
+msgid "Enable Licensing"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:203
+#: templates4/metaboxes/wpdm-pp-settings.php:203
+msgid "License Name"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:205
+#: templates4/metaboxes/wpdm-pp-settings.php:205
+msgid "Available"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:234
+#: templates4/metaboxes/wpdm-pp-settings.php:234
+msgid "License Key Required"
+msgstr ""
+
+#: templates/metaboxes/wpdm-pp-settings.php:245
+#: templates4/metaboxes/wpdm-pp-settings.php:245
+msgid "Role Based Discount"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:19
+#: templates/partials/guest-order-details.php:48
+#: templates4/partials/guest-order-billing-info.php:19
+#: templates4/partials/guest-order-details.php:48
+msgid "Edit Billing Info"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:64
+#: templates/user-dashboard/billing-info.php:44
+#: templates4/partials/guest-order-billing-info.php:64
+#: templates4/user-dashboard/billing-info.php:44
+msgid "Company (optional)"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:87
+#: templates/partials/guest-order-billing-info.php:91
+#: templates/user-dashboard/billing-info.php:76
+#: templates/user-dashboard/billing-info.php:79
+#: templates4/partials/guest-order-billing-info.php:87
+#: templates4/partials/guest-order-billing-info.php:91
+#: templates4/user-dashboard/billing-info.php:76
+#: templates4/user-dashboard/billing-info.php:79
+msgid "Postcode/Zip"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:98
+#: templates/partials/guest-order-billing-info.php:101
+#: templates/user-dashboard/billing-info.php:65
+#: templates/user-dashboard/billing-info.php:68
+#: templates4/partials/guest-order-billing-info.php:98
+#: templates4/partials/guest-order-billing-info.php:101
+#: templates4/user-dashboard/billing-info.php:65
+#: templates4/user-dashboard/billing-info.php:68
+msgid "Town/City"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:107
+#: templates/partials/guest-order-billing-info.php:111
+#: templates/user-dashboard/billing-info.php:109
+#: templates/user-dashboard/billing-info.php:111
+#: templates4/partials/guest-order-billing-info.php:107
+#: templates4/partials/guest-order-billing-info.php:111
+#: templates4/user-dashboard/billing-info.php:109
+#: templates4/user-dashboard/billing-info.php:111
+msgid "State/County"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:156
+#: templates/user-dashboard/billing-info.php:134
+#: templates4/partials/guest-order-billing-info.php:156
+#: templates4/user-dashboard/billing-info.php:134
+msgid "Tax ID #"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:158
+#: templates/user-dashboard/billing-info.php:136
+#: templates4/partials/guest-order-billing-info.php:158
+#: templates4/user-dashboard/billing-info.php:136
+msgid "Tax ID"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:164
+#: templates/partials/guest-order-billing-info.php:165
+#: templates/user-dashboard/billing-info.php:116
+#: templates/user-dashboard/billing-info.php:119
+#: templates4/partials/guest-order-billing-info.php:164
+#: templates4/partials/guest-order-billing-info.php:165
+#: templates4/user-dashboard/billing-info.php:116
+#: templates4/user-dashboard/billing-info.php:119
+msgid "Email Address"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:173
+#: templates/partials/guest-order-details.php:241
+#: templates/partials/user-order-details.php:230
+#: templates/user-dashboard/order-details.php:373
+#: templates4/partials/guest-order-billing-info.php:173
+#: templates4/partials/user-order-details.php:229
+#: templates4/user-dashboard/order-details.php:373
+msgid "Close"
+msgstr ""
+
+#: templates/partials/guest-order-billing-info.php:174
+#: templates/wpdm-pp-edit-profile.php:107
+#: templates4/partials/guest-order-billing-info.php:174
+#: templates4/wpdm-pp-edit-profile.php:108
+msgid "Save Changes"
+msgstr ""
+
+#: templates/partials/guest-order-details.php:41
+#: templates/partials/user-order-details.php:30
+#: templates/user-dashboard/order-details.php:77
+#: templates4/partials/guest-order-details.php:41
+#: templates4/partials/user-order-details.php:30
+#: templates4/user-dashboard/order-details.php:77
+#, php-format
+msgid "Order # %s"
+msgstr ""
+
+#: templates/partials/guest-order-details.php:58
+#: templates/partials/user-order-details.php:44
+#: templates/partials/user-order-details.php:46
+#: templates/partials/user-orders-list.php:15
+#: templates/user-dashboard/purchase-orders.php:191
+#: templates4/partials/guest-order-details.php:58
+#: templates4/partials/user-order-details.php:43
+#: templates4/partials/user-order-details.php:45
+#: templates4/partials/user-orders-list.php:15
+#: templates4/user-dashboard/purchase-orders.php:192
+#: wpdm-premium-packages.php:399
+msgid "Purchases"
+msgstr ""
+
+#: templates/partials/guest-order-details.php:205
+#: templates/partials/user-order-details.php:189
+#: templates/user-dashboard/order-details.php:279
+#: templates4/partials/guest-order-details.php:204
+#: templates4/partials/user-order-details.php:188
+#: templates4/user-dashboard/order-details.php:279
+msgid "If you still want to complete this order "
+msgstr ""
+
+#: templates/partials/guest-order-details.php:206
+#: templates/partials/user-order-details.php:190
+#: templates4/partials/guest-order-details.php:205
+#: templates4/partials/user-order-details.php:189
+#, php-format
+msgid "If you want to get continuous support and update for another %d days"
+msgstr ""
+
+#: templates/partials/guest-order-details.php:208
+#: templates/partials/user-order-details.php:192
+#: templates/user-dashboard/order-details.php:282
+#: templates4/partials/guest-order-details.php:207
+#: templates4/partials/user-order-details.php:191
+#: templates4/user-dashboard/order-details.php:282
+msgid "Renew Now"
+msgstr ""
+
+#: templates/partials/guest-order-details.php:234
+#: templates/partials/user-order-details.php:223
+#: templates/user-dashboard/order-details.php:366
+#: templates4/partials/guest-order-details.php:231
+#: templates4/partials/user-order-details.php:222
+#: templates4/user-dashboard/order-details.php:366
+msgid "Download Single File"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:18
+#: templates4/partials/guest-order-search-form.php:18
+msgid "Guest Order Access"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:23
+#: templates4/partials/guest-order-search-form.php:23
+msgid "Order Email:"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:37
+#: templates4/partials/guest-order-search-form.php:37
+msgid "Proceed"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:45
+#: templates4/partials/guest-order-search-form.php:45
+msgid "Session was expired. Please try again"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:46
+#: templates4/partials/guest-order-search-form.php:46
+msgid "Order not found, Please re-check your info"
+msgstr ""
+
+#: templates/partials/guest-order-search-form.php:47
+#: templates4/partials/guest-order-search-form.php:47
+msgid ""
+"Order is already associated with an account. Please login using that account "
+"to get access"
+msgstr ""
+
+#: templates/partials/guest_order_page_link.php:19
+#: templates4/partials/guest_order_page_link.php:19
+msgid "Don't have an account yet? Need to download quickly?"
+msgstr ""
+
+#: templates/partials/guest_order_page_link.php:23
+#: templates4/partials/guest_order_page_link.php:23
+msgid "Go to Guest Download Page"
+msgstr ""
+
+#: templates/partials/order-notes.php:190
+#: templates4/partials/order-notes.php:190
+msgid "Send to:"
+msgstr ""
+
+#: templates/partials/resolve-order.php:15
+#: templates/user-dashboard/purchase-orders.php:15
+#: templates4/partials/resolve-order.php:15
+#: templates4/user-dashboard/purchase-orders.php:15
+msgid "If you do not see your order:"
+msgstr ""
+
+#: templates/partials/resolve-order.php:20
+#: templates/user-dashboard/purchase-orders.php:19
+#: templates4/partials/resolve-order.php:20
+#: templates4/user-dashboard/purchase-orders.php:19
+msgid "Enter Your Order/Invoice ID Here"
+msgstr ""
+
+#: templates/partials/resolve-order.php:22
+#: templates/user-dashboard/purchase-orders.php:21
+#: templates4/partials/resolve-order.php:22
+#: templates4/user-dashboard/purchase-orders.php:21
+msgid "Resolve"
+msgstr ""
+
+#: templates/partials/resolve-order.php:35
+#: templates/user-dashboard/purchase-orders.php:212
+#: templates4/partials/resolve-order.php:35
+#: templates4/user-dashboard/purchase-orders.php:212
+msgid "Tracking Order..."
+msgstr ""
+
+#: templates/partials/resolve-order.php:40
+#: templates/user-dashboard/purchase-orders.php:217
+#: templates4/partials/resolve-order.php:40
+#: templates4/user-dashboard/purchase-orders.php:217
+msgid "Order is linked with your account successfully."
+msgstr ""
+
+#: templates/partials/user-order-details.php:291
+#: templates/user-dashboard/order-details.php:466
+#: templates4/partials/user-order-details.php:290
+#: templates4/user-dashboard/order-details.php:466
+msgid "Order does not belong to you!"
+msgstr ""
+
+#: templates/partials/user-orders-list.php:20
+#: templates/user-dashboard/purchase-orders.php:41
+#: templates4/partials/user-orders-list.php:20
+#: templates4/user-dashboard/purchase-orders.php:41
+msgid "Order Id"
+msgstr ""
+
+#: templates/partials/user-orders-list.php:21
+#: templates/wpdm-pp-earnings.php:116
+#: templates4/partials/user-orders-list.php:21
+#: templates4/wpdm-pp-earnings.php:116
+msgid "Date"
+msgstr ""
+
+#: templates/user-dashboard/billing-info.php:51
+#: templates4/user-dashboard/billing-info.php:51
+msgid "Address"
+msgstr ""
+
+#: templates/user-dashboard/billing-info.php:61
+#: templates4/user-dashboard/billing-info.php:61
+msgid "Address 2 (optional)"
+msgstr ""
+
+#: templates/user-dashboard/order-details.php:114
+#: templates/user-dashboard/order-details.php:120
+#: templates/user-dashboard/purchase-orders.php:46
+#: templates/user-dashboard/purchased-items.php:19
+#: templates4/user-dashboard/order-details.php:114
+#: templates4/user-dashboard/order-details.php:120
+#: templates4/user-dashboard/purchase-orders.php:46
+#: templates4/user-dashboard/purchased-items.php:19
+msgid "All Orders"
+msgstr ""
+
+#: templates/user-dashboard/order-details.php:280
+#: templates4/user-dashboard/order-details.php:280
+#, php-format
+msgid "Get continuous support and update for another %d days"
+msgstr ""
+
+#: templates/user-dashboard/order-details.php:343
+#: templates4/user-dashboard/order-details.php:343
+msgid "Cancel Subscription!"
+msgstr ""
+
+#: templates/user-dashboard/order-details.php:353
+#: templates4/user-dashboard/order-details.php:353
+msgid "Keep Subscription Active"
+msgstr ""
+
+#: templates/user-dashboard/order-details.php:354
+#: templates4/user-dashboard/order-details.php:354
+msgid "Cancel Subscription"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:42
+#: templates/user-dashboard/purchased-items.php:27
+#: templates4/user-dashboard/purchase-orders.php:42
+#: templates4/user-dashboard/purchased-items.php:27
+msgid "Purchase Date"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:43
+#: templates4/user-dashboard/purchase-orders.php:43
+msgid "Recurrence"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:90
+#: templates4/user-dashboard/purchase-orders.php:90
+#, php-format
+msgid "%s cycle"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:90
+#: templates4/user-dashboard/purchase-orders.php:90
+msgid "1st cycle"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:97
+#: templates4/user-dashboard/purchase-orders.php:97
+msgid "Order ID#"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:126
+msgid "Please renew your order to get access to support and updates"
+msgstr ""
+
+#: templates/user-dashboard/purchase-orders.php:133
+#: templates4/user-dashboard/purchase-orders.php:134
+msgid "More Details"
+msgstr ""
+
+#: templates/user-dashboard/purchased-items.php:19
+#: templates4/user-dashboard/purchased-items.php:19
+msgid "Purchased Items"
+msgstr ""
+
+#: templates/user-dashboard/purchased-items.php:53
+#: templates4/user-dashboard/purchased-items.php:53
+msgid "Expired"
+msgstr ""
+
+#: templates/user-dashboard/purchased-items.php:62
+#: templates4/user-dashboard/purchased-items.php:62
+msgid "If you are not seeing your purchased item:"
+msgstr ""
+
+#: templates/user-dashboard/purchased-items.php:62
+#: templates4/user-dashboard/purchased-items.php:62
+msgid "Fix It Here"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:70 templates4/wpdm-pp-earnings.php:70
+msgid "Sales:"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:76 templates4/wpdm-pp-earnings.php:76
+msgid "Earning:"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:82 templates4/wpdm-pp-earnings.php:82
+msgid "Withdrawn:"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:88 templates4/wpdm-pp-earnings.php:88
+msgid "Pending:"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:94 templates4/wpdm-pp-earnings.php:94
+msgid "Balance:"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:104 templates/wpdm-pp-earnings.php:169
+#: templates4/wpdm-pp-earnings.php:104 templates4/wpdm-pp-earnings.php:169
+msgid "Withdraw"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:120 templates4/wpdm-pp-earnings.php:120
+msgid "Commission"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:121 templates4/wpdm-pp-earnings.php:121
+msgid "Earning"
+msgstr ""
+
+#: templates/wpdm-pp-earnings.php:156 templates4/wpdm-pp-earnings.php:156
+msgid "Request denied. Matured balance is 0!"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:29 templates4/wpdm-pp-edit-profile.php:29
+msgid "Save Failed!"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:40 templates4/wpdm-pp-edit-profile.php:40
+msgid "Done!"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:57 templates4/wpdm-pp-edit-profile.php:58
+msgid "Basic Info"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:61 templates4/wpdm-pp-edit-profile.php:62
+msgid "Your name:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:65 templates4/wpdm-pp-edit-profile.php:66
+msgid "Your Email:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:72 templates4/wpdm-pp-edit-profile.php:73
+msgid "Phone Number:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:76 templates4/wpdm-pp-edit-profile.php:77
+msgid "PayPal Account:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:79 templates4/wpdm-pp-edit-profile.php:80
+msgid "Add paypal or moneybookers email here"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:85 templates4/wpdm-pp-edit-profile.php:86
+msgid "New Password:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:89 templates4/wpdm-pp-edit-profile.php:90
+msgid "Re-type New Password:"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:125
+#: templates4/wpdm-pp-edit-profile.php:126
+msgid "Please Enter Your First Name"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:133
+#: templates4/wpdm-pp-edit-profile.php:134
+msgid "Please Enter Your Last Name"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:141
+#: templates4/wpdm-pp-edit-profile.php:142
+msgid "Please Enter Your Address"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:149
+#: templates4/wpdm-pp-edit-profile.php:150
+msgid "Please Enter Your City"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:157
+#: templates4/wpdm-pp-edit-profile.php:158
+msgid "Please Enter Your Postcode"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:165
+#: templates4/wpdm-pp-edit-profile.php:166
+msgid "Please Enter Your Country"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:173
+#: templates4/wpdm-pp-edit-profile.php:174
+msgid "Please Enter Your State"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:181
+#: templates4/wpdm-pp-edit-profile.php:182
+msgid "Please Enter Your Email Address"
+msgstr ""
+
+#: templates/wpdm-pp-edit-profile.php:189
+#: templates4/wpdm-pp-edit-profile.php:190
+msgid "Please Enter Your Phone Number"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:217 templates4/wpdm-pp-invoice.php:216
+msgid "Print Invoice"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:219 templates4/wpdm-pp-invoice.php:218
+msgid "Invoice No"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:238 templates4/wpdm-pp-invoice.php:237
+msgid "Order Renewed On"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:252 templates4/wpdm-pp-invoice.php:251
+msgid "From:"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:272 templates4/wpdm-pp-invoice.php:271
+msgid "To:"
+msgstr ""
+
+#: templates/wpdm-pp-invoice.php:287 templates4/wpdm-pp-invoice.php:286
+msgid "Payment Method"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:100
+#: templates4/wpdm-pp-seller-dashboard.php:100
+msgid "Amount ( Sales )"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:101
+#: templates4/wpdm-pp-seller-dashboard.php:101
+msgid "Item Count ( Sales )"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:116
+#: templates4/wpdm-pp-seller-dashboard.php:116
+msgid "Sales Amount"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:121
+#: templates4/wpdm-pp-seller-dashboard.php:121
+msgid "Max Sale"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:126
+#: templates4/wpdm-pp-seller-dashboard.php:126
+msgid "day"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:128
+#: templates4/wpdm-pp-seller-dashboard.php:128
+msgid "Average Sale"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:138
+#: templates4/wpdm-pp-seller-dashboard.php:138
+msgid "Recent Orders"
+msgstr ""
+
+#: templates/wpdm-pp-seller-dashboard.php:171
+#: templates4/wpdm-pp-seller-dashboard.php:171
+msgid "Top Selling Products"
+msgstr ""
+
+#: templates4/checkout-cart/cart.php:94
+msgid "Remove from cart"
+msgstr ""
+
+#: templates4/checkout-cart/checkout-login-register.php:171
+msgid "Login and Continue"
+msgstr ""
+
+#: wpdm-premium-packages.php:197
+msgid ""
+"Thank you for installing Premium Package! You are almost ready to start "
+"selling."
+msgstr ""
+
+#: wpdm-premium-packages.php:198
+msgid "Run the Setup Wizard"
+msgstr ""
+
+#: wpdm-premium-packages.php:199
+msgid "Skip setup"
+msgstr ""
+
+#: wpdm-premium-packages.php:207
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: wpdm-premium-packages.php:211
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wpdm-premium-packages.php:353
+msgid "Pricing & Discounts"
+msgstr ""
+
+#: wpdm-premium-packages.php:483
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: wpdm-premium-packages.php:501 wpdm-premium-packages.php:610
+msgid "&mdash; Invalid download link &mdash;"
+msgstr ""
+
+#: wpdm-premium-packages.php:511
+msgid "Login failed!"
+msgstr ""
+
+#: wpdm-premium-packages.php:542
+msgid "Invalid Access!"
+msgstr ""
+
+#: wpdm-premium-packages.php:543
+msgid "Sorry! Support and Update Access Period is Already Expired"
+msgstr ""
+
+#: wpdm-premium-packages.php:693 wpdm-premium-packages.php:743
+msgid "Cart is Empty!"
+msgstr ""
+
+#: wpdm-premium-packages.php:694
+msgid "Please Enter Order Confirmation Email!"
+msgstr ""
+
+#: wpdm-premium-packages.php:973
+msgid "Profile Updated Successfully"
+msgstr ""
+
+#: wpdm-premium-packages.php:978
+msgid "Confirm Password Not Matched. Profile Update Failed!"
+msgstr ""
+
+#: wpdm-premium-packages.php:1193
+msgid "Premium Package"
+msgstr ""
+
+#: wpdm-premium-packages.php:1195
+msgid "AddToCart URL"
+msgstr ""
+
+#: wpdm-premium-packages.php:1196
+msgid "AddToCart Link"
+msgstr ""
+
+#: wpdm-premium-packages.php:1197 wpdm-premium-packages.php:1221
+msgid "AddToCart Form"
+msgstr ""
+
+#: wpdm-premium-packages.php:1198 wpdm-premium-packages.php:1222
+msgid "Customer Download Link"
+msgstr ""
+
+#: wpdm-premium-packages.php:1199 wpdm-premium-packages.php:1223
+msgid "Free Download Button"
+msgstr ""
+
+#: wpdm-premium-packages.php:1200 wpdm-premium-packages.php:1224
+msgid "Free Download URL"
+msgstr ""
+
+#: wpdm-premium-packages.php:1201
+msgid "Price Range"
+msgstr ""
+
+#: wpdm-premium-packages.php:1202
+msgid "File List Price"
+msgstr ""
+
+#: wpdm-premium-packages.php:1203
+msgid "Effective Item Price"
+msgstr ""
+
+#: wpdm-premium-packages.php:1204
+msgid "Currency Code"
+msgstr ""
+
+#: wpdm-premium-packages.php:1205
+msgid "Currency Sign"
+msgstr ""
+
+#: wpdm-premium-packages.php:1208
+msgid "Shop Name"
+msgstr ""
+
+#: wpdm-premium-packages.php:1209
+msgid "Shop Intro"
+msgstr ""
+
+#: wpdm-premium-packages.php:1210
+msgid "Shop Logo"
+msgstr ""
+
+#: wpdm-premium-packages.php:1219
+msgid "AddToCart URL for a package"
+msgstr ""
+
+#: wpdm-premium-packages.php:1220
+msgid "AddToCart Link for a package"
+msgstr ""
+
+#: wpdm-premium-packages.php:1365
+msgid "Checkout Settings"
+msgstr ""
+
+#: wpdm-premium-packages.php:1370
+msgid "Must agree with privacy policy before checkout"
+msgstr ""
+
+#: wpdm-premium-packages.php:1371
+msgid "User must agree with privacy policy before they purchase any item"
+msgstr ""
+
+#: wpdm-premium-packages.php:1374
+msgid "Privacy policy label:"
+msgstr ""

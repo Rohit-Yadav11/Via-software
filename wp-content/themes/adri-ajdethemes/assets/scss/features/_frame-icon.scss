@@ -1,0 +1,48 @@
+/*
+    [11.3] Frame Icon
+--------------------------------- */
+
+.ft-frame-icon {
+    position: relative;
+    padding: 60px 30px 30px 30px;
+    border: 3px solid rgba($gray-light, .3);
+    transition: border-color $tspeed;
+
+    &:hover {
+        border-color: $primary;
+
+        .ft-icon,
+        .ft-title {
+            color: $primary;
+        }
+
+        .ft-description {
+            color: $light;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .ft-icon {
+        position: absolute;
+        padding: 0 16px;
+        top: -35px;
+        font-size: 74px;
+        line-height: 74px;
+        color: $gray-light;
+        background: $secondary;
+        transition: color $tspeed;
+    }
+
+    .ft-title {
+        color: $gray-light;
+        transition: all $tspeed;
+    }
+
+    .ft-description {
+        color: $gray-light;
+        transition: all $tspeed;
+    }
+}

@@ -1,0 +1,67 @@
+/*
+    [9.4] Navigation - Burger
+--------------------------------- */
+
+.nav-burger {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+        position: relative;
+        display: block;
+        width: 21px;
+        height: 16px;
+        border-top: 2px solid $secondary;
+        transition: all $tspeed;
+        border-color: rgba($secondary, 1);
+        
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 21px;
+            height: 2px;
+            border-bottom: 2px solid $secondary;
+            transition: all $tspeed;
+        }
+
+        &:before {
+            bottom: 7px;
+            left: 0;
+            transform: scaleX(1);
+        }
+
+        &:after {
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+
+.open.nav-burger {
+
+    span {
+        border-color: rgba($secondary, 0);
+
+        &:before {
+            transform: rotate(45deg);
+        }
+
+        &:after {
+            transform: rotate(-45deg) translateY(-5px) translateX(5px);
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .nav-burger {
+        display: none;
+    }
+}

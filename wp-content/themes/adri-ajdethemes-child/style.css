@@ -1,0 +1,145 @@
+/*!
+ Theme Name:   Adri Ajdethemes - Child
+ Theme URI:    https://ajdethemes.com/adri
+ Description:  Adri Ajdethemes Child Theme
+ Author:       AjdeThemes
+ Author URI:   https://ajdethemes.com
+ Template:     adri-ajdethemes
+ Version:      1.0.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+ Text Domain:  adri-ajdethemes
+ */
+
+
+
+ /* 
+  * ADD YOUR THEME CUSTOMIZATION STYLES BELLOW
+  -----------------------------------------------*/
+.w3eden .list-group-item{
+	border: 0px !important;
+}
+h3.p-0.m-0 {
+    font-size: 18px;
+}
+.list-group-item.d-flex.justify-content-between.align-items-center a {
+    line-height: 2.5;
+}
+.list-group-item.d-flex.justify-content-between.align-items-center h3 a {
+    line-height: 1 !important;
+}
+div#content_wpdm_packages_1 .col-lg-4.col-md-6.col-sm-12 {
+    margin-bottom: 40px;
+}
+.list-group-item.d-flex.justify-content-between.align-items-center a img {
+    max-width: 140% !important;
+    margin-left: -70px !important;
+}
+.img-p .elementor-image {
+    padding: 10px;
+    border: 1px solid gray;
+}
+.um .um-field-label {
+    color: #eaeaea !IMPORTANT;
+}
+ul.sub-menu {
+    background: white !important;
+}
+.sub-menu li.menu-item {
+    color: black !important;
+    letter-spacing: 2px !important;
+    font-size: 16px !important;
+}
+.sub-menu li.menu-item a {
+    width: 100% !important;
+}
+.edd_download_image img{
+	border-radius: 100px;
+    margin-bottom: 20px;
+}
+.edd_download_inner {
+    padding: 40px 20px;
+    margin: 0;
+    background: #d8edfd;
+    text-align: center;
+    border-radius: 10px;
+}
+form#edd_free_download_form p{
+    margin: 0 !important;
+}
+form#edd_free_download_form hr{
+	display: none;
+}
+#edd-free-downloads-modal {
+    background: #002457;
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+form#edd_free_download_form p > label{
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+#edd-free-downloads-modal label{
+	font-weight: normal;
+}
+label.edd-free-downloads-checkbox-label a {
+    color: wheat;
+    font-weight: normal;
+}
+.edd-free-downloads-modal-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ffffff;
+    color: #002457;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+	height: 30px;align-content
+}
+form#edd_free_download_form p:nth-child(7) {
+    display: flex;
+}
+form#edd_login_form p label {
+    color: white;
+}
+legend {
+    display: none;
+}
+p.edd-lost-password a {
+    color: yellow;
+}
+input#edd_login_submit, input.edd-submit {
+    color: white;
+	border: 0 !important;
+}
+input#edd_login_submit:hover, input.edd-submit:hover{
+	background-color: black;
+	color: white;
+}
+form#edd_register_form p label {
+    color: white;
+}
+form#edd_free_download_form p.redlogin {
+    margin-bottom: 20px !important;
+    color: white;
+}
+p.redlogin a {
+    color: yellow;
+	margin-left: 10px;
+}
+a.logout {
+    color: yellow;
+}
+p.edd-lost-password a:before {
+    content: 'Forget Password';
+    position: absolute;
+    background: #002457;
+}

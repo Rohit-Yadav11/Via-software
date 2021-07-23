@@ -1,0 +1,111 @@
+/*
+    [7.6] Widget - Nav
+--------------------------------- */
+
+.widget_nav_menu,
+.widget_pages {
+
+    // @extend .widget_archive;
+
+    ul {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            font-weight: $fw-sbold;
+            color: $gray-light;
+
+            a {
+                position: relative;
+                display: block;
+                color: inherit;
+                transform: translateX(0);
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    left: 0;
+                    display: inline-block;
+                    width: 20px;
+                    border-bottom: 2px solid $dark;
+                    opacity: 0;
+                    visibility: hidden;
+                    transform: translateX(-60px);
+                    transition: all $tspeed;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $dark;
+                    transform: translateX(20px);
+
+                    &:before {
+                        transform: translateX(-30px);
+                        opacity: 1;
+                        visibility: visible;
+                        transition-delay: .25s;
+                    }
+                }
+            }
+        } // li
+
+        li.btn {
+            margin: 0;
+            padding: 0;
+            height: unset;
+            background: none;
+            color: $gray-light;
+
+            a {
+                color: inherit;
+                background: none;
+
+                &:before,
+                &:after {
+                    content: none;
+                }
+
+                &:hover,
+                &:focus {
+                    transform: translateX(20px);
+                    color: $dark;
+                }
+            }
+        }
+    } // ul 
+
+    .sub-menu,
+    .children {
+        margin-top: 10px;
+        padding-left: 20px;
+        width: 100%;
+
+        li {
+            margin-bottom: 5px;
+            font-size: $fs-small;
+            font-weight: $fw-reg;
+            color: $gray-light;
+
+            a {
+
+                &:before {
+                    border-bottom: 1px solid $dark;
+                    width: 10px;
+                }
+
+                &:hover,
+                &:focus {
+
+                    &:before {
+                        transform: translateX(-20px);
+                    }
+                }
+            }
+        }
+    }
+}

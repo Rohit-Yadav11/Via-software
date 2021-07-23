@@ -1,0 +1,27 @@
+/*
+    [7.12] Widget - Tag Cloud
+--------------------------------- */
+
+.tagcloud,
+.wp-block-tag-cloud {
+        
+    a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        padding: 6px 10px;
+        background: $lighter;
+        color: $text-color;
+        font-size: $fs-small !important;
+        font-style: italic;
+        font-weight: $fw-reg;
+        transition: all $tspeed;
+
+        &:hover,
+        &:focus {
+            background: $primary;
+            color: $secondary;
+        }
+    }
+}

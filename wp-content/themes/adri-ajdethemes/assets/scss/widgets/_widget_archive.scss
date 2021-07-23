@@ -1,0 +1,32 @@
+/*
+    [7.1] Widget - Archive
+--------------------------------- */
+
+.widget_archive ul,
+ul.wp-block-archives {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        transition: opacity $tspeed;
+        
+        &:last-child {
+            margin-bottom: unset;
+        }
+
+        a {
+            @include a-silent($fhcolor: $link-color);
+            text-decoration: none;
+        }
+    }
+
+    select {
+        display: block;
+        width: 100%;
+    }
+}

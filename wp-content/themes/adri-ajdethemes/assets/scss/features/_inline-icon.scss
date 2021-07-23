@@ -1,0 +1,138 @@
+/*
+    [11.2] Inline Icons
+--------------------------------- */
+
+.ft-inline-icon {
+    display: flex;
+
+    &:hover {
+
+        .ft-icon {
+            box-shadow: 5px 5px 0 $primary;
+            color: $primary;
+        }
+    }
+    
+    .ft-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        background: $primary;
+        color: $secondary;
+        transition: all $tspeed;
+
+        i {
+            font-size: $fs-base;
+        }
+    }
+
+    .ft-content {
+        position: relative;
+        top: 6px;
+        
+        p {
+            margin: 0;
+        }
+    }
+
+    .ft-inline-icon-title {
+        margin: 0 0 10px 0;
+        color: $secondary;
+    }
+
+    .ft-inline-icon-btn {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+        background: rgba($primary, .4);
+        color: $secondary;
+        transition: all $tspeed;
+
+        i {
+            font-size: 1.9rem;
+            transform: translateX(-12px);
+            transition: transform $tspeed;
+        }
+
+        &:hover {
+            background: rgba($primary, 1);
+
+            i {
+                transform: translateX(12px);
+            }
+        }
+    }
+}
+
+
+.ft-inline-icon-link-wrapper {
+
+    .ft-inline-icon {
+
+        p {
+            color: $text-color;
+        }
+    }
+}
+
+// MM Widget
+.mega-menu-item {
+    
+    .ft-inline-icon-link-wrapper {
+        display: block;
+        padding: 10px;
+        background: rgba($light, .0);
+
+        &:hover,
+        &:focus {
+            background: rgba($light, .05);
+
+            .ft-inline-icon {
+
+                .ft-icon {
+                    background: $primary;
+                }
+
+                h5 {
+                    color: $primary;
+                }
+            }
+        }
+
+        .ft-inline-icon {
+
+            &:hover,
+            &:focus {
+
+                .ft-icon {
+                    box-shadow: none;
+                }
+            }
+
+            .ft-icon {
+                background: $light;
+                color: $secondary;
+            }
+            
+            h5,
+            p {
+                color: $light;
+            }
+
+            h5 {
+                font-size: $h6-size;
+            }
+
+            p {
+                font-size: $fs-small;
+            }
+        }
+    }
+}

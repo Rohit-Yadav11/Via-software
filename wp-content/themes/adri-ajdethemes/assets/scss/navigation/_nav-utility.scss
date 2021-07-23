@@ -1,0 +1,335 @@
+/*
+    [9.8] Navigation - Utility
+--------------------------------- */
+
+
+// 
+// Trans
+// ---------------
+
+.logo-trans {
+    display: none;
+}
+
+.nav-trans {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid $nav_border;
+    background: none;
+    z-index: 99;
+}
+
+.nav-has-trans-logo.nav-trans {
+
+    .logo {
+        display: none;
+    }
+
+    .logo-trans {
+        display: initial;
+    }
+}
+
+
+// 
+// Trans Nav - Light Color
+// ------------------------
+
+.nav-trans-light.nav-trans:not(.active) {
+    border-color: rgba(#fff, .1);
+
+    .nav-burger span {
+        
+        &:before,
+        &:after {
+            border-color: #fff;
+        }
+    }
+    
+    .nav-burger:not(.open) span {
+        border-color: #fff;
+    }
+}
+
+@media (min-width: $lg) {
+    .nav-trans-light.nav-trans:not(.active) {
+        
+        .main-menu .menu > li.menu-item,
+        .main-menu .menu > li.page_item,
+        .menu-utility-items .nav-search,
+        .menu-utility-items .site-header-cart .cart-contents:before,
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item:not(.btn) > a.mega-menu-link {
+            color: #fff;
+        }
+
+        .menu-utility-items .nav-search {
+
+            &:hover,
+            &:focus {
+                color: $primary;
+            }
+        }
+
+        .menu-utility-items .site-header-cart .cart-contents {
+
+            &:hover,
+            &:focus {
+
+                &:before {
+                    color: $primary;
+                }
+            }
+
+        }
+
+        .menu-utility-items {
+            border-color: rgba(#fff, .1);
+        }
+    }
+}
+
+
+// 
+// Sticky
+// ---------------
+
+.nav-sticky {
+    top: 0;
+    width: 100%;
+    transform: translateY(0);
+    transition: transform .5s cubic-bezier(0.85, 0, 0.15, 1);
+    z-index: 99;
+}
+
+.nav-sticky.stand-by {
+    transform: translateY(-100%);
+}
+
+.nav-sticky.active {
+    position: fixed;
+    background: $nav_bg;
+    border-bottom: 1px solid $nav_border;
+    transform: translateY(0);
+}
+
+.nav-has-trans-logo.nav-sticky.active {
+    
+    .logo {
+        display: initial;
+    }
+
+    .logo-trans {
+        display: none;
+    }
+}
+
+.secondary-menu + header.site-header-nav.nav-trans.nav-sticky.active {
+    top: 0;
+}
+
+
+// 
+// body jump fix
+// ---------------
+
+body.has-sticky-nav {
+    margin-top: $nav_height; 
+}
+
+
+// 
+// Adjustment for WP Admin Bar
+// -----------------------------
+
+body.logged-in.admin-bar {
+
+    .nav-trans,
+    .nav-sticky.active,
+    .secondary-menu + header.site-header-nav.nav-trans {
+        top: 46px;
+    }
+}
+
+@media (min-width: 783px) {
+    body.logged-in.admin-bar {
+
+        .nav-trans,
+        .nav-sticky.active,
+        .secondary-menu + header.site-header-nav.nav-trans.nav-sticky.active {
+            top: 32px;
+        }
+    }
+
+    body.logged-in.admin-bar.footer-has-reveal {
+
+        header.site-header-nav.nav-trans:not(.active) {
+            top: 0;
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .secondary-menu + header.site-header-nav.nav-trans {
+        top: 50px;
+    }
+
+    body.logged-in.admin-bar {
+
+        .secondary-menu + header.site-header-nav.nav-trans {
+            top: 82px;
+        }
+    }
+    
+    body.logged-in.admin-bar {
+
+        .main-wrapper {
+
+            .secondary-menu + header.site-header-nav.nav-trans {
+                top: unset;
+            }
+        }
+    }
+
+
+    
+
+
+    // 
+    // Dropdown Style - Light
+    // --------------------------
+
+    .nav-dropdown-light {
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item ul.mega-sub-menu, 
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-toggle-on ul.mega-sub-menu, 
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-animating ul.mega-sub-menu {
+            background: #F3F6FB;
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item ul.mega-sub-menu li.mega-menu-item a.mega-menu-link,
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {
+            color: $secondary;
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title {
+            color: $secondary;
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title {
+            border-color: rgba($secondary, .1);
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item, 
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+            color: $secondary;
+        }
+
+        .mega-menu-item .ft-inline-icon-link-wrapper .ft-inline-icon {
+        
+            h5,
+            p {
+                color: $secondary;
+            }
+        }
+    }
+
+
+    // 
+    // Menu Item ACCENT - Style 
+    // --------------------------
+
+    .nav-menu-item-accent-light,
+    .nav-trans.nav-trans-menu-item-accent-light:not(.active) {
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a.mega-menu-link {
+
+            &:before {
+                border-color: #fff;
+            }
+
+            &:hover,
+            &:focus {
+
+                &:before {
+                    border-color: #fff;
+                }
+            }
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-menu-item-has-children > a.mega-menu-link .mega-indicator:after {
+            color: #fff;
+        }
+    }
+
+    .nav-menu-item-accent-dark,
+    .nav-trans.nav-trans-menu-item-accent-dark:not(.active) {
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a.mega-menu-link {
+
+            &:before {
+                border-color: $dark;
+            }
+
+            &:hover,
+            &:focus {
+
+                &:before {
+                    border-color: $dark;
+                }
+            }
+        }
+
+        #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-menu-item-has-children > a.mega-menu-link .mega-indicator:after {
+            color: $dark;
+        }
+    }
+} // @media lg
+
+
+// 
+// Navbar Style - Dark
+// --------------------------
+
+.nav-dark:not(.nav-trans),
+.nav-dark.nav-trans.active,
+.nav-dark.nav-sticky.active {
+    background: $secondary;
+    border-color: lighten($secondary, 3%);
+
+    .nav-burger span {
+        
+        &:before,
+        &:after {
+            border-color: $primary;
+        }
+    }
+    
+    .nav-burger:not(.open) span {
+        border-color: $primary;
+    }
+
+    .main-menu .menu {
+        
+        li.page_item,
+        > li.menu-item {
+            color: #fff;
+
+            &:hover,
+            &:focus {
+                color: #fff;
+            }
+        }
+    }
+
+    #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a.mega-menu-link,
+    #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link {
+        color: #fff;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+/*
+    [7.18] WooCommerce - Product Search
+---------------------------------------- */
+
+.widget_product_search {
+
+    form {
+        position: relative;
+
+        input[type="search"] {
+            width: 100%;
+        }
+
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0 15px;
+            height: 50px;
+            font-size: 0;
+            border: none;
+            background: none;
+
+            &:before {
+                content: '\f002';
+                font-family: 'Font Awesome 5 Free';
+                font-size: 1rem;
+                color: $text-color;
+                transition: all $tspeed;
+                z-index: 10;
+            }
+
+            &:hover {
+
+                &:before {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}

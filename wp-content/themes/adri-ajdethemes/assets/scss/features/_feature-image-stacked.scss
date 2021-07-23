@@ -1,0 +1,114 @@
+/*
+    [11.6] Feature Image - Stacked
+------------------------------------ */
+
+.ft-image-stacked {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &:hover,
+    &:focus,
+    .focus-on {
+
+        .ft-img-wrapper {
+
+            &:before {
+                opacity: .3;
+            }
+        }
+
+        .ft-content {
+            transform: translateY(-15px);
+        }
+
+        .ft-btn {
+
+            i {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    
+    .ft-img-wrapper {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            transform: scale(1);
+            transition: transform $tspeed;
+        }
+
+        &:hover {
+
+            img {
+                transform: scale(1.1);
+            }
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $secondary;
+            opacity: 0;
+            transition: all $tspeed;
+            z-index: 1;
+        }
+    }
+
+    .ft-content {
+        position: relative;
+        display: block;
+        margin-top: -45px;
+        padding: 25px 30px 40px 30px;
+        width: calc(100% - 60px);
+        height: 100%;
+        background: $secondary;
+        text-align: center;
+        transform: translateY(0);
+        transition: transform $tspeed;
+        z-index: 1;
+    }
+
+    .ft-title {
+        margin: 0 0 15px 0;
+        color: $primary;
+    }
+
+    .ft-description {
+        margin: 0;
+        color: $light;
+    }
+
+    .ft-btn {
+        position: absolute;
+        bottom: -21px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 42px;
+        height: 42px;
+        background: $primary;
+        color: $secondary;
+
+        i {
+            transform: rotate(0);
+            transition: all $tspeed;
+        }
+
+        &:hover {
+
+            i {
+                opacity: .5;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+/*
+    [15.1] Portfolio Classic
+--------------------------------- */
+
+.pf-classic {
+    margin-bottom: 60px !important;
+
+    .pf-img-link {
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $secondary;
+            opacity: 0;
+            transition: all $tspeed;
+        }
+
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: transform $tspeed;
+        }
+
+        &:hover {
+
+            &:after {
+                opacity: .7;
+            }
+
+            img {
+                transform: scale(1.1);
+            }
+
+            .pf-link-symbol {
+                opacity: 1;
+                transform: scale(1);
+                transition: all $tspeed .25s;
+
+                span {
+                    transform: rotate(90deg);
+                    transition: all $tspeed .35s;
+                }
+            }
+        }
+    }
+
+    .pf-title {
+        margin: 20px 0 0 0;
+    }
+
+    .pf-subtitle {
+        display: block;
+        margin-top: 5px;
+        font-size: $fs-small;
+        color: $gray-light;
+    }
+}

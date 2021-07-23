@@ -1,0 +1,146 @@
+/*
+    [10.3] Search Modal
+--------------------------------- */
+
+.search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba($dark, .95);
+    z-index: 200;
+
+    display: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity $tspeed .35s, visibility $tspeed .35s;
+
+    .search-modal-content {
+        position: relative;
+        max-width: 770px;
+        width: 100%;
+        padding: 60px 30px;
+        z-index: 10;
+
+        form {
+            display: flex;
+
+            button {
+                position: relative;
+                bottom: 20px;
+                margin-left: 5px;
+                padding: 0 5px;
+                border: none;
+                background: none;
+                color: rgba($light, .7);
+                font-size: $h3-size;
+                opacity: 0;
+                transform: scale(.5);
+                transition: color $tspeed, opacity $tspeed 1s, transform $tspeed 1s;
+
+                &:hover,
+                &:focus {
+                    color: #fff;
+                }
+            }
+        }
+
+        [type="search"] {
+            display: block;
+            padding: 5px;
+            border: none;
+            background: none;
+            border-bottom: 2px solid rgba($light, .5);
+            font-size: $h3-size;
+            font-weight: $fw-sbold;
+            color: #fff;
+            opacity: 0;
+            transition: color $tspeed, opacity $tspeed .7s, transform $tspeed .7s;
+
+            &:hover,
+            &:focus {
+                border-color: #fff;
+                outline: none;
+            }
+        }            
+    } // .search-modal-content
+
+    .dark-bg-click-close {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        border: none;
+        background: none;
+        z-index: 1;
+
+        &:hover,
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .x-close {
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        padding: 10px 5px;
+        border: none;
+        background: none;
+        color: rgba($light, .5);
+        font-weight: $fw-sbold;
+        transition: all $tspeed;
+        z-index: 2;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+        }
+    }
+} // .search-modal
+
+.show.search-modal {
+    opacity: 1;
+    visibility: visible;
+
+    .search-modal-content {
+
+        form button,
+        [type="search"] {
+            opacity: 1;
+            transform: scale(1);
+        }        
+    }
+}
+
+@media (min-width: $sm) {
+    .search-modal {
+        
+        .search-modal-content {
+            padding: 60px;
+
+            [type="search"] {
+                padding: 35px;
+                font-size: $h1-size;
+            }
+
+            form button {
+                margin-left: 30px;
+                padding: 0 20px;
+                font-size: $h2-size;
+            }
+        }
+
+        .x-close {
+            right: 55px;
+        }
+    } // .search-modal
+} // @media

@@ -1,0 +1,138 @@
+//
+//  Link Silent
+// --------------------
+
+@mixin a-silent($fhcolor, $border_size: 1px, $bottom: 0) {
+    position: relative;
+    display: inline-flex;
+    border-bottom: $border_size solid rgba($fhcolor, 0);
+    color: inherit;
+    
+    &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        bottom: $bottom;
+        width: 0;
+        height: $border_size;
+        background: $fhcolor;
+        transition: all $tspeed;
+        opacity: 0;
+    }
+
+    &:hover,
+    &:focus {
+        color: $fhcolor;
+        border-bottom: $border_size solid rgba($fhcolor, .4);
+    }
+
+    &:hover {
+
+        &:before {
+            width: 100%;
+            opacity: 1;
+            transition: width $tspeed $tspeed cubic-bezier(.92,.1,.62,.99);
+        }
+    }
+}
+
+
+//
+//  Title Underline 
+//
+//  * use it inside the title on "u" or "span"
+// ---------------------------------------------
+
+@mixin h-underline($size) {
+    text-decoration: none;
+    background-image: linear-gradient($primary, $primary);
+    background-position: 0 90%;
+    background-repeat: repeat-x;
+    background-size: $size $size;
+}
+
+
+
+
+//
+//  Link Underline
+// --------------------
+
+@mixin a-h-underline($pos, $size) {
+    color: inherit;
+    background-image: linear-gradient($primary, $primary);
+    background-position: 0 $pos;
+    background-repeat: repeat-x;
+    background-size: 0 0;
+    transition: background-size .3s;
+
+    &:hover,
+    &:focus {
+        background-size: $size $size;
+    }
+}
+
+
+
+//
+//  Link Post
+// --------------------
+
+@mixin a-link($color) {
+    @include a-silent($fhcolor: $color);
+    border-bottom: 1px solid rgba($primary, .7);
+    color: $link-color;
+    text-decoration: none;
+}
+
+
+
+//
+//  + Button Box
+// --------------------
+
+@mixin plus-btn-box($size, $plus-size) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: $size;
+    height: $size;
+    background: $primary;
+    color: $secondary;
+
+    span {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2px;
+        height: $plus-size;
+        background: $secondary;
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: $plus-size;
+            background: $secondary;
+        }
+    }
+}
+
+
+
+//
+//  Hard Shadow
+// -----------------------
+
+@mixin hard-shadow($size) {
+    box-shadow: 0 0 0 $primary;
+    transition: box-shadow $tspeed;
+
+    &:hover,
+    &:focus {
+        box-shadow: $size $size 0px $primary;
+    }
+}

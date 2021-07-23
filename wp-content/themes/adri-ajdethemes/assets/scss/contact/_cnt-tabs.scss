@@ -1,0 +1,177 @@
+/*
+    [16.2] Contact - Tabs
+--------------------------------- */
+
+.cnt-tabs {
+    position: relative;
+
+    .tab-content {
+
+        .cnt-map .elementor-custom-embed {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .cnt-map .active.elementor-custom-embed {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            transition: all $tspeed;
+        }
+
+        iframe {
+            height: 1100px;
+        }
+    }
+
+    .tab-control {
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        margin: auto;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            display: flex;
+            padding: 20px 0;
+            flex-flow: column;
+            width: 100%;
+            max-width: 370px;
+            background: $secondary;
+
+            li {
+
+                [type=radio] {
+                    display: none;
+                }
+
+                label {
+                    display: block;
+                    padding: 10px 40px;
+
+                    .tc-header {
+                        display: flex;
+                        align-items: center;
+                        height: 22px;
+                        cursor: pointer;
+
+                        .tc-title {
+                            margin: 0 0 0 20px;
+                            font-weight: $fw-sbold;
+                            font-size: $h6-size;
+                        }
+        
+                        i,
+                        .tc-arrow {
+                            font-weight: normal;
+                        }
+        
+                        .tc-arrow {
+                            margin-left: auto;
+
+                            i {
+                                transform: rotate(180deg);
+                                transition: all $tspeed .1s;
+                            }
+                        }
+
+                        i,
+                        .tc-arrow,
+                        .tc-title {
+                            color: #fff;
+                            opacity: .6;
+                            transition: all $tspeed;
+                        }
+
+                        &:hover {
+                            
+                            i,
+                            .tc-arrow,
+                            .tc-title {
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    .tc-content {
+                        position: absolute;
+                        display: block;
+                        margin-top: 20px;
+                        opacity: 0;
+                        visibility: hidden;
+                        color: $light;
+                        font-size: $fs-small;
+                        transform: translateY(-15px);
+
+                        a {
+                            @include a-link($color: $primary);
+                            margin-bottom: 10px;
+                        }
+
+                    }
+                }
+
+                [type=radio]:checked ~ label {
+
+                    .tc-header {
+
+                        .tc-title {
+                            color: #fff;
+                        }
+
+                        i,
+                        .tc-arrow {
+                            color: $primary;
+                        }
+
+                        i,
+                        .tc-arrow,
+                        .tc-title {
+                            opacity: 1;
+                        }
+
+                        .tc-arrow i {
+                            transform: rotate(0);
+                        }
+                    }
+                    
+                    .tc-content {
+                        height: auto;
+                        position: relative;
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateY(0);
+                        transition: all $tspeed .15s;
+                    }
+                }
+            }
+        }
+    } // .tab-control    
+} // .cnt-tabs
+
+@media (min-width: $lg) {
+    .cnt-tabs {
+
+        .tab-content {
+            // min-height: 525px;
+
+            iframe {
+                height: 525px;
+            }
+        }
+
+        .tab-control {
+            transform: translateY(-50%);
+            top: 50%;
+            left: 0;
+            right: 0;
+            width: 100%;
+            max-width: 1110px;
+        }
+    }
+}

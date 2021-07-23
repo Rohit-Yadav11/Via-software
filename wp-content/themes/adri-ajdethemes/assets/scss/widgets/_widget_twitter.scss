@@ -1,0 +1,50 @@
+/*
+    [7.15] Widget - Twitter Feed
+--------------------------------- */
+
+#ctf {
+    
+    .ctf-item {
+        position: relative;
+        display: flex;
+        margin: 0 0 15px 0;
+        padding: 0;
+        border-top: none;
+
+        &:before {
+            content: '';
+            position: relative;
+            display: inline-block;
+            border-left: 2px solid $secondary;
+            height: 55px;
+        }
+
+        .ctf-tweet-content {
+            display: flex;
+            padding-top: 30px;
+            padding-left: 15px;
+
+            p {
+                transition: all $tspeed;
+            }
+
+            &:hover {
+
+                p {
+                    color: rgba($secondary, 1);
+                }
+            }
+
+            &:before {
+                content: '\f099';
+                position: absolute;
+                top: -2px;
+                left: 15px;
+                font-family: 'Font Awesome 5 Brands';
+                font-size: 1.05rem;
+                color: $secondary;
+                z-index: 2;
+            }
+        }
+    }
+} // .ctf-tweets

@@ -1,0 +1,266 @@
+/*
+    [6.9] Blog Single - Comments
+--------------------------------- */
+
+.blog-post-comments {
+    background: $lighter;
+}
+
+.comments-area {
+    padding-top: 90px;
+    clear: both;
+
+    .comments-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+        font-size: $h2-size;
+        font-weight: $fw-sbold;
+        color: $secondary;
+
+        span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            background: $primary;
+            color: $secondary;
+            font-size: $h5-size;
+        }
+    }
+
+    .comment-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li.comment {
+
+            .children {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .comment-body {
+                position: relative;
+                margin-bottom: 90px;
+            }
+
+            .comment-author {
+                display: flex;
+
+                .avatar {
+                    display: inline-block;
+                    border-radius: 100px;
+                    margin-right: 30px;
+                }
+
+                .fn {
+                    font-weight: $fw-sbold;
+                    color: $secondary;
+
+                    a {
+                        color: inherit;
+
+                        &:hover,
+                        &:focus {
+                            opacity: .7;
+                        }
+                    }
+                }
+
+                .says {
+                    display: none;
+                }
+            }
+
+            .comment-metadata {
+                position: relative;
+                margin-top: -45px;
+                margin-left: 100px;
+                font-size: $fs-small;
+                color: $gray-light;
+                z-index: 1;
+
+                a {
+                    color: inherit;
+                }
+
+                .edit-link {
+                    position: relative;
+                    display: inline-block;
+                    margin-left: 5px;
+
+                    a {
+
+                        &:hover,
+                        &:focus {
+                            color: rgba($secondary, 1);
+                        }
+                    }
+                }
+            }
+
+            .comment-awaiting-moderation {
+                display: block;
+                margin: 5px 0 0 100px;
+                color: darken($primary, 15%);
+            }
+
+            .comment-content {
+                margin-top: 25px;
+                margin-left: 100px;
+
+                a {
+                    @include a-link($color: $primary);
+                }
+            }
+
+            .reply {
+                position: relative;
+                display: inline-block;
+                margin-top: 30px;
+                left: 100px;
+                
+                a {
+                    display: block;
+                    font-weight: $fw-sbold;
+                    color: $secondary;
+                    transform: translateX(0) translateY(0);
+                    transition: all $tspeed;
+
+                    &:hover,
+                    &:focus {
+                        color: $primary;
+                    }
+                }
+            } // .reply
+        } // li.comment
+
+        li.comment.bypostauthor {
+
+            .comment-author {
+                position: relative;
+
+                &:after {
+                    content: '\f521';
+                    position: absolute;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    top: 53px;
+                    left: 0px;
+                    height: 24px;
+                    width: 24px;
+                    font-family: 'Font Awesome 5 Free';
+                    font-size: .7rem;
+                    background: $primary;
+                    border-radius: 100px;
+                    color: $secondary;
+                }
+            }
+        }
+    } // .comment-list
+
+    .trackback,
+    .pingback {
+        margin-bottom: 30px;
+
+        a {
+
+            &:hover,
+            &:focus {
+                color: darken($link-color, 5%);
+            }
+        }
+    }
+} // .comments-area
+
+@media (min-width: $md) {
+    .comments-area {
+
+        .comment-list {
+
+            li.comment {
+
+                .children {
+                    margin: 0 0 0 70px;
+                } // .children
+
+                .reply {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: unset;
+                    display: inline-flex;
+                    margin-top: unset;
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}
+
+.comment-respond {
+    margin-bottom: 90px;
+
+    .comment-reply-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: $h4-size;
+        font-weight: $fw-sbold;
+        color: $secondary;
+
+        #cancel-comment-reply-link {
+            float: right;
+            font-size: $fs-small;
+            font-weight: $fw-light;
+            color: $gray-light;
+            transition: all $tspeed;
+
+            &:hover,
+            &:focus {
+                color: $secondary;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .comment-notes,
+    .logged-in-as {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+        a {
+            @include a-silent($fhcolor: $link-color);
+            color: inherit;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .comment-respond {
+
+        .form-submit {
+            padding-right: 60px;
+    
+            [type="submit"] {
+                flex: 0 0 33.333333%;
+                max-width: 33.333333%;
+            }
+        }
+    }
+} // @media
+
+.page {
+
+    .comments-area {
+        margin-top: 90px;
+    }
+}
